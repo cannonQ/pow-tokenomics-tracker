@@ -1,0 +1,88 @@
+{
+  "project": "bitcoin",
+  "ticker": "BTC",
+  "consensus": "PoW",
+  "algorithm": "SHA-256",
+  "launch_date": "2009-01-03",
+  "launch_type": "fair",
+  "has_premine": false,
+  
+  "supply": {
+    "max_supply": 21000000,
+    "current_supply": 19562000,
+    "pct_mined": 93.15,
+    "emission_remaining": 1438000
+  },
+  
+  "emission": {
+    "current_block_reward": 6.25,
+    "block_time_seconds": 600,
+    "daily_emission": 900,
+    "annual_inflation_pct": 1.74,
+    
+    "halving_schedule": [
+      {"event": 1, "date": "2012-11-28", "height": 210000, "reward_before": 50, "reward_after": 25},
+      {"event": 2, "date": "2016-07-09", "height": 420000, "reward_before": 25, "reward_after": 12.5},
+      {"event": 3, "date": "2020-05-11", "height": 630000, "reward_before": 12.5, "reward_after": 6.25},
+      {"event": 4, "date": "2024-04-20", "height": 840000, "reward_before": 6.25, "reward_after": 3.125}
+    ]
+  },
+  
+  "premine": null,
+  "genesis_allocation": null,
+  
+  "mining": {
+    "current_hashrate_th": 465000000,
+    "current_difficulty": 62463471666357,
+    "asic_resistant": false,
+    "dominant_hardware": "Antminer S19 XP",
+    
+    "cost_to_mine_one_unit": {
+      "electricity_usd": 18500,
+      "hardware_amortization_usd": 5200,
+      "total_cost_usd": 23700
+    },
+    
+    "decentralization": {
+      "active_pools": 18,
+      "top_5_pools_pct": 51.2,
+      "largest_pool": {"name": "Foundry USA", "pct": 28.1},
+      "nakamoto_coefficient": 3
+    }
+  },
+  
+  "market_data": {
+    "current_price_usd": 67500,
+    "fdmc": 1417500000000,
+    "circulating_mcap": 1320435000000,
+    "daily_volume": 28500000000,
+    "token_velocity": 0.022
+  },
+  
+  "data_sources": {
+    "official_docs": [
+      "https://bitcoin.org/bitcoin.pdf",
+      "https://github.com/bitcoin/bitcoin"
+    ],
+    "block_explorer": [
+      "https://blockchain.com",
+      "https://blockchair.com/bitcoin"
+    ],
+    "market_data": [
+      "https://www.coingecko.com/en/coins/bitcoin",
+      "https://coinmarketcap.com/currencies/bitcoin/"
+    ],
+    "mining_data": [
+      "https://www.blockchain.com/charts/hash-rate",
+      "https://difficulty.to"
+    ]
+  },
+  
+  "notes": [
+    "Fair launch - no premine, ICO, or founder allocation",
+    "Satoshi mined ~1M BTC in first year but at same difficulty as everyone",
+    "Complete transparency in emission schedule"
+  ],
+  
+  "last_updated": "2025-10-25"
+}

@@ -1,0 +1,232 @@
+{
+  "project": "kadena",
+  "has_premine": true,
+  "has_dev_tax": false,
+  "genesis_date": "2020-01-15",
+  
+  "total_genesis_allocation_pct": 29.05,
+  "available_for_mining_genesis_pct": 70.0,
+  
+  "dev_tax": {
+    "type": "none",
+    "pct_of_block_reward": 0,
+    "duration": "none",
+    "recipient": null,
+    "notes": "No ongoing dev tax - all allocations were genesis-based"
+  },
+  
+  "suspected_insider_mining": {
+    "enabled": false,
+    "timeframe": null,
+    "estimated_pct_of_supply": 0,
+    "evidence": [],
+    "verifiable": false,
+    "source_investigations": [],
+    "notes": "Pure genesis allocation model - no suspected early mining advantage"
+  },
+  
+  "allocation_tiers": {
+    "tier_1_profit_seeking": {
+      "total_pct": 9.05,
+      "buckets": [
+        {
+          "name": "Series A",
+          "pct": 0.45,
+          "absolute_tokens": 4500000,
+          "cost_per_token_usd": 0.50,
+          "date": "2018-12-01",
+          "vesting_months": 12,
+          "cliff_months": 0,
+          "tge_unlock_pct": 0,
+          
+          "investors": {
+            "known": [
+              {"name": "Multicoin Capital", "pct_of_round": "unknown", "tokens": "unknown"},
+              {"name": "Devonshire Investors (Fidelity)", "pct_of_round": "unknown", "tokens": "unknown"},
+              {"name": "Susquehanna", "pct_of_round": "unknown", "tokens": "unknown"}
+            ],
+            "unknown_count": "unknown",
+            "total_investors": "unknown",
+            "total_raised_usd": 2250000,
+            "notes": "Series A SAFT - $2.25M raised at $0.50/KDA"
+          }
+        },
+        {
+          "name": "Series B", 
+          "pct": 1.72,
+          "absolute_tokens": 17200000,
+          "cost_per_token_usd": 0.75,
+          "date": "2019-06-01",
+          "vesting_months": 12,
+          "cliff_months": 0,
+          "tge_unlock_pct": 0,
+          
+          "investors": {
+            "known": [
+              {"name": "Continuation of Series A investors", "pct_of_round": "unknown", "tokens": "unknown"}
+            ],
+            "unknown_count": "unknown", 
+            "total_investors": "unknown",
+            "total_raised_usd": 12000000,
+            "notes": "Series B SAFT - $12M raised at $0.75/KDA"
+          }
+        },
+        {
+          "name": "CoinList Public Sale",
+          "pct": 0.21,
+          "absolute_tokens": 2100000,
+          "cost_per_token_usd": 0.75,
+          "date": "2019-11-01", 
+          "vesting_months": 12,
+          "cliff_months": 0,
+          "tge_unlock_pct": 0,
+          
+          "investors": {
+            "known": [],
+            "unknown_count": "~2000",
+            "total_investors": "~2000",
+            "total_raised_usd": 20000000,
+            "notes": "Public sale: $0.50-$1.00 range for accredited vs non-accredited, up to $20M total"
+          }
+        },
+        {
+          "name": "Strategic Reserve",
+          "pct": 3.65,
+          "absolute_tokens": 36500000,
+          "cost_per_token_usd": 0,
+          "date": "2020-01-15",
+          "vesting_months": 0,
+          "cliff_months": 0,
+          "tge_unlock_pct": 100,
+          
+          "recipients": {
+            "controlled_by": "Kadena organization",
+            "usage": "Strategic partnerships, ecosystem development",
+            "notes": "Immediately liquid at genesis"
+          }
+        },
+        {
+          "name": "Contributors/Team",
+          "pct": 3.0,
+          "absolute_tokens": 30000000,
+          "cost_per_token_usd": 0,
+          "date": "2020-01-15",
+          "vesting_months": 36,
+          "cliff_months": 0,
+          "tge_unlock_pct": 0,
+          
+          "recipients": {
+            "known": [
+              {"name": "Stuart Popejoy", "role": "CEO/Co-founder", "pct_of_bucket": "unknown"},
+              {"name": "Will Martino", "role": "President/Co-founder", "pct_of_bucket": "unknown"}
+            ],
+            "unknown_count": "~25",
+            "notes": "3-year linear vesting, completed October 2022"
+          }
+        }
+      ]
+    },
+    
+    "tier_2_entity_controlled": {
+      "total_pct": 20.0,
+      "buckets": [
+        {
+          "name": "Platform Allocation",
+          "pct": 20.0,
+          "absolute_tokens": 200000000,
+          "liquid_at_tge_pct": 0,
+          "vesting_months": 120,
+          "distribution_schedule": "Up to 2M KDA per month from genesis through Nov 2029",
+          
+          "multisig": {
+            "signers": ["Kadena organization"],
+            "threshold": "Organizational control"
+          },
+          "usage": "Platform development, ecosystem grants, operations",
+          "transparency": "Monthly releases tracked on-chain",
+          "end_date": "2029-11-30",
+          "notes": "Originally planned 2020-2024 at 4M/month, revised Jan 2021 to extend through Nov 2029 at reduced 2M/month cap"
+        }
+      ]
+    },
+    
+    "tier_3_community": {
+      "total_pct": 0,
+      "buckets": [],
+      "notes": "No dedicated community allocation - mining rewards serve this function"
+    },
+    
+    "tier_4_liquidity": {
+      "total_pct": 0,
+      "buckets": [],
+      "notes": "No dedicated liquidity allocation"
+    }
+  },
+  
+  "burned_allocation": {
+    "amount": 10000000,
+    "pct": 1.0,
+    "date": "2020-01-15",
+    "reason": "Burned at genesis to reach 1B max supply from original 1.01B"
+  },
+  
+  "vesting_waterfall": [
+    {
+      "month": 0,
+      "unlock_tokens": 38600000,
+      "pct_of_premine": 13.3,
+      "source": "Strategic reserve (36.5M) + platform start (2M)"
+    },
+    {
+      "month": 1,
+      "unlock_tokens": 4833000,
+      "pct_of_premine": 1.7,
+      "source": "Platform (2M) + investor vesting start (2.83M total/month)"
+    },
+    {
+      "month": 12,
+      "unlock_tokens": 2833000,
+      "pct_of_premine": 1.0,
+      "source": "Final investor vesting + platform + contributor vesting start"
+    },
+    {
+      "month": 36,
+      "unlock_tokens": 2000000,
+      "pct_of_premine": 0.7,
+      "source": "Platform only (contributor vesting complete)"
+    },
+    {
+      "month": 120,
+      "unlock_tokens": 0,
+      "pct_of_premine": 0,
+      "source": "All vesting complete (Nov 2029)"
+    }
+  ],
+  
+  "miner_parity_timeline": {
+    "current_status_oct_2025": {
+      "total_mined": 128500000,
+      "total_allocated": 290500000,
+      "ratio": "Allocation dominance 2.26:1"
+    },
+    "parity_achievement": {
+      "date": "2029-11-30",
+      "cumulative_mining": 290000000,
+      "note": "Miners achieve parity exactly when platform emissions end"
+    },
+    "long_term_2139": {
+      "total_mined": 700000000,
+      "total_allocated": 290500000,
+      "ratio": "Mining dominance 2.41:1"
+    }
+  },
+  
+  "transparency_notes": [
+    "All investor vesting completed October 2022 - no ongoing investor unlocks",
+    "Platform allocation ends November 2029 - final centralized emission",
+    "Individual investor allocations within rounds not disclosed",
+    "Rich list data unavailable due to 20-chain architecture complexity",
+    "Organizational shutdown Oct 2025 creates uncertainty around remaining platform emissions",
+    "Mining represents 70% of max supply - most miner-favorable among smart contract platforms"
+  ]
+}

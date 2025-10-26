@@ -1,0 +1,215 @@
+{
+  "_comment": "=====================================================",
+  "_comment": "  GENESIS ALLOCATION TEMPLATE",
+  "_comment": "  Only needed if project has premine/ICO/presale",
+  "_comment": "  Copy to: allocations/[project]/genesis.json",
+  "_comment": "  Delete all lines starting with '_comment' before submitting",
+  "_comment": "=====================================================",
+
+  "project": "example-coin",
+  "_comment_project": "Must match project name in main JSON",
+  
+  "has_premine": true,
+  "_comment_has_premine": "Set to true for any genesis allocation",
+  
+  "has_dev_tax": false,
+  "_comment_dev_tax": "true if ongoing % of block rewards go to team",
+  
+  "genesis_date": "2023-01-15",
+  "_comment_genesis_date": "YYYY-MM-DD format. TGE/mainnet launch date",
+  
+  "total_genesis_allocation_pct": 66.7,
+  "_comment_total_pct": "Total % allocated at genesis (before any mining/staking)",
+  
+  "available_for_mining_genesis_pct": 33.3,
+  "_comment_mining_pct": "% available for public mining/staking at launch",
+  
+  "dev_tax": {
+    "type": "block_reward_split",
+    "_comment_type": "One of: block_reward_split, continuous_emission, none",
+    
+    "pct_of_block_reward": 10,
+    "_comment_pct": "If block_reward_split, what % of each block goes to devs",
+    
+    "duration_blocks": 1051200,
+    "_comment_duration": "How many blocks dev tax continues. Use null for permanent",
+    
+    "recipient": "0x1234...5678",
+    "_comment_recipient": "Address or multisig receiving dev tax",
+    
+    "notes": "10% of block rewards for first 2 years to dev fund"
+  },
+  
+  "suspected_insider_mining": {
+    "_comment_insider": "Use this section if fair launch but suspected early advantage",
+    
+    "enabled": false,
+    "_comment_enabled": "Set to true only if credible evidence exists",
+    
+    "timeframe": "2021-11 to 2022-02",
+    "_comment_timeframe": "Period of suspected activity",
+    
+    "estimated_pct_of_supply": 3.0,
+    "_comment_estimated": "Best estimate of % captured unfairly",
+    
+    "evidence": [
+      "Hashrate spikes to 1.2 TH/s in first week despite no ASIC availability",
+      "Single address accumulated 450M tokens in first 3 months",
+      "Network hashrate dropped 60% after month 4 (suspected rented hashrate)"
+    ],
+    "_comment_evidence": "List specific on-chain or circumstantial evidence",
+    
+    "verifiable": false,
+    "_comment_verifiable": "true only if proven on-chain (clustering analysis)",
+    
+    "source_investigations": [
+      "https://example.com/insider-analysis",
+      "On-chain clustering analysis by @researcher"
+    ],
+    "_comment_sources": "Links to analyses or discussions"
+  },
+  
+  "allocation_tiers": {
+    "_comment_tiers": "Organize allocations by category using this tier system",
+    
+    "tier_1_profit_seeking": {
+      "_comment_tier1": "VCs, seed investors, team with direct profit motive",
+      
+      "total_pct": 33.5,
+      "_comment_tier1_total": "Sum of all Tier 1 buckets",
+      
+      "buckets": [
+        {
+          "name": "Seed Round 1",
+          "_comment_name": "Clear descriptive name",
+          
+          "pct": 16.3,
+          "_comment_pct": "% of total supply",
+          
+          "absolute_tokens": 16300000,
+          "_comment_absolute": "Actual token quantity",
+          
+          "cost_per_token_usd": 0.01,
+          "_comment_cost": "Price paid per token. Use 0 for team grants",
+          
+          "date": "2022-06-01",
+          "_comment_date": "YYYY-MM-DD when round closed",
+          
+          "vesting_months": 24,
+          "_comment_vesting": "Total vesting period in months",
+          
+          "cliff_months": 6,
+          "_comment_cliff": "Months before first unlock. Use 0 for no cliff",
+          
+          "tge_unlock_pct": 0,
+          "_comment_tge": "% unlocked at Token Generation Event",
+          
+          "investors": {
+            "known": [
+              {
+                "name": "Polychain Capital",
+                "pct_of_round": "unknown",
+                "_comment_investor_pct": "% this investor owns of THIS round",
+                "tokens": "unknown",
+                "_comment_tokens": "Absolute tokens if known"
+              },
+              {
+                "name": "Multicoin Capital",
+                "pct_of_round": "unknown",
+                "tokens": "unknown"
+              }
+            ],
+            "_comment_known": "List all publicly disclosed investors",
+            
+            "unknown_count": 12,
+            "_comment_unknown": "Number of undisclosed investors",
+            
+            "total_investors": 15,
+            "_comment_total": "Total participants in this round",
+            
+            "notes": "Announcement stated '15 investors including Polychain and Multicoin' - individual allocations not disclosed"
+          }
+        }
+      ]
+    },
+    
+    "tier_2_entity_controlled": {
+      "_comment_tier2": "Foundation, treasury, dev company - entity-controlled but not direct profit",
+      
+      "total_pct": 33.2,
+      
+      "buckets": [
+        {
+          "name": "Foundation Treasury",
+          "pct": 33.2,
+          "absolute_tokens": 33200000,
+          
+          "liquid_at_tge_pct": 20,
+          "_comment_liquid": "% immediately liquid (not vesting)",
+          
+          "vesting_months": 60,
+          "_comment_vesting_note": "Linear vesting for remaining 80%",
+          
+          "multisig": {
+            "signers": ["3 anonymous", "2 core team"],
+            "threshold": "3-of-5",
+            "_comment_multisig": "Who controls this allocation"
+          },
+          
+          "usage": "Ecosystem grants, partnerships, marketing",
+          "_comment_usage": "Stated purpose of this allocation",
+          
+          "transparency": "Quarterly reports on website",
+          "_comment_transparency": "How fund usage is reported"
+        }
+      ]
+    },
+    
+    "tier_3_community": {
+      "_comment_tier3": "Airdrops, community programs, public sales",
+      
+      "total_pct": 0,
+      "_comment_tier3_note": "Use 0 if no true community distribution",
+      
+      "buckets": []
+    },
+    
+    "tier_4_liquidity": {
+      "_comment_tier4": "CEX/DEX liquidity, market making",
+      
+      "total_pct": 0,
+      "buckets": []
+    }
+  },
+  
+  "vesting_waterfall": [
+    {
+      "month": 0,
+      "_comment_month": "Months since genesis",
+      
+      "unlock_tokens": 9100000,
+      "_comment_unlock": "Tokens unlocking this month",
+      
+      "pct_of_premine": 13.6,
+      "_comment_pct_premine": "% of total premine unlocking",
+      
+      "source": "TGE unlocks",
+      "_comment_source": "Which buckets contribute to this unlock"
+    },
+    {
+      "month": 1,
+      "unlock_tokens": 500000,
+      "pct_of_premine": 0.7,
+      "source": "Linear vesting"
+    }
+  ],
+  "_comment_waterfall": "Monthly unlock schedule. Critical for understanding sell pressure!",
+  
+  "transparency_notes": [
+    "Only 3/25 investors publicly disclosed (12%)",
+    "Individual allocations not provided",
+    "Vesting contracts verified on-chain at 0x...",
+    "Foundation multisig signers partially anonymous"
+  ],
+  "_comment_transparency": "Key transparency issues or strengths"
+}

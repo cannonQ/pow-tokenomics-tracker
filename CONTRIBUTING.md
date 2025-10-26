@@ -85,7 +85,7 @@ allocations/example-coin/genesis.json
 | Block Time | Block explorer - average over last 1000 blocks |
 | Hashrate | Mining pools, WhatToMine, CoinWarz |
 | Difficulty | Block explorer |
-| Price/FDMC | CoinGecko, CoinMarketCap |
+| Price/FDMC | CoinGecko, LiveCoinWatch |
 | Investor Info | Medium announcements, Twitter, CrunchBase |
 | Vesting | Blockchain (if on-chain), official docs |
 

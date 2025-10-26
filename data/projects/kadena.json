@@ -1,0 +1,108 @@
+{
+  "project": "kadena",
+  "ticker": "KDA",
+  "consensus": "PoW",
+  "algorithm": "Blake2S",
+  "launch_date": "2020-01-15",
+  "launch_type": "premine",
+  "has_premine": true,
+  
+  "supply": {
+    "max_supply": 1000000000,
+    "current_supply": 335000000,
+    "pct_mined": 33.5,
+    "emission_remaining": 665000000
+  },
+  
+  "emission": {
+    "current_block_reward": 0.9413,
+    "block_time_seconds": 1.5,
+    "daily_emission": 54379,
+    "annual_inflation_pct": 21.89,
+    
+    "halving_schedule": [
+      {
+        "event": "Continuous Decay",
+        "note": "No discrete halvings - 23% annual decay in mining rewards",
+        "formula": "Exponential decay over 120 years (2019-2139)",
+        "current_monthly_emission": 1630000,
+        "decay_rate_annual": 0.23
+      }
+    ]
+  },
+  
+  "premine": {
+    "total_pct": 29.05,
+    "absolute_tokens": 290500000,
+    "details": "See genesis allocation file for breakdown"
+  },
+  
+  "genesis_allocation": "allocations/kadena/genesis.json",
+  
+  "mining": {
+    "current_hashrate_th": 550000,
+    "current_difficulty": 724000000000000,
+    "asic_resistant": false,
+    "dominant_hardware": "Goldshell KD5, Goldshell KD6, Bitmain Antminer KA3",
+    
+    "cost_to_mine_one_unit": {
+      "electricity_usd": 0.35,
+      "hardware_amortization_usd": 0.15,
+      "total_cost_usd": 0.50,
+      "note": "Based on KD5 at $0.10/kWh electricity - currently unprofitable at $0.06 price"
+    },
+    
+    "decentralization": {
+      "active_pools": 5,
+      "top_5_pools_pct": 99.0,
+      "largest_pool": {
+        "name": "Poolflare", 
+        "pct": 74.0,
+        "note": "Historical data from Dec 2021 - current data unavailable due to shutdown"
+      },
+      "nakamoto_coefficient": 1,
+      "notes": "Extreme centralization despite 20-chain architecture"
+    }
+  },
+  
+  "market_data": {
+    "current_price_usd": 0.06,
+    "fdmc": 60000000,
+    "circulating_mcap": 20100000,
+    "daily_volume": 76830000,
+    "token_velocity": 0.229,
+    "notes": "Data as of Oct 23, 2025 following organizational shutdown announcement"
+  },
+  
+  "data_sources": {
+    "official_docs": [
+      "https://kadena.io/whitepaper/",
+      "https://github.com/kadena-io/chainweb-node"
+    ],
+    "block_explorer": [
+      "https://explorer.chainweb.com",
+      "https://kdaexplorer.com"
+    ],
+    "market_data": [
+      "https://www.coingecko.com/en/coins/kadena",
+      "https://coinmarketcap.com/currencies/kadena/"
+    ],
+    "mining_data": [
+      "https://explorer.chainweb.com/mainnet01/stats",
+      "Historical pool data from various sources"
+    ]
+  },
+  
+  "notes": [
+    "Chainweb architecture: 20 parallel blockchains braided together",
+    "70% mining allocation over 120 years represents most miner-favorable distribution among smart contract platforms",
+    "Organization announced shutdown Oct 21, 2025 but decentralized network continues operating",
+    "All investor/contributor vesting completed by Oct 2022",
+    "Mining unprofitable at current prices - threatens network security",
+    "Extreme pool centralization (74% in single pool historically)",
+    "Platform emissions end Nov 2029 - miners achieve parity with total premine",
+    "No staking mechanism exists - pure PoW consensus"
+  ],
+  
+  "last_updated": "2025-10-23"
+}

@@ -55,7 +55,7 @@ Done! We'll review and merge.
 | Block reward | Block explorer (recent blocks) |
 | Block time | Block explorer (average) |
 | Hashrate | Mining pools, WhatToMine |
-| Price | CoinGecko, CMC |
+| Price | CoinGecko, Livecoinwatch |
 | VCs | Medium, Twitter, CrunchBase |
 
 ---

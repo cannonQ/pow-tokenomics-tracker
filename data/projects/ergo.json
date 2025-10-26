@@ -1,0 +1,189 @@
+{
+  "project": "ergo",
+  "ticker": "ERG",
+  "consensus": "PoW",
+  "algorithm": "Autolykos v2",
+  "launch_date": "2019-07-01",
+  "launch_type": "fair",
+  "has_premine": true,
+  
+  "supply": {
+    "max_supply": 97739925,
+    "current_supply": 82222470,
+    "pct_mined": 84.12,
+    "emission_remaining": 15517455
+  },
+  
+  "emission": {
+    "current_block_reward": 9.0,
+    "block_time_seconds": 120,
+    "daily_emission": 6480,
+    "annual_inflation_pct": 2.88,
+    
+    "halving_schedule": [
+      {
+        "event": 1,
+        "date": "2022-01-02",
+        "height": 655200,
+        "reward_before": 75.0,
+        "reward_after": 66.0,
+        "notes": "Treasury allocation ended, reduced from 75 to 66 ERG"
+      },
+      {
+        "event": 2,
+        "date": "2022-06-21",
+        "height": 777217,
+        "reward_before": 66.0,
+        "reward_after": 51.0,
+        "notes": "EIP-27 activated, 12 ERG diverted to reemission contract"
+      },
+      {
+        "event": 3,
+        "date": "2022-09-21",
+        "height": 842217,
+        "reward_before": 51.0,
+        "reward_after": 48.0,
+        "notes": "First quarterly reduction under EIP-27"
+      },
+      {
+        "event": 4,
+        "date": "2025-10-23",
+        "height": "~1200000",
+        "reward_before": 12.0,
+        "reward_after": 9.0,
+        "notes": "Current state as of October 2025"
+      },
+      {
+        "event": 5,
+        "date_est": "2025-12-21",
+        "height": "~1230000",
+        "reward_before": 9.0,
+        "reward_after": 6.0,
+        "notes": "Next quarterly reduction"
+      },
+      {
+        "event": 6,
+        "date_est": "2026-03-21",
+        "height": "~1265000",
+        "reward_before": 6.0,
+        "reward_after": 3.0,
+        "notes": "Reaches 3 ERG floor, maintained until ~2045"
+      }
+    ]
+  },
+  
+  "premine": {
+    "total_pct": 4.43,
+    "total_tokens": 4330791,
+    "beneficiary": "Ergo Foundation Treasury",
+    "release_mechanism": "Block reward split",
+    "vesting_complete": "2022-01-02",
+    "notes": "Treasury received 7.5 ERG/block (2019-2021), tapered to 0 by January 2022. No team or VC allocations."
+  },
+  
+  "genesis_allocation": {
+    "file_path": "allocations/ergo/genesis.json",
+    "summary": "4.43% treasury only, 95.57% mining. EFYT pre-mainnet token holders received 1.78M ERG from treasury via 1:1 exchange."
+  },
+  
+  "mining": {
+    "current_hashrate_th": 4500,
+    "current_difficulty": 431850000000000,
+    "asic_resistant": true,
+    "dominant_hardware": "NVIDIA RTX 4070/4090, AMD RX 6700 XT",
+    
+    "cost_to_mine_one_unit": {
+      "electricity_usd": 0.42,
+      "hardware_amortization_usd": 0.15,
+      "total_cost_usd": 0.57,
+      "notes": "Based on RTX 4070 at $0.10/kWh electricity. Profitability sensitive to electricity costs."
+    },
+    
+    "decentralization": {
+      "active_pools": 13,
+      "top_5_pools_pct": 75.0,
+      "largest_pool": {
+        "name": "Nanopool",
+        "pct": 40.0,
+        "notes": "Historically 40-61%, creating centralization concern"
+      },
+      "nakamoto_coefficient": 2,
+      "notes": "Pool concentration is primary centralization risk. GetBlok and Lithos Protocol aim to improve distribution."
+    },
+    
+    "hardware_requirements": {
+      "gpu_vram_min": "4 GB",
+      "recommended_gpus": [
+        {"model": "RTX 4090", "hashrate_mhs": 265, "power_watts": 330, "cost_usd": 1700},
+        {"model": "RTX 4070", "hashrate_mhs": 180, "power_watts": 120, "cost_usd": 700},
+        {"model": "RTX 3070", "hashrate_mhs": 180, "power_watts": 117, "cost_usd": 300},
+        {"model": "RX 6700 XT", "hashrate_mhs": 160, "power_watts": 130, "cost_usd": 350}
+      ],
+      "full_mining_rig_cost": "3000-10000",
+      "monthly_electricity_6gpu": "45-150"
+    }
+  },
+  
+  "market_data": {
+    "current_price_usd": 0.68,
+    "fdmc": 66463149,
+    "circulating_mcap": 62950880,
+    "daily_volume": 333000,
+    "token_velocity": 0.0053,
+    "data_date": "2025-10-23"
+  },
+  
+  "network_stats": {
+    "total_nodes": 158,
+    "reachable_nodes": 129,
+    "node_requirements": {
+      "cpu": "Any modern processor",
+      "ram_gb": 16,
+      "storage_gb": 200,
+      "cost_usd": 500,
+      "monthly_operational_cost": 10
+    },
+    "geographic_distribution": {
+      "united_states": {"nodes": 39, "pct": 24.7},
+      "germany": {"nodes": 38, "pct": 24.1},
+      "canada": {"nodes": 14, "pct": 8.9},
+      "france": {"nodes": 12, "pct": 7.6},
+      "singapore": {"nodes": 10, "pct": 6.3}
+    }
+  },
+  
+  "data_sources": {
+    "official_docs": [
+      "https://ergoplatform.org/en/blog/emission/",
+      "https://docs.ergoplatform.com/mining/emission/",
+      "https://ergonaut.space/en/Ergo/Overview"
+    ],
+    "block_explorer": [
+      "https://explorer.ergoplatform.com/",
+      "https://ergonodes.net/"
+    ],
+    "market_data": [
+      "https://www.coingecko.com/en/coins/ergo",
+      "https://coinmarketcap.com/currencies/ergo/"
+    ],
+    "mining_data": [
+      "https://ergo.herominers.com/",
+      "https://minerstat.com/coin/erg",
+      "https://2cryptocalc.com/autolykos2-algorithm"
+    ]
+  },
+  
+  "notes": [
+    "Fair launch - no ICO, no VC allocations, no team premine",
+    "4.43% treasury allocation via block reward split (2019-2022), mostly spent on development",
+    "EFYT pre-mainnet token: 500K sold to 3 investors, 1.78M total exchanged 1:1 for ERG from treasury",
+    "Pure PoW with Autolykos v2 ASIC-resistant GPU mining",
+    "EIP-27 (2022) extended emission from 8 years to 26 years, stabilizing at 3 ERG floor until 2045",
+    "Primary concern: Pool centralization with Nanopool historically >40% hashrate",
+    "Mining profitability at break-even with current $0.68 price, requires <$0.08/kWh electricity",
+    "No staking, no validators, no delegation - pure Proof of Work consensus",
+    "Foundation holds 203K ERG (0.22% of supply) as of March 2025, down from 4.33M genesis allocation"
+  ],
+  
+  "last_updated": "2025-10-23"
+}

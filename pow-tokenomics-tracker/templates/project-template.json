@@ -1,0 +1,174 @@
+{
+  "_comment": "=====================================================",
+  "_comment": "  POW TOKENOMICS TRACKER - PROJECT SUBMISSION TEMPLATE",
+  "_comment": "  Copy this file to: data/projects/[yourproject].json",
+  "_comment": "  Fill in all fields - use null for unknown values",
+  "_comment": "  Delete all lines starting with '_comment' before submitting",
+  "_comment": "=====================================================",
+
+  "project": "bitcoin",
+  "_comment_project": "Lowercase, no spaces. Examples: bitcoin, kaspa, ethereum-pow",
+  
+  "ticker": "BTC",
+  "_comment_ticker": "Official ticker symbol, uppercase",
+  
+  "consensus": "PoW",
+  "_comment_consensus": "One of: PoW, PoS, Hybrid, DPoS",
+  
+  "algorithm": "SHA-256",
+  "_comment_algorithm": "Mining/consensus algorithm. Examples: SHA-256, Ethash, KHeavyHash, Scrypt",
+  
+  "launch_date": "2009-01-03",
+  "_comment_launch_date": "YYYY-MM-DD format. Mainnet launch date.",
+  
+  "launch_type": "fair",
+  "_comment_launch_type": "One of: fair, premine, ico, private_sale, fair_with_suspicion",
+  
+  "has_premine": false,
+  "_comment_has_premine": "true if ANY tokens allocated before public mining/staking",
+  
+  "supply": {
+    "max_supply": 21000000,
+    "_comment_max_supply": "Maximum possible supply. Use null if unlimited.",
+    
+    "current_supply": 19562000,
+    "_comment_current_supply": "Total mined/minted as of data collection date",
+    
+    "pct_mined": 93.15,
+    "_comment_pct_mined": "Percentage of max supply already issued. (current/max)*100",
+    
+    "emission_remaining": 1438000,
+    "_comment_emission_remaining": "Tokens still to be emitted. max_supply - current_supply"
+  },
+  
+  "emission": {
+    "current_block_reward": 6.25,
+    "_comment_current_block_reward": "Current reward per block. Include any dev tax.",
+    
+    "block_time_seconds": 600,
+    "_comment_block_time_seconds": "Average time between blocks in seconds",
+    
+    "daily_emission": 900,
+    "_comment_daily_emission": "Tokens emitted per day. (86400/block_time)*block_reward",
+    
+    "annual_inflation_pct": 1.74,
+    "_comment_annual_inflation_pct": "(daily_emission*365/current_supply)*100",
+    
+    "halving_schedule": [
+      {
+        "event": 1,
+        "date": "2012-11-28",
+        "_comment_date": "Use 'date' for past events, 'date_est' for future",
+        "height": 210000,
+        "reward_before": 50,
+        "reward_after": 25
+      }
+    ],
+    "_comment_halving_schedule": "List all emission changes. Use [] if no halvings/adjustments."
+  },
+  
+  "premine": null,
+  "_comment_premine": "If has_premine=false, set to null. Otherwise use genesis_allocation below",
+  
+  "genesis_allocation": null,
+  "_comment_genesis_allocation": "If has_premine=true, create allocations/[project]/genesis.json",
+  
+  "mining": {
+    "current_hashrate_th": 465000000,
+    "_comment_hashrate": "Use appropriate unit: th (terahash), gh (gigahash), mh (megahash), h (hash)",
+    
+    "current_difficulty": 62463471666357,
+    "_comment_difficulty": "Current network difficulty from block explorer",
+    
+    "asic_resistant": false,
+    "_comment_asic_resistant": "true if designed to resist ASIC mining",
+    
+    "dominant_hardware": "Antminer S19 XP",
+    "_comment_dominant_hardware": "Most common mining hardware. Use 'GPU', 'CPU', 'FPGA' if applicable",
+    
+    "cost_to_mine_one_unit": {
+      "electricity_usd": 18500,
+      "_comment_electricity": "Cost of electricity to mine 1 token at current difficulty",
+      
+      "hardware_amortization_usd": 5200,
+      "_comment_hardware": "Hardware depreciation per token mined",
+      
+      "total_cost_usd": 23700,
+      "_comment_total": "Sum of all costs to produce 1 token"
+    },
+    
+    "decentralization": {
+      "active_pools": 18,
+      "_comment_active_pools": "Number of known active mining pools",
+      
+      "top_5_pools_pct": 51.2,
+      "_comment_top_5": "Combined hashrate % of 5 largest pools",
+      
+      "largest_pool": {
+        "name": "Foundry USA",
+        "pct": 28.1
+      },
+      "_comment_largest": "Name and % of single largest pool",
+      
+      "nakamoto_coefficient": 3,
+      "_comment_nakamoto": "Minimum pools needed for 51% attack"
+    }
+  },
+  
+  "market_data": {
+    "_comment_market": "Get from CoinGecko, CMC, or DEX aggregators",
+    
+    "current_price_usd": 67500,
+    "_comment_price": "Current market price in USD",
+    
+    "fdmc": 1417500000000,
+    "_comment_fdmc": "Fully Diluted Market Cap: price * max_supply",
+    
+    "circulating_mcap": 1320435000000,
+    "_comment_circulating_mcap": "Circulating Market Cap: price * current_supply",
+    
+    "daily_volume": 28500000000,
+    "_comment_volume": "24h trading volume in USD",
+    
+    "token_velocity": 0.022,
+    "_comment_velocity": "daily_volume / circulating_mcap"
+  },
+  
+  "data_sources": {
+    "_comment_sources": "CRITICAL: Provide verifiable sources for all data",
+    
+    "official_docs": [
+      "https://bitcoin.org/bitcoin.pdf",
+      "https://github.com/bitcoin/bitcoin"
+    ],
+    "_comment_official": "Whitepaper, GitHub, official website",
+    
+    "block_explorer": [
+      "https://blockchain.com",
+      "https://blockchair.com/bitcoin"
+    ],
+    "_comment_explorer": "Block explorers used for verification",
+    
+    "market_data": [
+      "https://www.coingecko.com/en/coins/bitcoin",
+      "https://coinmarketcap.com/currencies/bitcoin/"
+    ],
+    "_comment_market": "Price/volume data sources",
+    
+    "mining_data": [
+      "https://www.blockchain.com/charts/hash-rate",
+      "https://difficulty.to"
+    ],
+    "_comment_mining": "Hashrate, difficulty, pool data sources"
+  },
+  
+  "notes": [
+    "Fair launch - no premine, ICO, or founder allocation",
+    "Satoshi mined ~1M BTC in first year but at same difficulty as everyone",
+    "Complete transparency in emission schedule"
+  ],
+  "_comment_notes": "Important context, caveats, or controversies. Use [] if none",
+  
+  "last_updated": "2025-10-25",
+  "_comment_updated": "Date you collected this data (YYYY-MM-DD)"
+}

@@ -1,0 +1,225 @@
+{
+  "project": "ergo",
+  "has_premine": true,
+  "has_dev_tax": false,
+  "genesis_date": "2019-07-01",
+  
+  "total_genesis_allocation_pct": 4.43,
+  "available_for_mining_genesis_pct": 95.57,
+  
+  "dev_tax": {
+    "type": "none",
+    "pct_of_block_reward": 0,
+    "duration": null,
+    "recipient": null,
+    "notes": "No ongoing dev tax. Treasury allocation was time-limited block reward split ending January 2022."
+  },
+  
+  "suspected_insider_mining": {
+    "enabled": false,
+    "timeframe": null,
+    "estimated_pct_of_supply": 0,
+    "evidence": [],
+    "verifiable": false,
+    "source_investigations": [],
+    "notes": "Fair launch with public mining from genesis. No evidence of insider mining advantage."
+  },
+  
+  "allocation_tiers": {
+    "tier_1_profit_seeking": {
+      "total_pct": 0.51,
+      "buckets": [
+        {
+          "name": "EFYT Pre-Mainnet Investors",
+          "pct": 0.51,
+          "absolute_tokens": 500000,
+          "cost_per_token_usd": "undisclosed",
+          "date": "2017-2019",
+          "vesting_months": 0,
+          "cliff_months": 0,
+          "tge_unlock_pct": 100,
+          
+          "investors": {
+            "known": [],
+            "unknown_count": 3,
+            "total_investors": 3,
+            "notes": "3 accredited investors purchased 500,000 EFYT tokens on Waves blockchain at undisclosed prices. EFYT exchangeable 1:1 for ERG from treasury between July 1, 2019 - July 1, 2021. Total USD raised described as 'small amount', not publicly disclosed."
+          },
+          
+          "exchange_mechanism": {
+            "token_from": "EFYT (Waves blockchain)",
+            "token_to": "ERG (Ergo mainnet)",
+            "ratio": "1:1",
+            "window_start": "2019-07-01",
+            "window_end": "2021-07-01",
+            "total_exchanged": 500000,
+            "source": "Treasury allocation"
+          }
+        }
+      ]
+    },
+    
+    "tier_2_entity_controlled": {
+      "total_pct": 0,
+      "buckets": []
+    },
+    
+    "tier_3_community": {
+      "total_pct": 3.92,
+      "buckets": [
+        {
+          "name": "EFYT Community Distribution",
+          "pct": 1.31,
+          "absolute_tokens": 1282615,
+          "liquid_at_tge_pct": 0,
+          "vesting_months": 24,
+          "controlled_by_foundation": false,
+          "usage": "EFYT tokens distributed via bounties, airdrops, and community programs. Exchangeable 1:1 for ERG from treasury.",
+          "transparency": "EFYT holders could exchange during 2-year window. 1,282,615 exchanged; 188,330 expired unclaimed.",
+          
+          "distribution_mechanism": {
+            "method": "EFYT token exchange",
+            "window": "July 1, 2019 - July 1, 2021",
+            "total_efyt_supply": 1970945,
+            "exchanged": 1282615,
+            "expired_unclaimed": 188330,
+            "notes": "Community members who earned EFYT through bounties/participation could exchange 1:1 for ERG"
+          }
+        },
+        {
+          "name": "Ergo Foundation Treasury",
+          "pct": 2.61,
+          "absolute_tokens": 2548176,
+          "liquid_at_tge_pct": 0,
+          "vesting_months": 30,
+          "controlled_by_foundation": true,
+          "multisig": {
+            "signers": ["Ergo Foundation Board"],
+            "threshold": "Multi-signature",
+            "notes": "Foundation-controlled for ecosystem development, marketing, partnerships, and operations"
+          },
+          "usage": "Ecosystem development, audits, marketing, partnerships, developer grants, infrastructure",
+          "transparency": "Treasury spending tracked on-chain. $8.1M spent 2019-2024. Balance reduced from 4.33M ERG to 203K ERG (March 2025).",
+          
+          "release_schedule": {
+            "phase_1": {
+              "period": "July 2019 - July 2021",
+              "rate_per_block": 7.5,
+              "total_blocks": 131040,
+              "total_released": 983050
+            },
+            "phase_2": {
+              "period": "July 2021 - October 2021", 
+              "rate_per_block": 4.5,
+              "total_blocks": 19440,
+              "total_released": 87480
+            },
+            "phase_3": {
+              "period": "October 2021 - January 2, 2022",
+              "rate_per_block": 1.5,
+              "total_blocks": 16200,
+              "total_released": 24300
+            }
+          },
+          
+          "current_status": {
+            "remaining_tokens": 203276,
+            "pct_of_original": 4.7,
+            "spent_on_operations": 2344900,
+            "spent_on_efyt_exchanges": 1782615,
+            "as_of_date": "2025-03-01"
+          }
+        }
+      ]
+    },
+    
+    "tier_4_liquidity": {
+      "total_pct": 0,
+      "buckets": []
+    }
+  },
+  
+  "vesting_waterfall": [
+    {
+      "month": 0,
+      "unlock_tokens": 0,
+      "pct_of_premine": 0,
+      "source": "Genesis - no immediate unlocks. Treasury released via block rewards over 30 months."
+    },
+    {
+      "month": 6,
+      "unlock_tokens": 327600,
+      "pct_of_premine": 7.6,
+      "source": "Cumulative treasury block rewards (7.5 ERG/block)"
+    },
+    {
+      "month": 12,
+      "unlock_tokens": 655200,
+      "pct_of_premine": 15.1,
+      "source": "Cumulative treasury block rewards"
+    },
+    {
+      "month": 18,
+      "unlock_tokens": 982800,
+      "pct_of_premine": 22.7,
+      "source": "Cumulative treasury block rewards"
+    },
+    {
+      "month": 24,
+      "unlock_tokens": 1070280,
+      "pct_of_premine": 24.7,
+      "source": "Treasury rate reduced to 4.5 ERG/block"
+    },
+    {
+      "month": 30,
+      "unlock_tokens": 1094580,
+      "pct_of_premine": 25.3,
+      "source": "Final treasury release at 1.5 ERG/block, vesting complete January 2, 2022"
+    }
+  ],
+  
+  "efyt_details": {
+    "blockchain": "Waves",
+    "total_supply": 1970945,
+    "sold_to_investors": 500000,
+    "community_distributed": 1282615,
+    "unclaimed_expired": 188330,
+    "exchange_ratio": "1 EFYT = 1 ERG",
+    "exchange_window": "July 1, 2019 - July 1, 2021",
+    "total_exchanged": 1782615,
+    "exchange_source": "Ergo Foundation Treasury allocation",
+    "notes": [
+      "EFYT was a pre-mainnet fundraising token on Waves blockchain",
+      "Regulatory-compliant sale to 3 accredited investors: 500,000 EFYT",
+      "Community distribution via bounties/airdrops: 1,282,615 EFYT",
+      "All EFYT holders had 2-year window to exchange 1:1 for ERG from treasury",
+      "No vesting or lock-ups on exchanged ERG - immediately liquid",
+      "188,330 EFYT (~9.5%) expired unclaimed after July 1, 2021"
+    ]
+  },
+  
+  "transparency_notes": [
+    "Complete transparency: 0 team allocation, 0 VC allocation at genesis",
+    "4.43% treasury only genesis allocation, released over 30 months via block rewards",
+    "EFYT investor details limited: 3 investors known, individual allocations undisclosed, price undisclosed",
+    "Treasury spending tracked on-chain: $8.1M spent 2019-2024",
+    "Current foundation holdings: 203,276 ERG (0.22% of circulating supply) as of March 2025",
+    "No ongoing vesting schedules - all allocation complete as of January 2, 2022",
+    "Fair launch model: 95.57% of supply distributed through public mining over 26 years"
+  ],
+  
+  "comparison_to_fair_launch": {
+    "bitcoin_style_fair_launch": false,
+    "treasury_allocation_justified": true,
+    "reasoning": [
+      "Unlike Bitcoin (0% premine), Ergo allocated 4.43% to foundation for development",
+      "However, 0% went to team/founders/VCs - closest to fair launch among smart contract platforms",
+      "Treasury released slowly over 30 months, not dumped at genesis",
+      "EFYT pre-sale was minimal (0.51%) to 3 investors, rest to community bounties",
+      "95.57% of supply allocated to public miners - higher than most PoW chains",
+      "Foundation spent down treasury to 4.7% of original (203K ERG remaining)",
+      "No ongoing team/founder allocations or vesting schedules post-2022"
+    ],
+    "fairness_score": "9/10 - Among the fairest launches in cryptocurrency history"
+  }
+}

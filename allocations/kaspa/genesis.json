@@ -1,0 +1,318 @@
+{
+  "project": "kaspa",
+  "has_premine": false,
+  "has_dev_tax": false,
+  "genesis_date": "2021-11-07",
+  
+  "total_genesis_allocation_pct": 0,
+  "available_for_mining_genesis_pct": 100,
+  
+  "dev_tax": {
+    "type": "none",
+    "pct_of_block_reward": 0,
+    "duration_blocks": null,
+    "recipient": null,
+    "notes": "Kaspa has no ongoing dev tax or foundation tax. All supply distributes through pure PoW mining only. After DAGLabs dissolution (Nov 2021, shortly after mainnet launch), no entity extracts value from emission."
+  },
+  
+  "suspected_insider_mining": {
+    "enabled": true,
+    "timeframe": "2021-11-07 to 2022-05-08",
+    "estimated_pct_of_supply_conservative": 2.5,
+    "estimated_pct_of_supply_moderate": 5.2,
+    "estimated_pct_of_supply_aggressive": 20.9,
+    "estimated_usd_value_at_current_price": "148600000 to 997000000",
+    
+    "summary": "Kaspa launched as a technical 'fair launch' with zero pre-mine, but the first 6 months reveal structural insider advantages that are impossible to audit. The period from Nov 7, 2021 to May 8, 2022 (pre-deflationary phase: 500 KAS/sec emission) saw 7.8 billion KAS mined - representing 27% of total supply and $410M at current prices. However, ALL transaction records from this period are permanently missing from the blockchain. No full node worldwide has complete transaction history from genesis. This creates a $410M evidence gap where fair distribution cannot be verified.",
+    
+    "evidence": [
+      "CRITICAL: Missing blockchain data - all transactions from Nov 7, 2021 to May 8, 2022 permanently unavailable. 7.8B KAS (27% of supply) mined during this period with zero verifiable transaction records.",
+      "Network restart undisclosed: Major bug at day 14 (Nov 22, 2021) caused network fragmentation. ~648M KAS mined before halt. Genesis block manually created from checkpoint. Incident not disclosed in subsequent announcements; revealed only in 2024 Twitter exchange with Ergo founder.",
+      "Delayed public announcements: Discord-only launch (Nov 7), network restart (Nov 22), then BitcoinTalk announcement (Nov 26) - 19 days after launch, 4 days after restart. Public mining community had 19-day information disadvantage.",
+      "Undisclosed VC funding at launch: $8M Polychain Capital investment received pre-launch but not mentioned in initial announcements. Team presented project as 'hobby' and 'community-driven' despite institutional backing.",
+      "Bitmain VP on team: Gadi Glickberg (former VP of Bitmain) joined DAGLabs 7 months before launch (April 2021). Represents unprecedented hardware expertise and potential access to mining infrastructure.",
+      "20-month GPU moat: First ASIC (IceRiver KS1/KS2) not released until March 2023, 16 months after launch. During this period, organized entities with $8M capital and GPU procurement access held advantages vs. retail miners.",
+      "Early hashrate anomalies: Network grew from 60 MH/s (Nov 13) to 2 GH/s (Nov 27) to 4 TH/s (Jan 2022) to 500 TH/s (Nov 2022) - 8,333x growth in 6 months. While not proof of insider mining, pattern consistent with rented infrastructure deployment.",
+      "Pre-launch philosophy discouraged full nodes: Founder's May 2021 blog post (6 months before launch) prioritized 'issuance and decentralization' over 'historical transaction validity.' This positioned missing data as potentially acceptable by design.",
+      "Developer suppression of questions: Community member investigating missing Feb 2022 transaction was kicked from Discord and question deleted. Later dismissed as 'nothing burger' despite technical details proving data gaps.",
+      "Attack feasibility admitted: Developer Michael Sutton initially denied hijacking attack was possible; later acknowledged mechanism was technically feasible. Shai Deshe (co-founder) admitted attack could occur without full nodes.",
+      "Victim reports of missing coins: Multiple users reported coins vanishing without outgoing transactions during Nov 2021 - May 2022 period. E.g., 'BinaryStyles' reported 25,000 KAS disappeared from wallet with no transaction record.",
+      "Solo mining incidents: Protocol allowed single miners to receive 100M+ KAS in periods with network issues, creating concentration opportunities during early chaotic phase.",
+      "DAGLabs mining was confirmed but unverifiable: Team disclosed 700-850M KAS mined over ~5 months (Nov 2021 - May 2022). No on-chain verification possible due to missing transaction data. Impossible to confirm distribution to Polychain, employees, advisors as claimed."
+    ],
+    
+    "verifiable": false,
+    "verifiable_note": "Cannot be verified or refuted. Missing blockchain data prevents forensic analysis. Remains speculative despite strong circumstantial evidence of insider advantages.",
+    
+    "source_investigations": [
+      "Kaspa Tokenomics Forensic Analysis: Missing Blockchain Data and Suspected Insider Mining (October 2025)",
+      "Discord investigation into missing Feb 2022 transactions (user kicked; question deleted)",
+      "Twitter exchange between Shai Deshe and Ergo founder Alex Chepurnoy re: network restart (2024)",
+      "Kaspa Q&A forum user reports of missing coins (multiple, unverified)",
+      "On-chain hashrate and difficulty data analysis showing 8,333x growth in 6 months"
+    ],
+    
+    "confidence_levels": {
+      "daglabs_mining_700_850m_kas": "High - disclosed in official wiki",
+      "daglabs_mining_unverifiable": "Certain - no transaction records exist",
+      "network_restart_648m_kas_lost": "Certain - confirmed by developers in 2024",
+      "missing_blockchain_data_6_months": "Certain - no known full nodes have complete history",
+      "insider_advantage_from_capital_and_timing": "Medium/High - $8M funding + 19-day announcement delay + ex-Bitmain VP",
+      "organized_insider_mining_1_6b_kas_range": "Medium (40-60% probability) - consistent with patterns but unverifiable",
+      "large_scale_insider_capture_4_6b_kas_range": "Low (20-30% probability) - possible but speculative",
+      "actual_coin_theft_via_hijacking": "Low (10-20% probability) - technically feasible but no direct evidence"
+    }
+  },
+  
+  "allocation_tiers": {
+    "tier_1_profit_seeking": {
+      "total_pct": 0,
+      "total_absolute_tokens": 0,
+      "buckets": [
+        {
+          "name": "DAGLabs Confirmed Mining (Disclosed Post-Hoc)",
+          "pct": 2.5,
+          "absolute_tokens": 717500000,
+          "cost_per_token_usd": 0.0001,
+          "cost_note": "Rented Amazon/cloud GPU at wholesale rates; substantially below retail GPU mining costs",
+          "date_start": "2021-11-07",
+          "date_end": "2022-05-08",
+          "duration_months": 6,
+          "distribution_method": "Cloud hardware mining (rented infrastructure)",
+          "recipients": {
+            "known": [
+              {
+                "name": "Polychain Capital",
+                "relationship": "Series funder",
+                "allocation_tokens": "unknown",
+                "allocation_pct": "unknown",
+                "notes": "Primary funder of DAGLabs; received allocation from mining operations but exact distribution not disclosed"
+              },
+              {
+                "name": "DAGLabs employees",
+                "count": "unknown",
+                "allocation_tokens": "unknown",
+                "allocation_pct": "unknown",
+                "notes": "Core team and engineers; allocation method and distribution unknown"
+              }
+            ],
+            "unknown_count": "undetermined",
+            "total_recipients": "unknown",
+            "transparency_note": "Exact distribution of 717.5M KAS among Polychain, employees, and advisors unknown due to missing blockchain data"
+          },
+          
+          "capital_advantage": {
+            "vc_funding_usd": 8000000,
+            "hardware_preparation_months": 7,
+            "prior_knowledge_advantage_days": 19,
+            "cost_per_token_advantage_vs_retail": "10x-100x lower cost due to wholesale GPU and cloud rates",
+            "profit_margin_pct": 100,
+            "profit_margin_note": "At $0.0005-0.003/KAS early prices vs $0.0001-0.0003 cost = 100-300% margins"
+          },
+          
+          "vesting_schedule": {
+            "method": "All coins immediately liquid",
+            "cliff_months": 0,
+            "vesting_months": 0,
+            "tge_unlock_pct": 100,
+            "notes": "Mining distributions typically liquid upon receipt; no contractual vesting applied to DAGLabs mining operations"
+          },
+          
+          "current_status": {
+            "released_tokens": 717500000,
+            "vesting_complete_date": "2022-05-08",
+            "current_holdings": "unknown",
+            "selloff_profile": "unknown",
+            "notes": "Unable to track distribution due to missing blockchain data (Nov 2021 - May 2022)"
+          }
+        }
+      ]
+    },
+    
+    "tier_1_unverifiable_insider_capture": {
+      "total_pct_conservative": 2.5,
+      "total_pct_moderate": 5.2,
+      "total_pct_aggressive": 20.9,
+      "total_absolute_tokens_range": "717000000 to 6000000000",
+      "current_usd_value_range": "42400000 to 355000000",
+      
+      "note": "These estimates represent possible insider capture BEYOND the disclosed 717.5M KAS. Unverifiable due to missing transaction records from Nov 7, 2021 - May 8, 2022.",
+      
+      "scenarios": [
+        {
+          "scenario": "Conservative (2.5% of supply beyond DAGLabs)",
+          "additional_tokens": 717500000,
+          "current_usd_value": 42400000,
+          "basis": "Only DAGLabs + close associates with direct knowledge",
+          "probability": "25-35%"
+        },
+        {
+          "scenario": "Moderate (5.2% total insider, 2.7% beyond DAGLabs)",
+          "additional_tokens": 1489200000,
+          "current_usd_value": 88000000,
+          "basis": "DAGLabs + early informed miners with significant capital",
+          "probability": "40-60%"
+        },
+        {
+          "scenario": "Aggressive (20.9% total insider, 18.4% beyond DAGLabs)",
+          "additional_tokens": 5282400000,
+          "current_usd_value": 312000000,
+          "basis": "Major mining with hardware advantage + undisclosed insiders + Polychain network",
+          "probability": "20-30%"
+        }
+      ],
+      
+      "supporting_factors": [
+        "7.8 billion KAS mined during missing data period (27% of supply)",
+        "500 KAS/sec emission rate (highest in Kaspa history)",
+        "Only 60 MH/s hashrate at launch expanding to 2 GH/s in 2 weeks (33x growth)",
+        "$8M capital available for infrastructure rental",
+        "Ex-Bitmain VP with hardware sourcing expertise on team",
+        "20-month GPU-only period before ASIC availability",
+        "Missing transaction records make verification impossible"
+      ]
+    },
+    
+    "tier_2_entity_controlled": {
+      "total_pct": 0,
+      "total_absolute_tokens": 0,
+      "buckets": []
+    },
+    
+    "tier_3_community": {
+      "total_pct": 0,
+      "total_absolute_tokens": 0,
+      "buckets": []
+    },
+    
+    "tier_4_liquidity": {
+      "total_pct": 0,
+      "total_absolute_tokens": 0,
+      "buckets": []
+    }
+  },
+  
+  "vesting_waterfall": [
+    {
+      "month": 0,
+      "unlock_tokens": 0,
+      "pct_of_premine": 0,
+      "source": "No premine - all mining",
+      "note": "Kaspa has zero pre-mine allocation at genesis. All tokens distributed through PoW mining only."
+    }
+  ],
+  
+  "mining_phases": {
+    "phase_1_pre_deflationary": {
+      "name": "Pre-Deflationary Phase",
+      "date_start": "2021-11-07",
+      "date_end": "2021-11-22",
+      "duration_days": 15,
+      "block_reward": "Random 1-1000 KAS/block (avg ~750 KAS); later 500 KAS/sec after hard fork",
+      "emission_rate": "500 KAS/sec equivalent",
+      "total_mined": 648000000,
+      "total_mined_note": "Approximate; exact numbers lost in network restart incident",
+      "network_state": "Chaotic; network crash at day 14 requiring genesis restart",
+      "insider_advantage": "Extremely high - only informed parties ready for launch",
+      "public_awareness": "Discord-only announcement; 19-day delay before BitcoinTalk"
+    },
+    
+    "phase_2_network_restart": {
+      "name": "Network Restart & Reset",
+      "date": "2021-11-22",
+      "incident": "Major bug caused network fragmentation; 648M KAS mined in first 14 days lost/reset",
+      "recovery_method": "Manual genesis block creation from checkpoint",
+      "tokens_affected": 648000000,
+      "current_usd_value": 38300000,
+      "transparency": "Incident undisclosed for 2.5+ years; confirmed or revealed only in 2024 Twitter exchange",
+      "blockchain_data_impact": "All pre-restart transactions permanently deleted from blockchain"
+    },
+    
+    "phase_3_chromatic": {
+      "name": "Chromatic Phase (Current)",
+      "date_start": "2021-11-22",
+      "date_end": "~2057-2058",
+      "duration_years": 36,
+      "initial_reward": "440 KAS/sec (after first hard fork)",
+      "current_reward_oct_2025": "41.2 KAS/sec (after ~48 months of decay)",
+      "decay_mechanism": "Geometric: monthly factor of (1/2)^(1/12) = 0.94387 (5.6% monthly decrease)",
+      "total_to_emit": "27600026601 KAS (max supply minus pre-deflationary 648M reset)",
+      "total_mined_to_date": "26850000000 KAS (93.5% complete)",
+      "total_remaining": "1854026601 KAS (6.5%)",
+      "estimated_completion": "2057-2058",
+      "insider_advantage": "High (Nov 2021-July 2023 GPU phase) transitioning to Normal (July 2023+ ASIC era)",
+      "asic_adoption": "First ASIC (IceRiver) March 2023; Bitmain Antminer July 2023"
+    }
+  },
+  
+  "early_distribution_analysis": {
+    "circular_supply_composition": {
+      "date": "2025-10-26",
+      "circulating_supply": 26850000000,
+      "from_daglabs_disclosed_mining": 717500000,
+      "from_daglabs_disclosed_mining_pct": 2.7,
+      "from_network_restart_reset": 648000000,
+      "from_network_restart_reset_pct": 2.4,
+      "from_other_early_mining_unverifiable": 24484500000,
+      "from_other_early_mining_unverifiable_pct": 91.2,
+      "note": "The 91.2% 'other mining' includes the 7.8B KAS from missing data period (Nov 2021-May 2022) plus all subsequent mining through Oct 2025. Exact distribution of the 7.8B KAS unverifiable."
+    },
+    
+    "allocation_dominance_timeline": {
+      "nov_2021_genesis": {
+        "mining_supply": 0,
+        "allocation_supply": 0,
+        "allocation_dominance_pct": "N/A - pure fair launch"
+      },
+      "may_2022_6_months": {
+        "mining_supply": 7800000000,
+        "estimated_daglabs_portion_disclosed": 717500000,
+        "allocation_supply": 0,
+        "allocation_dominance_pct": 0,
+        "note": "All supply from mining; no pre-allocated tokens"
+      },
+      "oct_2025_47_months": {
+        "mining_supply": 26850000000,
+        "allocation_supply": 0,
+        "mining_dominance_pct": 100,
+        "allocation_dominance_pct": 0,
+        "note": "100% of supply from mining; DAGLabs dissolved shortly after mainnet launch per official sources"
+      }
+    }
+  },
+  
+  "miner_parity_analysis": {
+    "parity_milestone": "Not Applicable",
+    "reason": "Kaspa has zero pre-mine. 'Miner parity' concept does not apply. All supply distributes through mining only.",
+    "caveat": "However, the concept of 'insider mining parity' is relevant: public miners never achieved cost parity with DAGLabs operations. DAGLabs mined at $0.0001-0.0003/KAS using $8M capital and wholesale cloud rates. Retail GPU miners entering at Dec 2021+ faced prices of $0.0005-0.003/KAS, representing 5-30x cost disadvantage. This cost disadvantage cannot be overcome by subsequent mining."
+  },
+  
+  "comparison_to_bitcoin_fairness_baseline": {
+    "bitcoin_criteria": {
+      "no_premine": "✓ Pass",
+      "transparent_blockchain_from_genesis": "✗ FAIL - 6 months missing",
+      "no_vc_funding_non_disclosure": "✗ FAIL - $8M undisclosed",
+      "equal_hardware_access": "✗ FAIL - ex-Bitmain VP + $8M capital",
+      "public_announcement_timeliness": "✗ FAIL - 19-day delay to BitcoinTalk",
+      "no_network_crashes_requiring_restart": "✗ FAIL - day 14 crash, 648M KAS reset",
+      "founder_holdings_verifiable": "✗ FAIL - DAGLabs mining unverifiable",
+      "full_nodes_complete_history": "✗ FAIL - zero nodes with complete history"
+    },
+       
+    "verdict": "While Kaspa technically has 'no pre-mine,' it fails multiple critical fairness criteria. The combination of missing blockchain data, undisclosed VC funding, delayed announcements, and insider hardware advantage creates a substantive fairness gap from Bitcoin's standard."
+  },
+  
+   
+  "transparency_notes": [
+    "27% of supply (7.8B KAS) mined during missing blockchain data period - unverifiable distribution",
+    "No full nodes worldwide have complete transaction history from genesis",
+    "DAGLabs disclosed 700-850M KAS mining only in wiki, years after launch",
+    "$8M Polychain Capital funding not disclosed in initial announcements despite institutional backing",
+    "Network restart (day 14) resulting in 648M KAS loss undisclosed until 2024",
+    "BitcoinTalk announcement delayed 19 days after launch and 7 days after network restart",
+    "Developer transparency issues: Questioned investigator kicked from Discord; missing data acknowledged only when confronted",
+    "Kaspa now community-driven after DAGLabs dissolution; active development continues (July 2025 DagKnight milestones)"
+  ],
+  
+   "confidence_caveat": "All findings limited by missing blockchain data (Nov 7, 2021 - May 8, 2022). No forensic analysis can verify early distribution claims. Report represents best available evidence but inherently incomplete."
+}

@@ -9,9 +9,9 @@
   
   "supply": {
     "max_supply": 21000000,
-    "current_supply": 19562000,
-    "pct_mined": 93.15,
-    "emission_remaining": 1438000
+    "current_supply": 19940434,
+    "pct_mined": 94.95,
+    "emission_remaining": 1059566
   },
   
   "emission": {
@@ -52,11 +52,11 @@
   },
   
   "market_data": {
-    "current_price_usd": 67500,
-    "fdmc": 1417500000000,
-    "circulating_mcap": 1320435000000,
-    "daily_volume": 28500000000,
-    "token_velocity": 0.022
+    "current_price_usd": 114812,
+    "fdmc": 2290896242149,
+    "circulating_mcap": 2290896242149,
+    "daily_volume": 44931174721,
+    "token_velocity": 0.019
   },
   
   "data_sources": {
@@ -69,8 +69,7 @@
       "https://blockchair.com/bitcoin"
     ],
     "market_data": [
-      "https://www.coingecko.com/en/coins/bitcoin",
-      "https://coinmarketcap.com/currencies/bitcoin/"
+      "https://www.coingecko.com/en/coins/bitcoin"
     ],
     "mining_data": [
       "https://www.blockchain.com/charts/hash-rate",
@@ -84,5 +83,5 @@
     "Complete transparency in emission schedule"
   ],
   
-  "last_updated": "2025-10-25"
+  "last_updated": "2025-10-26"
 }

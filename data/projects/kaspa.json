@@ -1,157 +1,142 @@
 {
-  "project": "kaspa",
-  "ticker": "KAS",
-  "consensus": "PoW",
-  "algorithm": "KHeavyHash",
-  "launch_date": "2021-11-07",
-  "launch_type": "fair_with_suspicion",
-  "has_premine": false,
-  
-  "supply": {
-    "max_supply": 28704026601,
-    "current_supply": 26850000000,
-    "pct_mined": 93.5,
-    "emission_remaining": 1854026601
-  },
-  
-  "emission": {
-    "current_block_reward": 4.12,
-    "block_time_seconds": 0.1,
-    "daily_emission": 3614400,
-    "annual_inflation_pct": 8.5,
-    
-    "halving_schedule": [
-      {
-        "event": "Year 1 reduction",
-        "date": "2022-05-08",
-        "description": "Initial reward 440 KAS/sec → 220 KAS/sec",
-        "reward_before_per_second": 440,
-        "reward_after_per_second": 220
-      },
-      {
-        "event": "Year 2 reduction",
-        "date": "2023-05-08",
-        "description": "220 KAS/sec → 110 KAS/sec",
-        "reward_before_per_second": 220,
-        "reward_after_per_second": 110
-      },
-      {
-        "event": "Year 3 reduction",
-        "date": "2024-05-08",
-        "description": "110 KAS/sec → 55 KAS/sec",
-        "reward_before_per_second": 110,
-        "reward_after_per_second": 55
-      },
-      {
-        "event": "Year 4 reduction (current)",
-        "date": "2025-05-08",
-        "description": "55 KAS/sec → 27.5 KAS/sec (Oct 2025: currently 41.2 KAS/sec)",
-        "reward_before_per_second": 55,
-        "reward_after_per_second": 27.5
-      }
-    ],
-    
-    "emission_notes": "Kaspa uses continuous geometric decay (not discrete halvings). Monthly reduction factor: (1/2)^(1/12) = 0.94387 (5.6% monthly decrease). This creates a chromatic scale pattern in emission reduction. Pre-deflationary phase (Nov 7-May 8, 2022): 500 KAS/sec constant. Chromatic phase (May 2022-~2058): Smooth exponential decay."
-  },
-  
-  "premine": null,
-  "genesis_allocation": "allocations/kaspa/genesis.json",
-  
-  "mining": {
-    "current_hashrate_ph": 650,
-    "current_difficulty": 716000000000000,
-    "asic_resistant": false,
-    "dominant_hardware": "Bitmain Antminer KS5 Pro (21 TH/s, 3154W)",
-    
-    "cost_to_mine_one_unit": {
-      "electricity_usd": 0.027,
-      "hardware_amortization_usd": 0.011,
-      "total_cost_usd": 0.038,
-      "notes": "Oct 2025 ASIC era: KS5 Pro at $0.10/kWh. GPU era (Nov 2021-July 2023): costs were $0.0001-0.0003/KAS, representing 100-300x profit margin. Early DAGLabs mining cost was fraction of GPU retail prices due to wholesale cloud infrastructure rates."
+    "project": "kaspa",
+    "ticker": "KAS",
+    "consensus": "PoW",
+    "algorithm": "KHeavyHash",
+    "launch_date": "2021-11-07",
+    "launch_type": "fair_with_suspicion",
+    "has_premine": false,
+    "supply": {
+        "max_supply": 28704026601,
+        "current_supply": 26850000000,
+        "pct_mined": 93.5,
+        "emission_remaining": 1854026601
     },
-    
-    "decentralization": {
-      "active_pools": 30,
-      "top_5_pools_pct": 78,
-      "top_5_pools_breakdown": {
-        "f2pool_pct": 23,
-        "viabtc_pct": 22,
-        "humpool_pct": 21,
-        "whalepool_pct": 6,
-        "k1pool_pct": 6
-      },
-      "top_5_pools_note": "Current (Oct 2025): f2pool 23%, viabtc 22%, humpool 21%, whalepool 6%, k1pool 6%. Source: https://miningpoolstats.stream/kaspa. Historical comparison shows significant decentralization improvement from Dec 2021 peak of 74% in single pool (Poolflare).",
-      "largest_pool_current": {
-        "name": "f2pool",
-        "pct": 23,
-        "date": "2025-10-26"
-      },
-      "largest_pool_historical": {
-        "name": "Poolflare",
-        "pct": 74,
-        "date": "2021-12",
-        "note": "Historical data showing major improvement in decentralization over time"
-      },
-      "nakamoto_coefficient": 4,
-      "nakamoto_note": "Minimum 4 pools needed for 51% attack (improved from historical 2-3). This represents significant decentralization progress."
+    "emission": {
+        "current_block_reward": 4.12,
+        "block_time_seconds": 0.1,
+        "daily_emission": 3614400,
+        "annual_inflation_pct": 8.5,
+        "halving_schedule": [
+            {
+                "event": "Year 1 reduction",
+                "date": "2022-05-08",
+                "description": "Initial reward 440 KAS/sec → 220 KAS/sec",
+                "reward_before_per_second": 440,
+                "reward_after_per_second": 220
+            },
+            {
+                "event": "Year 2 reduction",
+                "date": "2023-05-08",
+                "description": "220 KAS/sec → 110 KAS/sec",
+                "reward_before_per_second": 220,
+                "reward_after_per_second": 110
+            },
+            {
+                "event": "Year 3 reduction",
+                "date": "2024-05-08",
+                "description": "110 KAS/sec → 55 KAS/sec",
+                "reward_before_per_second": 110,
+                "reward_after_per_second": 55
+            },
+            {
+                "event": "Year 4 reduction (current)",
+                "date": "2025-05-08",
+                "description": "55 KAS/sec → 27.5 KAS/sec (Oct 2025: currently 41.2 KAS/sec)",
+                "reward_before_per_second": 55,
+                "reward_after_per_second": 27.5
+            }
+        ],
+        "emission_notes": "Kaspa uses continuous geometric decay (not discrete halvings). Monthly reduction factor: (1/2)^(1/12) = 0.94387 (5.6% monthly decrease). This creates a chromatic scale pattern in emission reduction. Pre-deflationary phase (Nov 7-May 8, 2022): 500 KAS/sec constant. Chromatic phase (May 2022-~2058): Smooth exponential decay."
     },
-  },
-  
-  "market_data": {
-    "current_price_usd": 0.0591,
-    "current_date": "2025-10-26",
-    "fdmc": 1695000000,
-    "circulating_mcap": 1590000000,
-    "daily_volume": 42000000,
-    "token_velocity": 0.0264,
-    "ath_price_usd": 0.2089,
-    "ath_date": "2024-08-01",
-    "ath_mcap": 5600000000,
-    "current_decline_from_ath_pct": -71.7,
-    "recent_high_2025": 0.39,
-    "recent_high_date": "2025-10-06",
-    "recent_high_context": "Following Binance futures and staking integration announcement",
-    "all_time_low_usd": 0.000213,
-    "all_time_low_date": "2022-07"
-  },
-  
-  "data_sources": {
-    "official_docs": [
-      "https://kaspa.org",
-      "https://github.com/kaspanet/kaspad",
-      "https://docs.kaspa.org"
-    ],
-    
-    "block_explorer": [
-      "https://explorer.kaspa.org",
-      "https://blockchair.com/kaspa"
-    ],
-    
-    "market_data": [
-      "https://www.coingecko.com/en/coins/kaspa"
-    ],
-    
-    "mining_data": [
-      "https://kaspa.herominers.com/pool/stats",
-      "https://2miners.com/kas-mining-pool"
-    ],  
-  },
-  
-  "notes": [
-    "CRITICAL: First 6 months of blockchain history (Nov 2021 - May 2022) permanently missing - 7.8 billion KAS (27% of supply, $410M current value) cannot be verified as fairly distributed",
-    "No technical pre-mine (0 KAS allocated before genesis), but substantial structural insider advantages during early GPU mining phase",
-    "DAGLabs was dissolved shortly after mainnet launch in November 2021 per official sources; Polychain Capital and Polychain have waived intellectual property rights. Kaspa is now a community-run project.",
-    "Network restart at day 14 (Nov 22, 2021) resulted in loss/reset of ~648M KAS mined in first 14 days; incident undisclosed for years (only revealed in 2024 Twitter exchange)",
-    "Ex-VP of Bitmain (Gadi Glickberg) joined DAGLabs 7 months before launch - represented unprecedented hardware expertise and potential access to manufacturing capacity",
-    "BitcoinTalk announcement delayed 19 days after launch and 7 days after network restart - public mining community had delayed visibility compared to informed insiders",
-    "20-month GPU-only mining period (Nov 2021 - July 2023) before ASIC availability allowed organized entities with capital and hardware expertise to prepare mining operations",
-    "Developer transparency failures: Questioned investigator was kicked from Discord and question deleted; missing data acknowledged only when confronted with technical analysis",
-    "Forensic team admitted hijacking attack was technically feasible without full nodes - attack vector would allow theft during missing data period (Nov 2021 - May 2022)",
-    "Multiple user reports of missing coins (disappearing without visible outgoing transactions) during the missing blockchain data period; claims unverified due to data gap",
-    "Mining profitability at $0.0591/KAS: ASIC miners at cost of $0.038/KAS showing healthy 55% margin at $0.10/kWh electricity. Negative margins only above $0.12/kWh.",
-    "Pool decentralization significantly improved: Oct 2025 top 5 pools = 78% combined (f2pool 23%, viabtc 22%, humpool 21%, whalepool 6%, k1pool 6%) vs. Dec 2021 peak of 74% in single pool (Poolflare)",
-    "Kaspa blockchain continues autonomous operation with active community development. No central authority extraction post-DAGLabs dissolution."
-  ],
-  
-  "last_updated": "2025-10-25"
+    "premine": null,
+    "genesis_allocation": "allocations/kaspa/genesis.json",
+    "mining": {
+        "current_hashrate_ph": 650,
+        "current_difficulty": 716000000000000,
+        "asic_resistant": false,
+        "dominant_hardware": "Bitmain Antminer KS5 Pro (21 TH/s, 3154W)",
+        "cost_to_mine_one_unit": {
+            "electricity_usd": 0.027,
+            "hardware_amortization_usd": 0.011,
+            "total_cost_usd": 0.038,
+            "notes": "Oct 2025 ASIC era: KS5 Pro at $0.10/kWh. GPU era (Nov 2021-July 2023): costs were $0.0001-0.0003/KAS, representing 100-300x profit margin. Early DAGLabs mining cost was fraction of GPU retail prices due to wholesale cloud infrastructure rates."
+        },
+        "decentralization": {
+            "active_pools": 30,
+            "top_5_pools_pct": 78,
+            "top_5_pools_breakdown": {
+                "f2pool_pct": 23,
+                "viabtc_pct": 22,
+                "humpool_pct": 21,
+                "whalepool_pct": 6,
+                "k1pool_pct": 6
+            },
+            "top_5_pools_note": "Current (Oct 2025): f2pool 23%, viabtc 22%, humpool 21%, whalepool 6%, k1pool 6%. Source: https://miningpoolstats.stream/kaspa. Historical comparison shows significant decentralization improvement from Dec 2021 peak of 74% in single pool (Poolflare).",
+            "largest_pool_current": {
+                "name": "f2pool",
+                "pct": 23,
+                "date": "2025-10-26"
+            },
+            "largest_pool_historical": {
+                "name": "Poolflare",
+                "pct": 74,
+                "date": "2021-12",
+                "note": "Historical data showing major improvement in decentralization over time"
+            },
+            "nakamoto_coefficient": 4,
+            "nakamoto_note": "Minimum 4 pools needed for 51% attack (improved from historical 2-3). This represents significant decentralization progress."
+        },
+        "market_data": {
+            "current_price_usd": 0.0591,
+            "current_date": "2025-10-26",
+            "fdmc": 1695000000,
+            "circulating_mcap": 1590000000,
+            "daily_volume": 42000000,
+            "token_velocity": 0.0264,
+            "ath_price_usd": 0.2089,
+            "ath_date": "2024-08-01",
+            "ath_mcap": 5600000000,
+            "current_decline_from_ath_pct": -71.7,
+            "recent_high_2025": 0.39,
+            "recent_high_date": "2025-10-06",
+            "recent_high_context": "Following Binance futures and staking integration announcement",
+            "all_time_low_usd": 0.000213,
+            "all_time_low_date": "2022-07"
+        },
+        "data_sources": {
+            "official_docs": [
+                "https://kaspa.org",
+                "https://github.com/kaspanet/kaspad",
+                "https://docs.kaspa.org"
+            ],
+            "block_explorer": [
+                "https://explorer.kaspa.org",
+                "https://blockchair.com/kaspa"
+            ],
+            "market_data": [
+                "https://www.coingecko.com/en/coins/kaspa"
+            ],
+            "mining_data": [
+                "https://kaspa.herominers.com/pool/stats",
+                "https://2miners.com/kas-mining-pool"
+            ]
+        },
+        "notes": [
+            "CRITICAL: First 6 months of blockchain history (Nov 2021 - May 2022) permanently missing - 7.8 billion KAS (27% of supply, $410M current value) cannot be verified as fairly distributed",
+            "No technical pre-mine (0 KAS allocated before genesis), but substantial structural insider advantages during early GPU mining phase",
+            "DAGLabs was dissolved shortly after mainnet launch in November 2021 per official sources; Polychain Capital and Polychain have waived intellectual property rights. Kaspa is now a community-run project.",
+            "Network restart at day 14 (Nov 22, 2021) resulted in loss/reset of ~648M KAS mined in first 14 days; incident undisclosed for years (only revealed in 2024 Twitter exchange)",
+            "Ex-VP of Bitmain (Gadi Glickberg) joined DAGLabs 7 months before launch - represented unprecedented hardware expertise and potential access to manufacturing capacity",
+            "BitcoinTalk announcement delayed 19 days after launch and 7 days after network restart - public mining community had delayed visibility compared to informed insiders",
+            "20-month GPU-only mining period (Nov 2021 - July 2023) before ASIC availability allowed organized entities with capital and hardware expertise to prepare mining operations",
+            "Developer transparency failures: Questioned investigator was kicked from Discord and question deleted; missing data acknowledged only when confronted with technical analysis",
+            "Forensic team admitted hijacking attack was technically feasible without full nodes - attack vector would allow theft during missing data period (Nov 2021 - May 2022)",
+            "Multiple user reports of missing coins (disappearing without visible outgoing transactions) during the missing blockchain data period; claims unverified due to data gap",
+            "Mining profitability at $0.0591/KAS: ASIC miners at cost of $0.038/KAS showing healthy 55% margin at $0.10/kWh electricity. Negative margins only above $0.12/kWh.",
+            "Pool decentralization significantly improved: Oct 2025 top 5 pools = 78% combined (f2pool 23%, viabtc 22%, humpool 21%, whalepool 6%, k1pool 6%) vs. Dec 2021 peak of 74% in single pool (Poolflare)",
+            "Kaspa blockchain continues autonomous operation with active community development. No central authority extraction post-DAGLabs dissolution."
+        ],
+        "last_updated": "2025-10-25"
+    }
 }

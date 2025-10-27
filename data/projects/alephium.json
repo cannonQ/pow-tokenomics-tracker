@@ -1,0 +1,186 @@
+{
+  "project": "alephium",
+  "ticker": "ALPH",
+  "consensus": "PoW",
+  "algorithm": "Proof-of-Less-Work (PoLW)",
+  "launch_date": "2021-11-08",
+  "launch_type": "premine",
+  "has_premine": true,
+  
+  "supply": {
+    "max_supply": 1000000000,
+    "current_supply": 212000000,
+    "pct_mined": 21.2,
+    "emission_remaining": 788000000
+  },
+  
+  "emission": {
+    "current_block_reward": 0.19,
+    "block_time_seconds": 8,
+    "daily_emission": 33091,
+    "annual_inflation_pct": 11.2,
+    
+    "halving_schedule": [
+      {
+        "event": "continuous_emission_curve",
+        "description": "No discrete halvings - smooth continuous exponential decay (not step-function reductions)",
+        "source_citation": "Alephium doc, Emissions section: Unlike Bitcoin's discrete halving events, Alephium uses continuous emission adjustment."
+      },
+      {
+        "event": "emission_mechanics",
+        "description": "Reward determined by minimum of time-based and hashrate-based curves",
+        "time_based_curve": "Decreased from 7.5 ALPH to 2.5 ALPH per block period over first 4 years (Nov 2021-Nov 2025), then fixes at 2.5 ALPH permanently",
+        "hashrate_based_curve": "Scales dynamically based on network hashrate; range 0-7.5 ALPH with 3.75 ALPH minimum guarantee",
+        "source_citation": "Alephium doc, Emissions section: Block rewards are determined by the minimum of time-based and hashrate-based curves. The time-based component decreased from 7.5 ALPH to 2.5 ALPH per block period over the first four years (November 2021 - November 2025), then stabilizes at 2.5 ALPH permanently."
+      },
+      {
+        "event": "year_4_stabilization",
+        "date": "2025-11-08",
+        "description": "Emission curve enters stabilized phase",
+        "phase": "Transition from declining phase (Year 0-4) to stable emissions",
+        "source_citation": "Alephium doc, Emissions section: The protocol has completed its primary emission decline phase (Year 0-4) and is now in the stabilized emission period."
+      },
+      {
+        "event": "miner_parity_milestone",
+        "date": "2031-04-01",
+        "description": "MINERS ACCUMULATE 140M ALPH (equal to premine allocation)",
+        "cumulative_mined_at_parity": 140000000,
+        "premine_target": 140000000,
+        "current_mined_oct_2025": 81000000,
+        "remaining_to_parity": 59000000,
+        "daily_emission_rate": 33091,
+        "calculation": "59,000,000 ALPH ÷ 33,091 ALPH per day = 1,782 days = 4.88 years from Oct 25, 2025 = early April 2031",
+        "years_to_parity_from_oct_2025": 5.6,
+        "significance": "Decentralization inflection point - mining supply matches total genesis allocation; miners become majority token holders",
+        "source_citation": "Alephium doc, Conclusion: The April-May 2031 timeline for mining-to-premine parity marks when cumulative PoW emissions will match centralized allocations, a 9.5-year journey from mainnet launch. Also from Key Metrics section: Projected total by 2030: 135M ALPH (15.7% of mining allocation)."
+      },
+      {
+        "event": "danube_upgrade_impact",
+        "date": "2025-07-01",
+        "description": "July 2025 Danube upgrade removed 1B hard cap, introduced unlimited tail emissions",
+        "impact_on_supply": "Removed original 1B maximum; now unlimited tail emissions similar to Monero",
+        "impact_on_fdmc": "Traditional FDMC calculation becomes undefined post-upgrade",
+        "source_citation": "Alephium doc, Allocations section: The July 2025 Danube upgrade introduced unlimited supply with tail emissions after the initial ~80-year mining period."
+      },
+      {
+        "event": "mining_allocation_completion",
+        "date_estimated": "2101-11-08",
+        "description": "Estimated completion of 860M mining allocation (86% of original 1B cap)",
+        "duration_years": 80,
+        "notes": "Document states 80-82 year duration; 80 years from Nov 2021 = Nov 2101. Tail emissions continue indefinitely post-Danube.",
+        "source_citation": "Alephium doc, Vesting/Genesis Analysis: The remaining 860 million (86%) was allocated to mining rewards over approximately 80-82 years."
+      }
+    ]
+  },
+  
+  "premine": "allocations/alephium/genesis.json",
+  "genesis_allocation": "allocations/alephium/genesis.json",
+  
+  "mining": {
+    "current_hashrate_ph": 19.89,
+    "current_hashrate_unit": "petahashes/second",
+    "current_hashrate_note": "Upper bound of range; majority from untracked solo mining",
+    "current_difficulty": null,
+    "asic_resistant": false,
+    "dominant_hardware": [
+      "Bitmain Antminer AL1 Pro (16.6 TH/s, 3730W, industrial)",
+      "Goldshell AL Box III (1.25 TH/s, 600W, mid-range)",
+      "IceRiver AL0 (400 GH/s, 100W, entry-level at $619)"
+    ],
+    
+    "cost_to_mine_one_alph": {
+      "electricity_usd": 0.025,
+      "hardware_amortization_usd": 0.01,
+      "total_cost_usd": 0.035,
+      "notes": "Middle estimate for ASIC mining. Range $0.03-0.04 depending on hardware and electricity costs ($0.06-0.20/kWh). Entry-level AL0 costs $0.50-0.60/ALPH; industrial AL1 Pro achieves $0.02-0.03/ALPH at low electricity."
+    },
+    
+    "decentralization": {
+      "tracked_pools_total_pct_of_network": 78,
+      "top_5_tracked_pools": [
+        {
+          "rank": 1,
+          "name": "f2pool",
+          "pct_of_tracked": 54,
+          "pct_of_total_network": 42,
+          "note": "Largest pool; dominates network hashrate"
+        },
+        {
+          "rank": 2,
+          "name": "HeroMiners",
+          "pct_of_tracked": 22,
+          "pct_of_total_network": 17
+        },
+        {
+          "rank": 3,
+          "name": "Kryptex",
+          "pct_of_tracked": 10,
+          "pct_of_total_network": 8
+        },
+        {
+          "rank": 4,
+          "name": "Whalepool",
+          "pct_of_tracked": 8,
+          "pct_of_total_network": 6
+        },
+        {
+          "rank": 5,
+          "name": "k1pool",
+          "pct_of_tracked": 6,
+          "pct_of_total_network": 5
+        }
+      ],
+      "top_5_pools_pct_of_network": 78,
+      "concentration_notes": "Top 5 pools account for 78% of tracked network hashrate. f2pool alone represents 42% of total network hashrate, creating significant centralization risk."
+    }
+  },
+  
+  "market_data": {
+    "current_price_usd": 0.15,
+    "price_date": "2025-10-25",
+    "fdmc": 150000000,
+    "fdmc_note": "Based on original 1B max supply (hard cap removed July 2025; FDMC undefined post-Danube upgrade)",
+    "circulating_mcap": 31800000,
+    "daily_volume": 250000,
+    "token_velocity": 0.0139,
+    "all_time_high": 3.86,
+    "all_time_high_date": "2024-02-01",
+    "current_drawdown_from_ath_pct": -96.1,
+    "market_rank": 960
+  },
+  
+  "data_sources": {
+    "official_docs": [
+      "https://alephium.org/",
+      "https://github.com/alephium/alephium",
+      "https://docs.alephium.org/"
+    ],
+    "block_explorer": [
+      "https://explorer.alephium.org/",
+      "https://alephscan.io/"
+    ],
+    "market_data": [
+      "https://www.coingecko.com/en/coins/alephium",
+      "https://coinmarketcap.com/currencies/alephium/"
+    ],
+    "mining_data": [
+      "https://alephium.herominers.com/",
+      "https://www.kryptex.org/en/mining/aleph"
+    ]
+  },
+  
+  "notes": [
+    "Premine of 140M ALPH (14% of original 1B max) at genesis with transparent on-chain vesting schedules",
+    "Emission uses smooth continuous exponential decay (not discrete halvings): time-based component declined from 7.5 ALPH to 2.5 ALPH per block period over 4 years (Nov 2021-Nov 2025), then stabilizes at 2.5 ALPH. Hashrate-based component adjusts dynamically based on network conditions.",
+    "July 2025 Danube upgrade: Removed 1B hard cap, introduced unlimited tail emissions similar to Monero's perpetual model; fundamentally altered supply narrative",
+    "Mining-to-premine parity: April-May 2031 when cumulative mining reaches 140M ALPH (matching premine). Currently 81M mined (Oct 2025); approximately 5.6 years and 59M ALPH away at current 33,091 daily emission rate.",
+    "Private sale: $3.6M raised Sep 2021 from approximately 80 contributors at $0.045-0.06/ALPH; 76 percent contributed less than $50K showing distributed participation. Led by Alphemy Capital, White Paper Capital, Archery Blockchain.",
+    "Proof-of-Less-Work (PoLW): Reduces energy consumption by approximately 87 percent vs traditional PoW. When hashrate exceeds 1 EH/s, miners must burn ALPH tokens to confirm blocks, internalizing mining costs.",
+    "Deflationary mechanics: 100 percent of transaction fees burned (Leman upgrade, Mar 2023); PoLW burning when hashrate exceeds 1 EH/s. Combined create ongoing deflationary pressure.",
+    "Mining pool concentration: Top 5 pools (f2pool, HeroMiners, Kryptex, Whalepool, k1pool) control 78 percent of tracked network hashrate. f2pool alone represents 42 percent of total network hashrate.",
+    "Foundation/Team/Ecosystem combined hold 60M ALPH (28.3 percent of current 212M supply); dilutes to approximately 22.6 percent by 2030 as mining adds 54M tokens. April-May 2031 parity date marks effective decentralization inflection.",
+    "Pure PoW: No staking, validators, or delegation. 16 sharded chains with 8-second block times (reduced from 16s post-Danube). Mining participation ranges from $619 entry-level (IceRiver AL0) to industrial (Bitmain Antminer AL1 Pro)."
+  ],
+  
+  "last_updated": "2025-10-25"
+}

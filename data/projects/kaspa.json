@@ -94,7 +94,7 @@
       },
       "nakamoto_coefficient": 4,
       "nakamoto_note": "Minimum 4 pools needed for 51% attack (improved from historical 2-3). This represents significant decentralization progress."
-    }
+    },
   },
   
   "market_data": {
@@ -128,7 +128,7 @@
     ],
     
     "market_data": [
-      "https://www.coingecko.com/en/coins/kaspa",
+      "https://www.coingecko.com/en/coins/kaspa"
     ],
     
     "mining_data": [

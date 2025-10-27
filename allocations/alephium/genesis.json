@@ -1,0 +1,338 @@
+{
+  "project": "alephium",
+  "has_premine": true,
+  "has_dev_tax": false,
+  "genesis_date": "2021-11-08",
+  
+  "total_genesis_allocation_pct": 14.0,
+  "available_for_mining_genesis_pct": 86.0,
+  
+  "dev_tax": {
+    "type": "none",
+    "pct_of_block_reward": 0,
+    "duration_blocks": null,
+    "recipient": null,
+    "notes": "No dev tax. 100% of transaction fees burned (Leman upgrade, Mar 2023). PoLW mechanism: miners burn ALPH tokens when network hashrate exceeds 1 EH/s, internalizing mining costs."
+  },
+  
+  "suspected_insider_mining": {
+    "enabled": false,
+    "timeframe": null,
+    "estimated_pct_of_supply": 0,
+    "evidence": [],
+    "verifiable": true,
+    "source_investigations": [],
+    "notes": "Fair launch for mining phase. All genesis allocations transparent with on-chain vesting contracts. No evidence of insider mining advantage or undisclosed early accumulation."
+  },
+  
+  "allocation_tiers": {
+    "tier_1_profit_seeking": {
+      "total_pct": 7.95,
+      "buckets": [
+        {
+          "name": "Private Sale",
+          "pct": 7.95,
+          "absolute_tokens": 79500000,
+          "cost_per_token_usd": 0.0525,
+          "date": "2021-09-01",
+          "vesting_months": 24,
+          "cliff_months": 0,
+          "tge_unlock_pct": 0,
+          "notes": "Quarterly vesting schedule, no cliff. Approximately 80 contributors with 76% participating at <$50K allocation size, indicating distributed investor base.",
+          
+          "investors": {
+            "known": [
+              {
+                "name": "Alphemy Capital",
+                "pct_of_round": "lead",
+                "tokens": "undisclosed"
+              },
+              {
+                "name": "White Paper Capital",
+                "pct_of_round": "participant",
+                "tokens": "undisclosed"
+              },
+              {
+                "name": "Archery Blockchain",
+                "pct_of_round": "participant",
+                "tokens": "undisclosed"
+              }
+            ],
+            "unknown_count": 77,
+            "total_investors": 80,
+            "notes": "Only 3 investors disclosed; 76% of contributors were <$50K participants; 50%+ were Swiss residents"
+          }
+        }
+      ]
+    },
+    
+    "tier_2_entity_controlled": {
+      "total_pct": 6.0,
+      "buckets": [
+        {
+          "name": "Treasury/Development Fund",
+          "pct": 3.0,
+          "absolute_tokens": 30000000,
+          "liquid_at_tge_pct": 0,
+          "vesting_months": 36,
+          "cliff_months": 12,
+          "vesting_note": "3-year cliff with quarterly vesting thereafter. Cliff completed Nov 2024; currently in quarterly vesting phase.",
+          
+          "multisig": {
+            "signers": ["Core team members"],
+            "threshold": "community-governed",
+            "transparency": "On-chain vesting contracts"
+          },
+          
+          "usage": "Protocol development, infrastructure, ecosystem support",
+          "transparency": "On-chain vesting"
+        },
+        {
+          "name": "Ecosystem Development Fund",
+          "pct": 3.0,
+          "absolute_tokens": 30000000,
+          "liquid_at_tge_pct": 0,
+          "vesting_months": 48,
+          "cliff_months": 12,
+          "vesting_note": "4-year cliff with quarterly vesting thereafter. Cliff completed Nov 8, 2025 (just finished); quarterly unlocks now commencing.",
+          
+          "multisig": {
+            "signers": ["Foundation signers"],
+            "threshold": "multi-sig governance",
+            "transparency": "On-chain vesting contracts"
+          },
+          
+          "usage": "Grants, partnerships, community initiatives, marketing",
+          "transparency": "On-chain vesting; community-aligned allocation"
+        }
+      ]
+    },
+    
+    "tier_3_community": {
+      "total_pct": 0,
+      "buckets": []
+    },
+    
+    "tier_4_liquidity": {
+      "total_pct": 0,
+      "buckets": []
+    }
+  },
+  
+  "vesting_waterfall": [
+    {
+      "month": 0,
+      "unlock_tokens": 0,
+      "pct_of_premine": 0,
+      "source": "TGE (no unlocks at genesis)",
+      "notes": "All genesis allocations locked; no TGE releases"
+    },
+    {
+      "month": 3,
+      "unlock_tokens": 6625000,
+      "pct_of_premine": 4.73,
+      "source": "Private Sale quarterly vesting begins (Q1)"
+    },
+    {
+      "month": 6,
+      "unlock_tokens": 6625000,
+      "pct_of_premine": 4.73,
+      "source": "Private Sale Q2"
+    },
+    {
+      "month": 12,
+      "unlock_tokens": 13250000,
+      "pct_of_premine": 9.46,
+      "source": "Team/Treasury cliff completed + quarterly unlock; Ecosystem cliff begins"
+    },
+    {
+      "month": 15,
+      "unlock_tokens": 7500000,
+      "pct_of_premine": 5.36,
+      "source": "Team/Treasury + Ecosystem quarterly unlocks"
+    },
+    {
+      "month": 24,
+      "unlock_tokens": 6625000,
+      "pct_of_premine": 4.73,
+      "source": "Private Sale final vesting complete"
+    },
+    {
+      "month": 48,
+      "unlock_tokens": 0,
+      "pct_of_premine": 0,
+      "source": "Ecosystem cliff completes (Nov 8, 2025); quarterly vesting continues thereafter",
+      "notes": "From month 48 onward, only quarterly ecosystem releases continue"
+    }
+  ],
+  
+  "fundraising_details": {
+    "total_raised_usd": 3600000,
+    "presale_price_usd": 0.0525,
+    "presale_date": "2021-09-01",
+    "presale_tokens_sold": 79500000,
+    "current_price_usd": 0.15,
+    "current_roi_nominal": 1.855,
+    "current_roi_pct": 185.5,
+    "roi_inflation_adjusted": 1.624,
+    "roi_inflation_adjusted_pct": 62.4,
+    "ath_price_usd": 3.86,
+    "ath_roi_nominal": 73.43,
+    "ath_roi_pct": 7343,
+    "current_drawdown_from_ath_pct": -96.1,
+    "notes": "Sep 2021 presale raised $3.6M; investors saw 7,343% peak returns at Feb 2024 ATH ($3.86), now down 96% to $0.15. Inflation-adjusted real returns from presale: +62.4% (factoring ~20% USD inflation Sep 2021 - Oct 2025)."
+  },
+  
+  "genesis_staking_analysis": {
+    "max_pct_staked_from_genesis": "N/A",
+    "staking_note": "Pure Proof-of-Work blockchain. No native staking, validators, or delegation mechanisms. No protocol-level staking from genesis allocations. Phase Two planned DeFi staking will be off-consensus (liquidity provision on DEXs), not consensus staking.",
+    "carry_forward_effects": "No staking multipliers or compounding from genesis. Allocations vest according to time-based schedules only. Unlike PoS systems where 70% staking generates 'free' 14% annual rewards (making 80M effectively 108M after 2 years), Alephium's PoW genesis holders receive zero compounding—their share gradually dilutes as mining adds new tokens."
+  },
+  
+  "miner_parity_analysis": {
+    "genesis_allocation_total": 140000000,
+    "cumulative_mined_to_date": 81000000,
+    "pct_toward_parity": 57.9,
+    "daily_emission_current": 33091,
+    "source_emission": "Alephium doc, Emissions section: 'As of October 2025, the network distributes approximately 0.18-0.19 ALPH per block across 16 sharded chains. With an 8-second block time... the network produces 172,800 blocks daily, emitting roughly 33,091 ALPH per day (~10.6M ALPH annually).'",
+    "parity_timeline": [
+      {
+        "date": "2025-10-25",
+        "cumulative_mined": 81000000,
+        "pct_of_genesis_premine": 57.9,
+        "status": "current"
+      },
+      {
+        "date": "2025-11-08",
+        "cumulative_mined": 83000000,
+        "pct_of_genesis_premine": 59.3,
+        "event": "Year 4 stabilization phase complete; time-based emission component fixes at 2.5 ALPH/period"
+      },
+      {
+        "date": "2027-01-01",
+        "cumulative_mined": 100000000,
+        "pct_of_genesis_premine": 71.4,
+        "status": "milestone",
+        "calculation": "81M + (33,091 × 365 × ~1.2 years) ≈ 100M"
+      },
+      {
+        "date": "2028-10-01",
+        "cumulative_mined": 120000000,
+        "pct_of_genesis_premine": 85.7,
+        "status": "milestone",
+        "calculation": "81M + (33,091 × 365 × ~2.8 years) ≈ 120M"
+      },
+      {
+        "date": "2031-04-01",
+        "cumulative_mined": 140000000,
+        "pct_of_genesis_premine": 100.0,
+        "event": "MINING-PREMINE PARITY ACHIEVED",
+        "days_from_oct_2025": 2034,
+        "years_from_oct_2025": 5.6,
+        "calculation": "59M remaining ÷ 33,091 daily = 1,782 days ≈ 5.6 years from Oct 25, 2025 → April 1, 2031",
+        "source": "Alephium doc, Section 'Timeline to Mining-Premine Parity': 'The April-May 2031 timeline for mining-to-premine parity marks when cumulative PoW emissions will match centralized allocations, a 9.5-year journey from mainnet launch.' Also from Key Metrics section: 'Projected total by 2030: 135M ALPH (15.7% of mining allocation). Emission progress: Currently 3.96 years into ~80-year mining schedule.'"
+      },
+      {
+        "date": "2031-05-01",
+        "cumulative_mined": 140000000,
+        "pct_of_genesis_premine": 100.0,
+        "event": "Alternative upper bound of parity window (late May 2031)"
+      }
+    ],
+    "parity_notes": "Mining supply will equal 140M genesis premine allocation between April-May 2031. At current 33,091 ALPH/day emission, this requires ~5.6 years from Oct 2025. Post-parity, all new supply accrues to miners; genesis holders face pure dilution. This marks the effective decentralization inflection point.",
+    "source_parity_date": "Alephium doc Conclusion: 'The April-May 2031 timeline for mining-to-premine parity marks when cumulative PoW emissions will match centralized allocations, a 9.5-year journey from mainnet launch.'"
+  },
+  
+  "five_year_projection_2030": {
+    "parties": [
+      {
+        "party": "Miners/Community",
+        "current_holdings": 81000000,
+        "current_pct": 38.2,
+        "projected_2030_holdings": 135000000,
+        "projected_2030_pct": 50.8,
+        "growth_factor": 1.67,
+        "dilution_factor": 0.38,
+        "notes": "+67% absolute growth; +13.2 percentage point share increase. Only party capturing new token issuance."
+      },
+      {
+        "party": "Private Investors",
+        "current_holdings": 62950000,
+        "current_pct": 29.7,
+        "projected_2030_holdings": 62950000,
+        "projected_2030_pct": 23.7,
+        "growth_factor": 1.0,
+        "dilution_factor": -0.2,
+        "notes": "No new tokens issued; share dilutes -20% as mining expands supply. Facing -32% relative share compression."
+      },
+      {
+        "party": "Treasury/Team",
+        "current_holdings": 30000000,
+        "current_pct": 14.2,
+        "projected_2030_holdings": 30000000,
+        "projected_2030_pct": 11.3,
+        "growth_factor": 1.0,
+        "dilution_factor": -0.18,
+        "notes": "No new tokens; relative share decreases from 14.2% to 11.3%. Cliff completed Nov 2024; in quarterly vesting through 2030."
+      },
+      {
+        "party": "Ecosystem Development",
+        "current_holdings": 30000000,
+        "current_pct": 14.2,
+        "projected_2030_holdings": 30000000,
+        "projected_2030_pct": 11.3,
+        "growth_factor": 1.0,
+        "dilution_factor": -0.18,
+        "notes": "No new tokens; relative share 14.2% → 11.3%. Cliff just completed Nov 8, 2025; quarterly unlocks continue through 2030."
+      },
+      {
+        "party": "Reserved Future Sales",
+        "current_holdings": 8000000,
+        "current_pct": 3.8,
+        "projected_2030_holdings": 8000000,
+        "projected_2030_pct": 3.0,
+        "growth_factor": 1.0,
+        "dilution_factor": -0.21,
+        "notes": "Deployed allocations; share decreases from 3.8% to 3.0%."
+      }
+    ],
+    "total_supply": {
+      "current": 212000000,
+      "projected_2030": 266000000,
+      "growth": 1.25,
+      "notes": "Supply grows +1.25x by 2030 (54M new mining emissions); 2030 represents ~2.4% completion of emission cycle (4.96 years into ~80-year schedule)."
+    },
+    "key_insight": "Unlike PoS systems where large holders capture 'free' compounding (70% staked earning 14% annually = 8% new token issuance to top holders), Alephium's PoW model distributes all new tokens exclusively to miners incurring real costs. Genesis holders face pure dilution with zero staking rewards. This structure favors long-term miners over early token holders."
+  },
+  
+  "decentralization_trajectory": {
+    "current_state": {
+      "foundation_ecosystem_combined_pct": 28.3,
+      "private_investors_pct": 29.7,
+      "miner_holdings_pct": 38.2,
+      "status": "Moderately centralized; genesis allocations still exceed miner accumulation"
+    },
+    "projected_2030": {
+      "foundation_ecosystem_combined_pct": 22.6,
+      "private_investors_pct": 23.7,
+      "miner_holdings_pct": 52.3,
+      "improvement": "Mining dominates; genesis holders diluted but still maintain minority control"
+    },
+    "projected_2031_parity": {
+      "foundation_ecosystem_combined_pct": 21.4,
+      "private_investors_pct": 22.8,
+      "miner_holdings_pct": 55.8,
+      "status": "Cumulative mining equals total genesis allocation; effective decentralization inflection point"
+    }
+  },
+  
+  "transparency_notes": [
+    "Private sale investors fully disclosed for major VCs (Alphemy Capital, White Paper Capital, Archery Blockchain); 77 of 80 contributors undisclosed",
+    "Individual investor allocations not publicly available; presale aggregated as single 79.5M ALPH allocation at $0.0525/token",
+    "Foundation/Team/Ecosystem allocations transparent with on-chain vesting contracts at genesis",
+    "All vesting schedules publicly documented and on-chain verifiable",
+    "No founder/team pre-allocation discretion; fixed genesis allocations with time-locks",
+    "Strong transparency baseline; community governance transition completed post-DAGLabs",
+    "July 2025 Danube upgrade parameters publicly discussed and community-approved"
+  ]
+}

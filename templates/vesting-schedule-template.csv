@@ -1,0 +1,12 @@
+# INSTRUCTIONS:
+# 1. Replace YYYY-MM-DD with actual dates (genesis_date + month offset)
+# 2. Replace bucket names with exact names from genesis.json allocation_tiers
+# 3. Include one row per bucket per month (if tier has 0 buckets, skip that tier)
+# 4. Extend to 60 months by default (add/remove rows as needed)
+# 5. unlock_pct_of_bucket is relative to that bucket's total allocation
+# 6. cumulative_pct_of_bucket should reach 100.00 at final vest month
+# 7. Delete this header section before running csv_to_vesting_json.py
+#
+month,date,tier,bucket_name,unlock_tokens,unlock_pct_of_bucket,cumulative_tokens,cumulative_pct_of_bucket,notes
+0,YYYY-MM-DD,tier_1_profit_seeking,Seed Round 1,0,0.00,0,0.00,Genesis - all locked
+0,YYYY-MM-DD,tier_2_entity_controlled,Foundation Treasury,0,0.00,0,0.00,Genesis - cliff begins

@@ -1,0 +1,143 @@
+{
+  "generated_date": "2025-10-28",
+  "description": "Cross-project comparison of genesis allocations and vesting schedules",
+  "milestone_columns": [
+    "tge",
+    "month_6",
+    "month_12",
+    "month_18",
+    "month_24",
+    "month_36",
+    "month_48"
+  ],
+  "projects": [
+    {
+      "name": "alephium",
+      "has_premine": true,
+      "genesis_date": "2021-11-08",
+      "total_genesis_allocation_tokens": 139500000,
+      "total_genesis_allocation_pct": 14.0,
+      "tier_composition": {
+        "tier_1_profit_seeking": {
+          "tokens": 79500000,
+          "pct_of_genesis": 56.99
+        },
+        "tier_2_entity_controlled": {
+          "tokens": 60000000,
+          "pct_of_genesis": 43.01
+        }
+      },
+      "milestones": {
+        "tge": {
+          "liquid_pct": 0.0,
+          "liquid_tokens": 0,
+          "date": "2021-11-08",
+          "tier_breakdown": {
+            "tier_1_profit_seeking": {
+              "pct": 0.0,
+              "tokens": 0
+            },
+            "tier_2_entity_controlled": {
+              "pct": 0.0,
+              "tokens": 0
+            }
+          }
+        },
+        "month_6": {
+          "liquid_pct": 14.25,
+          "liquid_tokens": 19875000,
+          "date": "2022-05-08",
+          "tier_breakdown": {
+            "tier_1_profit_seeking": {
+              "pct": 25.0,
+              "tokens": 19875000
+            },
+            "tier_2_entity_controlled": {
+              "pct": 0.0,
+              "tokens": 0
+            }
+          }
+        },
+        "month_12": {
+          "liquid_pct": 31.18,
+          "liquid_tokens": 43500000,
+          "date": "2022-11-08",
+          "tier_breakdown": {
+            "tier_1_profit_seeking": {
+              "pct": 50.0,
+              "tokens": 39750000
+            },
+            "tier_2_entity_controlled": {
+              "pct": 6.25,
+              "tokens": 3750000
+            }
+          }
+        },
+        "month_18": {
+          "liquid_pct": 50.81,
+          "liquid_tokens": 70875000,
+          "date": "2023-05-08",
+          "tier_breakdown": {
+            "tier_1_profit_seeking": {
+              "pct": 75.0,
+              "tokens": 59625000
+            },
+            "tier_2_entity_controlled": {
+              "pct": 18.75,
+              "tokens": 11250000
+            }
+          }
+        },
+        "month_24": {
+          "liquid_pct": 70.43,
+          "liquid_tokens": 98250000,
+          "date": "2023-11-08",
+          "tier_breakdown": {
+            "tier_1_profit_seeking": {
+              "pct": 100.0,
+              "tokens": 79500000
+            },
+            "tier_2_entity_controlled": {
+              "pct": 31.25,
+              "tokens": 18750000
+            }
+          }
+        },
+        "month_36": {
+          "liquid_pct": 0.0,
+          "liquid_tokens": 0,
+          "date": "2024-11-08",
+          "tier_breakdown": {
+            "tier_2_entity_controlled": {
+              "pct": 0.0,
+              "tokens": 0
+            }
+          }
+        },
+        "month_48": {
+          "liquid_pct": 1.79,
+          "liquid_tokens": 2500000,
+          "date": "2025-11-08",
+          "tier_breakdown": {
+            "tier_2_entity_controlled": {
+              "pct": 4.17,
+              "tokens": 2500000
+            }
+          }
+        }
+      },
+      "unlock_metrics": {
+        "avg_monthly_unlock_rate_year_1_pct": 2.6,
+        "avg_monthly_unlock_rate_year_2_pct": 3.27,
+        "full_unlock_month": 81,
+        "full_unlock_date": "2028-08-08",
+        "note": "Not fully vested - only 21.51% unlocked"
+      }
+    },
+    {
+      "name": "kaspa",
+      "has_premine": false,
+      "note": "No genesis allocation - 100% mining/staking distribution"
+    }
+  ]
+}

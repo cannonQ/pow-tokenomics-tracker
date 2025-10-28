@@ -1,0 +1,1052 @@
+{
+  "project": "alephium",
+  "genesis_date": "2021-11-08",
+  "total_genesis_allocation_tokens": 139500000,
+  "total_genesis_allocation_pct": 14.0,
+  "tier_totals": {
+    "tier_1_profit_seeking": {
+      "tokens": 79500000,
+      "pct_of_genesis": 56.99
+    },
+    "tier_2_entity_controlled": {
+      "tokens": 60000000,
+      "pct_of_genesis": 43.01
+    }
+  },
+  "monthly_schedule": [
+    {
+      "month": 0,
+      "date": "2021-11-08",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Private Sale",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Genesis - all allocations locked"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Genesis - 12 month cliff begins"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Genesis - 48 month cliff begins"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_tier": 0.0
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_tier": 0.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 0,
+        "cumulative_tokens": 0,
+        "cumulative_pct_of_genesis": 0.0
+      }
+    },
+    {
+      "month": 3,
+      "date": "2022-02-08",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Private Sale",
+          "unlock_tokens": 9937500,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 9937500,
+          "cumulative_pct_of_bucket": 12.5,
+          "notes": "Q1 quarterly vesting begins"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 9937500,
+          "cumulative_tokens": 9937500,
+          "cumulative_pct_of_tier": 12.5
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_tier": 0.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 9937500,
+        "cumulative_tokens": 9937500,
+        "cumulative_pct_of_genesis": 7.12
+      }
+    },
+    {
+      "month": 6,
+      "date": "2022-05-08",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Private Sale",
+          "unlock_tokens": 9937500,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 19875000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Q2 quarterly vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 9937500,
+          "cumulative_tokens": 19875000,
+          "cumulative_pct_of_tier": 25.0
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_tier": 0.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 9937500,
+        "cumulative_tokens": 19875000,
+        "cumulative_pct_of_genesis": 14.25
+      }
+    },
+    {
+      "month": 9,
+      "date": "2022-08-08",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Private Sale",
+          "unlock_tokens": 9937500,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 29812500,
+          "cumulative_pct_of_bucket": 37.5,
+          "notes": "Q3 quarterly vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 9937500,
+          "cumulative_tokens": 29812500,
+          "cumulative_pct_of_tier": 37.5
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_tier": 0.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 9937500,
+        "cumulative_tokens": 29812500,
+        "cumulative_pct_of_genesis": 21.37
+      }
+    },
+    {
+      "month": 12,
+      "date": "2022-11-08",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Private Sale",
+          "unlock_tokens": 9937500,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 39750000,
+          "cumulative_pct_of_bucket": 50.0,
+          "notes": "Q4 quarterly vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 3750000,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 3750000,
+          "cumulative_pct_of_bucket": 12.5,
+          "notes": "Cliff ends - first quarterly unlock"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 9937500,
+          "cumulative_tokens": 39750000,
+          "cumulative_pct_of_tier": 50.0
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 3750000,
+          "cumulative_tokens": 3750000,
+          "cumulative_pct_of_tier": 6.25
+        }
+      },
+      "total": {
+        "unlock_tokens": 13687500,
+        "cumulative_tokens": 43500000,
+        "cumulative_pct_of_genesis": 31.18
+      }
+    },
+    {
+      "month": 15,
+      "date": "2023-02-08",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Private Sale",
+          "unlock_tokens": 9937500,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 49687500,
+          "cumulative_pct_of_bucket": 62.5,
+          "notes": "Q5 quarterly vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 3750000,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 7500000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Quarterly unlock"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 9937500,
+          "cumulative_tokens": 49687500,
+          "cumulative_pct_of_tier": 62.5
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 3750000,
+          "cumulative_tokens": 7500000,
+          "cumulative_pct_of_tier": 12.5
+        }
+      },
+      "total": {
+        "unlock_tokens": 13687500,
+        "cumulative_tokens": 57187500,
+        "cumulative_pct_of_genesis": 40.99
+      }
+    },
+    {
+      "month": 18,
+      "date": "2023-05-08",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Private Sale",
+          "unlock_tokens": 9937500,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 59625000,
+          "cumulative_pct_of_bucket": 75.0,
+          "notes": "Q6 quarterly vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 3750000,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 11250000,
+          "cumulative_pct_of_bucket": 37.5,
+          "notes": "Quarterly unlock"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 9937500,
+          "cumulative_tokens": 59625000,
+          "cumulative_pct_of_tier": 75.0
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 3750000,
+          "cumulative_tokens": 11250000,
+          "cumulative_pct_of_tier": 18.75
+        }
+      },
+      "total": {
+        "unlock_tokens": 13687500,
+        "cumulative_tokens": 70875000,
+        "cumulative_pct_of_genesis": 50.81
+      }
+    },
+    {
+      "month": 21,
+      "date": "2023-08-08",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Private Sale",
+          "unlock_tokens": 9937500,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 69562500,
+          "cumulative_pct_of_bucket": 87.5,
+          "notes": "Q7 quarterly vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 3750000,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 50.0,
+          "notes": "Quarterly unlock"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 9937500,
+          "cumulative_tokens": 69562500,
+          "cumulative_pct_of_tier": 87.5
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 3750000,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_tier": 25.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 13687500,
+        "cumulative_tokens": 84562500,
+        "cumulative_pct_of_genesis": 60.62
+      }
+    },
+    {
+      "month": 24,
+      "date": "2023-11-08",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Private Sale",
+          "unlock_tokens": 9937500,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 79500000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Q8 quarterly vesting - COMPLETE"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 3750000,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 18750000,
+          "cumulative_pct_of_bucket": 62.5,
+          "notes": "Quarterly unlock"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 9937500,
+          "cumulative_tokens": 79500000,
+          "cumulative_pct_of_tier": 100.0
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 3750000,
+          "cumulative_tokens": 18750000,
+          "cumulative_pct_of_tier": 31.25
+        }
+      },
+      "total": {
+        "unlock_tokens": 13687500,
+        "cumulative_tokens": 98250000,
+        "cumulative_pct_of_genesis": 70.43
+      }
+    },
+    {
+      "month": 27,
+      "date": "2024-02-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 3750000,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 22500000,
+          "cumulative_pct_of_bucket": 75.0,
+          "notes": "Quarterly unlock"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 3750000,
+          "cumulative_tokens": 22500000,
+          "cumulative_pct_of_tier": 37.5
+        }
+      },
+      "total": {
+        "unlock_tokens": 3750000,
+        "cumulative_tokens": 22500000,
+        "cumulative_pct_of_genesis": 16.13
+      }
+    },
+    {
+      "month": 30,
+      "date": "2024-05-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 3750000,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 26250000,
+          "cumulative_pct_of_bucket": 87.5,
+          "notes": "Quarterly unlock"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 3750000,
+          "cumulative_tokens": 26250000,
+          "cumulative_pct_of_tier": 43.75
+        }
+      },
+      "total": {
+        "unlock_tokens": 3750000,
+        "cumulative_tokens": 26250000,
+        "cumulative_pct_of_genesis": 18.82
+      }
+    },
+    {
+      "month": 33,
+      "date": "2024-08-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Treasury/Development Fund",
+          "unlock_tokens": 3750000,
+          "unlock_pct_of_bucket": 12.5,
+          "cumulative_tokens": 30000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Quarterly unlock - COMPLETE"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 3750000,
+          "cumulative_tokens": 30000000,
+          "cumulative_pct_of_tier": 50.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 3750000,
+        "cumulative_tokens": 30000000,
+        "cumulative_pct_of_genesis": 21.51
+      }
+    },
+    {
+      "month": 36,
+      "date": "2024-11-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_tier": 0.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 0,
+        "cumulative_tokens": 0,
+        "cumulative_pct_of_genesis": 0.0
+      }
+    },
+    {
+      "month": 39,
+      "date": "2025-02-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_tier": 0.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 0,
+        "cumulative_tokens": 0,
+        "cumulative_pct_of_genesis": 0.0
+      }
+    },
+    {
+      "month": 42,
+      "date": "2025-05-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_tier": 0.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 0,
+        "cumulative_tokens": 0,
+        "cumulative_pct_of_genesis": 0.0
+      }
+    },
+    {
+      "month": 45,
+      "date": "2025-08-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_tier": 0.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 0,
+        "cumulative_tokens": 0,
+        "cumulative_pct_of_genesis": 0.0
+      }
+    },
+    {
+      "month": 48,
+      "date": "2025-11-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 2500000,
+          "cumulative_pct_of_bucket": 8.33,
+          "notes": "48-month cliff ends - first quarterly unlock"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 2500000,
+          "cumulative_pct_of_tier": 4.17
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 2500000,
+        "cumulative_pct_of_genesis": 1.79
+      }
+    },
+    {
+      "month": 51,
+      "date": "2026-02-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 5000000,
+          "cumulative_pct_of_bucket": 16.67,
+          "notes": "Quarterly unlock"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 5000000,
+          "cumulative_pct_of_tier": 8.33
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 5000000,
+        "cumulative_pct_of_genesis": 3.58
+      }
+    },
+    {
+      "month": 54,
+      "date": "2026-05-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 7500000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Quarterly unlock"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 7500000,
+          "cumulative_pct_of_tier": 12.5
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 7500000,
+        "cumulative_pct_of_genesis": 5.38
+      }
+    },
+    {
+      "month": 57,
+      "date": "2026-08-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 10000000,
+          "cumulative_pct_of_bucket": 33.33,
+          "notes": "Quarterly unlock"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 10000000,
+          "cumulative_pct_of_tier": 16.67
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 10000000,
+        "cumulative_pct_of_genesis": 7.17
+      }
+    },
+    {
+      "month": 60,
+      "date": "2026-11-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 12500000,
+          "cumulative_pct_of_bucket": 41.67,
+          "notes": "Quarterly unlock"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 12500000,
+          "cumulative_pct_of_tier": 20.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 12500000,
+        "cumulative_pct_of_genesis": 8.96
+      }
+    },
+    {
+      "month": 63,
+      "date": "2027-02-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 50.0,
+          "notes": "Quarterly unlock"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_tier": 25.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 15000000,
+        "cumulative_pct_of_genesis": 10.75
+      }
+    },
+    {
+      "month": 66,
+      "date": "2027-05-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 17500000,
+          "cumulative_pct_of_bucket": 58.33,
+          "notes": "Quarterly unlock"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 17500000,
+          "cumulative_pct_of_tier": 29.17
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 17500000,
+        "cumulative_pct_of_genesis": 12.54
+      }
+    },
+    {
+      "month": 69,
+      "date": "2027-08-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 20000000,
+          "cumulative_pct_of_bucket": 66.67,
+          "notes": "Quarterly unlock"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 20000000,
+          "cumulative_pct_of_tier": 33.33
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 20000000,
+        "cumulative_pct_of_genesis": 14.34
+      }
+    },
+    {
+      "month": 72,
+      "date": "2027-11-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 22500000,
+          "cumulative_pct_of_bucket": 75.0,
+          "notes": "Quarterly unlock"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 22500000,
+          "cumulative_pct_of_tier": 37.5
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 22500000,
+        "cumulative_pct_of_genesis": 16.13
+      }
+    },
+    {
+      "month": 75,
+      "date": "2028-02-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 25000000,
+          "cumulative_pct_of_bucket": 83.33,
+          "notes": "Quarterly unlock"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 25000000,
+          "cumulative_pct_of_tier": 41.67
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 25000000,
+        "cumulative_pct_of_genesis": 17.92
+      }
+    },
+    {
+      "month": 78,
+      "date": "2028-05-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 27500000,
+          "cumulative_pct_of_bucket": 91.67,
+          "notes": "Quarterly unlock"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 27500000,
+          "cumulative_pct_of_tier": 45.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 27500000,
+        "cumulative_pct_of_genesis": 19.71
+      }
+    },
+    {
+      "month": 81,
+      "date": "2028-08-08",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Ecosystem Development Fund",
+          "unlock_tokens": 2500000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 30000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Quarterly unlock - COMPLETE"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 2500000,
+          "cumulative_tokens": 30000000,
+          "cumulative_pct_of_tier": 50.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 30000000,
+        "cumulative_pct_of_genesis": 21.51
+      }
+    }
+  ],
+  "milestone_summary": {
+    "at_tge": {
+      "month": 0,
+      "date": "2021-11-08",
+      "liquid_pct_of_genesis": 0.0,
+      "liquid_tokens": 0
+    },
+    "at_month_6": {
+      "month": 6,
+      "date": "2022-05-08",
+      "liquid_pct_of_genesis": 14.25,
+      "liquid_tokens": 19875000
+    },
+    "at_month_12": {
+      "month": 12,
+      "date": "2022-11-08",
+      "liquid_pct_of_genesis": 31.18,
+      "liquid_tokens": 43500000
+    },
+    "at_month_18": {
+      "month": 18,
+      "date": "2023-05-08",
+      "liquid_pct_of_genesis": 50.81,
+      "liquid_tokens": 70875000
+    },
+    "at_month_24": {
+      "month": 24,
+      "date": "2023-11-08",
+      "liquid_pct_of_genesis": 70.43,
+      "liquid_tokens": 98250000
+    },
+    "at_month_36": {
+      "month": 36,
+      "date": "2024-11-08",
+      "liquid_pct_of_genesis": 0.0,
+      "liquid_tokens": 0
+    },
+    "at_month_48": {
+      "month": 48,
+      "date": "2025-11-08",
+      "liquid_pct_of_genesis": 1.79,
+      "liquid_tokens": 2500000
+    }
+  }
+}

@@ -1,0 +1,1267 @@
+{
+  "project": "kadena",
+  "genesis_date": "2020-01-15",
+  "total_genesis_allocation_tokens": 290300000,
+  "total_genesis_allocation_pct": 29.05,
+  "tier_totals": {
+    "tier_1_profit_seeking": {
+      "tokens": 90300000,
+      "pct_of_genesis": 31.11
+    },
+    "tier_2_entity_controlled": {
+      "tokens": 200000000,
+      "pct_of_genesis": 68.89
+    }
+  },
+  "monthly_schedule": [
+    {
+      "month": 0,
+      "date": "2020-01-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 375000,
+          "cumulative_pct_of_bucket": 8.33,
+          "notes": "Linear vesting begins (1/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 1433333,
+          "cumulative_pct_of_bucket": 8.33,
+          "notes": "Linear vesting begins (1/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 175000,
+          "cumulative_pct_of_bucket": 8.33,
+          "notes": "Linear vesting begins (1/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Reserve",
+          "unlock_tokens": 36500000,
+          "unlock_pct_of_bucket": 100.0,
+          "cumulative_tokens": 36500000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Immediate 100% unlock at genesis"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 833333,
+          "cumulative_pct_of_bucket": 2.78,
+          "notes": "Linear vesting begins (1/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 1666667,
+          "cumulative_pct_of_bucket": 0.83,
+          "notes": "Linear vesting begins (1/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 39316666,
+          "cumulative_tokens": 36500000,
+          "cumulative_pct_of_tier": 40.42
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 1666667,
+          "cumulative_pct_of_tier": 0.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 40983333,
+        "cumulative_tokens": 38166667,
+        "cumulative_pct_of_genesis": 13.15
+      }
+    },
+    {
+      "month": 1,
+      "date": "2020-02-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 750000,
+          "cumulative_pct_of_bucket": 16.67,
+          "notes": "Linear vesting (2/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 2866667,
+          "cumulative_pct_of_bucket": 16.67,
+          "notes": "Linear vesting (2/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 350000,
+          "cumulative_pct_of_bucket": 16.67,
+          "notes": "Linear vesting (2/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 1666667,
+          "cumulative_pct_of_bucket": 5.56,
+          "notes": "Linear vesting (2/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 3333333,
+          "cumulative_pct_of_bucket": 1.67,
+          "notes": "Linear vesting (2/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 2816666,
+          "cumulative_tokens": 2866667,
+          "cumulative_pct_of_tier": 3.17
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 3333333,
+          "cumulative_pct_of_tier": 1.67
+        }
+      },
+      "total": {
+        "unlock_tokens": 4483333,
+        "cumulative_tokens": 6200000,
+        "cumulative_pct_of_genesis": 2.14
+      }
+    },
+    {
+      "month": 2,
+      "date": "2020-03-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 1125000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Linear vesting (3/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 4300000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Linear vesting (3/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 525000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Linear vesting (3/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 2500000,
+          "cumulative_pct_of_bucket": 8.33,
+          "notes": "Linear vesting (3/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 5000000,
+          "cumulative_pct_of_bucket": 2.5,
+          "notes": "Linear vesting (3/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 2816666,
+          "cumulative_tokens": 4300000,
+          "cumulative_pct_of_tier": 4.76
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 5000000,
+          "cumulative_pct_of_tier": 2.5
+        }
+      },
+      "total": {
+        "unlock_tokens": 4483333,
+        "cumulative_tokens": 9300000,
+        "cumulative_pct_of_genesis": 3.2
+      }
+    },
+    {
+      "month": 3,
+      "date": "2020-04-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 1500000,
+          "cumulative_pct_of_bucket": 33.33,
+          "notes": "Linear vesting (4/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 5733333,
+          "cumulative_pct_of_bucket": 33.33,
+          "notes": "Linear vesting (4/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 700000,
+          "cumulative_pct_of_bucket": 33.33,
+          "notes": "Linear vesting (4/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 3333333,
+          "cumulative_pct_of_bucket": 11.11,
+          "notes": "Linear vesting (4/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 6666667,
+          "cumulative_pct_of_bucket": 3.33,
+          "notes": "Linear vesting (4/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 2816666,
+          "cumulative_tokens": 5733333,
+          "cumulative_pct_of_tier": 6.35
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 6666667,
+          "cumulative_pct_of_tier": 3.33
+        }
+      },
+      "total": {
+        "unlock_tokens": 4483333,
+        "cumulative_tokens": 12400000,
+        "cumulative_pct_of_genesis": 4.27
+      }
+    },
+    {
+      "month": 4,
+      "date": "2020-05-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 1875000,
+          "cumulative_pct_of_bucket": 41.67,
+          "notes": "Linear vesting (5/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 7166667,
+          "cumulative_pct_of_bucket": 41.67,
+          "notes": "Linear vesting (5/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 875000,
+          "cumulative_pct_of_bucket": 41.67,
+          "notes": "Linear vesting (5/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 4166667,
+          "cumulative_pct_of_bucket": 13.89,
+          "notes": "Linear vesting (5/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 8333333,
+          "cumulative_pct_of_bucket": 4.17,
+          "notes": "Linear vesting (5/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 2816666,
+          "cumulative_tokens": 7166667,
+          "cumulative_pct_of_tier": 7.94
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 8333333,
+          "cumulative_pct_of_tier": 4.17
+        }
+      },
+      "total": {
+        "unlock_tokens": 4483333,
+        "cumulative_tokens": 15500000,
+        "cumulative_pct_of_genesis": 5.34
+      }
+    },
+    {
+      "month": 5,
+      "date": "2020-06-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 2250000,
+          "cumulative_pct_of_bucket": 50.0,
+          "notes": "Linear vesting (6/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 8600000,
+          "cumulative_pct_of_bucket": 50.0,
+          "notes": "Linear vesting (6/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 1050000,
+          "cumulative_pct_of_bucket": 50.0,
+          "notes": "Linear vesting (6/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 5000000,
+          "cumulative_pct_of_bucket": 16.67,
+          "notes": "Linear vesting (6/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 10000000,
+          "cumulative_pct_of_bucket": 5.0,
+          "notes": "Linear vesting (6/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 2816666,
+          "cumulative_tokens": 8600000,
+          "cumulative_pct_of_tier": 9.52
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 10000000,
+          "cumulative_pct_of_tier": 5.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 4483333,
+        "cumulative_tokens": 18600000,
+        "cumulative_pct_of_genesis": 6.41
+      }
+    },
+    {
+      "month": 6,
+      "date": "2020-07-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 2625000,
+          "cumulative_pct_of_bucket": 58.33,
+          "notes": "Linear vesting (7/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 10033333,
+          "cumulative_pct_of_bucket": 58.33,
+          "notes": "Linear vesting (7/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 1225000,
+          "cumulative_pct_of_bucket": 58.33,
+          "notes": "Linear vesting (7/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 5833333,
+          "cumulative_pct_of_bucket": 19.44,
+          "notes": "Linear vesting (7/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 11666667,
+          "cumulative_pct_of_bucket": 5.83,
+          "notes": "Linear vesting (7/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 2816666,
+          "cumulative_tokens": 10033333,
+          "cumulative_pct_of_tier": 11.11
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 11666667,
+          "cumulative_pct_of_tier": 5.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 4483333,
+        "cumulative_tokens": 21700000,
+        "cumulative_pct_of_genesis": 7.48
+      }
+    },
+    {
+      "month": 7,
+      "date": "2020-08-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 3000000,
+          "cumulative_pct_of_bucket": 66.67,
+          "notes": "Linear vesting (8/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 11466667,
+          "cumulative_pct_of_bucket": 66.67,
+          "notes": "Linear vesting (8/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 1400000,
+          "cumulative_pct_of_bucket": 66.67,
+          "notes": "Linear vesting (8/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 6666667,
+          "cumulative_pct_of_bucket": 22.22,
+          "notes": "Linear vesting (8/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 13333333,
+          "cumulative_pct_of_bucket": 6.67,
+          "notes": "Linear vesting (8/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 2816666,
+          "cumulative_tokens": 11466667,
+          "cumulative_pct_of_tier": 12.7
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 13333333,
+          "cumulative_pct_of_tier": 6.67
+        }
+      },
+      "total": {
+        "unlock_tokens": 4483333,
+        "cumulative_tokens": 24800000,
+        "cumulative_pct_of_genesis": 8.54
+      }
+    },
+    {
+      "month": 8,
+      "date": "2020-09-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 3375000,
+          "cumulative_pct_of_bucket": 75.0,
+          "notes": "Linear vesting (9/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 12900000,
+          "cumulative_pct_of_bucket": 75.0,
+          "notes": "Linear vesting (9/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 1575000,
+          "cumulative_pct_of_bucket": 75.0,
+          "notes": "Linear vesting (9/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 7500000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Linear vesting (9/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 7.5,
+          "notes": "Linear vesting (9/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 2816666,
+          "cumulative_tokens": 12900000,
+          "cumulative_pct_of_tier": 14.29
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_tier": 7.5
+        }
+      },
+      "total": {
+        "unlock_tokens": 4483333,
+        "cumulative_tokens": 27900000,
+        "cumulative_pct_of_genesis": 9.61
+      }
+    },
+    {
+      "month": 9,
+      "date": "2020-10-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 3750000,
+          "cumulative_pct_of_bucket": 83.33,
+          "notes": "Linear vesting (10/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 14333333,
+          "cumulative_pct_of_bucket": 83.33,
+          "notes": "Linear vesting (10/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 1750000,
+          "cumulative_pct_of_bucket": 83.33,
+          "notes": "Linear vesting (10/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 8333333,
+          "cumulative_pct_of_bucket": 27.78,
+          "notes": "Linear vesting (10/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 16666667,
+          "cumulative_pct_of_bucket": 8.33,
+          "notes": "Linear vesting (10/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 2816666,
+          "cumulative_tokens": 14333333,
+          "cumulative_pct_of_tier": 15.87
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 16666667,
+          "cumulative_pct_of_tier": 8.33
+        }
+      },
+      "total": {
+        "unlock_tokens": 4483333,
+        "cumulative_tokens": 31000000,
+        "cumulative_pct_of_genesis": 10.68
+      }
+    },
+    {
+      "month": 10,
+      "date": "2020-11-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 4125000,
+          "cumulative_pct_of_bucket": 91.67,
+          "notes": "Linear vesting (11/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 15766667,
+          "cumulative_pct_of_bucket": 91.67,
+          "notes": "Linear vesting (11/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 1925000,
+          "cumulative_pct_of_bucket": 91.67,
+          "notes": "Linear vesting (11/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 9166667,
+          "cumulative_pct_of_bucket": 30.56,
+          "notes": "Linear vesting (11/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 18333333,
+          "cumulative_pct_of_bucket": 9.17,
+          "notes": "Linear vesting (11/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 2816666,
+          "cumulative_tokens": 15766667,
+          "cumulative_pct_of_tier": 17.46
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 18333333,
+          "cumulative_pct_of_tier": 9.17
+        }
+      },
+      "total": {
+        "unlock_tokens": 4483333,
+        "cumulative_tokens": 34100000,
+        "cumulative_pct_of_genesis": 11.75
+      }
+    },
+    {
+      "month": 11,
+      "date": "2020-12-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series A",
+          "unlock_tokens": 375000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 4500000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Linear vesting complete (12/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Series B",
+          "unlock_tokens": 1433333,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 17200000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Linear vesting complete (12/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "CoinList Public Sale",
+          "unlock_tokens": 175000,
+          "unlock_pct_of_bucket": 8.33,
+          "cumulative_tokens": 2100000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Linear vesting complete (12/12)"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 10000000,
+          "cumulative_pct_of_bucket": 33.33,
+          "notes": "Linear vesting (12/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 20000000,
+          "cumulative_pct_of_bucket": 10.0,
+          "notes": "Linear vesting (12/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 2816666,
+          "cumulative_tokens": 17200000,
+          "cumulative_pct_of_tier": 19.05
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 20000000,
+          "cumulative_pct_of_tier": 10.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 4483333,
+        "cumulative_tokens": 37200000,
+        "cumulative_pct_of_genesis": 12.81
+      }
+    },
+    {
+      "month": 12,
+      "date": "2021-01-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 10833333,
+          "cumulative_pct_of_bucket": 36.11,
+          "notes": "Linear vesting (13/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 21666667,
+          "cumulative_pct_of_bucket": 10.83,
+          "notes": "Linear vesting (13/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 833333,
+          "cumulative_tokens": 10833333,
+          "cumulative_pct_of_tier": 12.0
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 21666667,
+          "cumulative_pct_of_tier": 10.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 32500000,
+        "cumulative_pct_of_genesis": 11.2
+      }
+    },
+    {
+      "month": 18,
+      "date": "2021-07-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 15833333,
+          "cumulative_pct_of_bucket": 52.78,
+          "notes": "Linear vesting (19/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 31666667,
+          "cumulative_pct_of_bucket": 15.83,
+          "notes": "Linear vesting (19/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 833333,
+          "cumulative_tokens": 15833333,
+          "cumulative_pct_of_tier": 17.53
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 31666667,
+          "cumulative_pct_of_tier": 15.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 47500000,
+        "cumulative_pct_of_genesis": 16.36
+      }
+    },
+    {
+      "month": 24,
+      "date": "2022-01-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 20833333,
+          "cumulative_pct_of_bucket": 69.44,
+          "notes": "Linear vesting (25/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 41666667,
+          "cumulative_pct_of_bucket": 20.83,
+          "notes": "Linear vesting (25/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 833333,
+          "cumulative_tokens": 20833333,
+          "cumulative_pct_of_tier": 23.07
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 41666667,
+          "cumulative_pct_of_tier": 20.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 62500000,
+        "cumulative_pct_of_genesis": 21.53
+      }
+    },
+    {
+      "month": 35,
+      "date": "2022-12-15",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Contributors/Team",
+          "unlock_tokens": 833333,
+          "unlock_pct_of_bucket": 2.78,
+          "cumulative_tokens": 30000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Linear vesting complete (36/36)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 60000000,
+          "cumulative_pct_of_bucket": 30.0,
+          "notes": "Linear vesting (36/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 833333,
+          "cumulative_tokens": 30000000,
+          "cumulative_pct_of_tier": 33.22
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 60000000,
+          "cumulative_pct_of_tier": 30.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 2500000,
+        "cumulative_tokens": 90000000,
+        "cumulative_pct_of_genesis": 31.0
+      }
+    },
+    {
+      "month": 36,
+      "date": "2023-01-15",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 61666667,
+          "cumulative_pct_of_bucket": 30.83,
+          "notes": "Linear vesting (37/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 61666667,
+          "cumulative_pct_of_tier": 30.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 1666667,
+        "cumulative_tokens": 61666667,
+        "cumulative_pct_of_genesis": 21.24
+      }
+    },
+    {
+      "month": 48,
+      "date": "2024-01-15",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 81666667,
+          "cumulative_pct_of_bucket": 40.83,
+          "notes": "Linear vesting (49/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 81666667,
+          "cumulative_pct_of_tier": 40.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 1666667,
+        "cumulative_tokens": 81666667,
+        "cumulative_pct_of_genesis": 28.13
+      }
+    },
+    {
+      "month": 60,
+      "date": "2025-01-15",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 101666667,
+          "cumulative_pct_of_bucket": 50.83,
+          "notes": "Linear vesting (61/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 101666667,
+          "cumulative_pct_of_tier": 50.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 1666667,
+        "cumulative_tokens": 101666667,
+        "cumulative_pct_of_genesis": 35.02
+      }
+    },
+    {
+      "month": 72,
+      "date": "2026-01-15",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 121666667,
+          "cumulative_pct_of_bucket": 60.83,
+          "notes": "Linear vesting (73/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 121666667,
+          "cumulative_pct_of_tier": 60.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 1666667,
+        "cumulative_tokens": 121666667,
+        "cumulative_pct_of_genesis": 41.91
+      }
+    },
+    {
+      "month": 84,
+      "date": "2027-01-15",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 141666667,
+          "cumulative_pct_of_bucket": 70.83,
+          "notes": "Linear vesting (85/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 141666667,
+          "cumulative_pct_of_tier": 70.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 1666667,
+        "cumulative_tokens": 141666667,
+        "cumulative_pct_of_genesis": 48.8
+      }
+    },
+    {
+      "month": 96,
+      "date": "2028-01-15",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 161666667,
+          "cumulative_pct_of_bucket": 80.83,
+          "notes": "Linear vesting (97/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 161666667,
+          "cumulative_pct_of_tier": 80.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 1666667,
+        "cumulative_tokens": 161666667,
+        "cumulative_pct_of_genesis": 55.69
+      }
+    },
+    {
+      "month": 108,
+      "date": "2029-01-15",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 181666667,
+          "cumulative_pct_of_bucket": 90.83,
+          "notes": "Linear vesting (109/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 181666667,
+          "cumulative_pct_of_tier": 90.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 1666667,
+        "cumulative_tokens": 181666667,
+        "cumulative_pct_of_genesis": 62.58
+      }
+    },
+    {
+      "month": 119,
+      "date": "2029-12-15",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Platform Allocation",
+          "unlock_tokens": 1666667,
+          "unlock_pct_of_bucket": 0.83,
+          "cumulative_tokens": 200000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Linear vesting complete (120/120)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 1666667,
+          "cumulative_tokens": 200000000,
+          "cumulative_pct_of_tier": 100.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 1666667,
+        "cumulative_tokens": 200000000,
+        "cumulative_pct_of_genesis": 68.89
+      }
+    }
+  ],
+  "milestone_summary": {
+    "at_tge": {
+      "month": 0,
+      "date": "2020-01-15",
+      "liquid_pct_of_genesis": 13.15,
+      "liquid_tokens": 38166667
+    },
+    "at_month_6": {
+      "month": 6,
+      "date": "2020-07-15",
+      "liquid_pct_of_genesis": 7.48,
+      "liquid_tokens": 21700000
+    },
+    "at_month_12": {
+      "month": 12,
+      "date": "2021-01-15",
+      "liquid_pct_of_genesis": 11.2,
+      "liquid_tokens": 32500000
+    },
+    "at_month_18": {
+      "month": 18,
+      "date": "2021-07-15",
+      "liquid_pct_of_genesis": 16.36,
+      "liquid_tokens": 47500000
+    },
+    "at_month_24": {
+      "month": 24,
+      "date": "2022-01-15",
+      "liquid_pct_of_genesis": 21.53,
+      "liquid_tokens": 62500000
+    },
+    "at_month_36": {
+      "month": 36,
+      "date": "2023-01-15",
+      "liquid_pct_of_genesis": 21.24,
+      "liquid_tokens": 61666667
+    },
+    "at_month_48": {
+      "month": 48,
+      "date": "2024-01-15",
+      "liquid_pct_of_genesis": 28.13,
+      "liquid_tokens": 81666667
+    }
+  }
+}

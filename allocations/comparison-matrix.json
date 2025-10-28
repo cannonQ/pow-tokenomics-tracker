@@ -135,6 +135,129 @@
       }
     },
     {
+      "name": "kadena",
+      "has_premine": true,
+      "genesis_date": "2020-01-15",
+      "total_genesis_allocation_tokens": 290300000,
+      "total_genesis_allocation_pct": 29.05,
+      "tier_composition": {
+        "tier_1_profit_seeking": {
+          "tokens": 90300000,
+          "pct_of_genesis": 31.11
+        },
+        "tier_2_entity_controlled": {
+          "tokens": 200000000,
+          "pct_of_genesis": 68.89
+        }
+      },
+      "milestones": {
+        "tge": {
+          "liquid_pct": 13.15,
+          "liquid_tokens": 38166667,
+          "date": "2020-01-15",
+          "tier_breakdown": {
+            "tier_1_profit_seeking": {
+              "pct": 40.42,
+              "tokens": 36500000
+            },
+            "tier_2_entity_controlled": {
+              "pct": 0.83,
+              "tokens": 1666667
+            }
+          }
+        },
+        "month_6": {
+          "liquid_pct": 7.48,
+          "liquid_tokens": 21700000,
+          "date": "2020-07-15",
+          "tier_breakdown": {
+            "tier_1_profit_seeking": {
+              "pct": 11.11,
+              "tokens": 10033333
+            },
+            "tier_2_entity_controlled": {
+              "pct": 5.83,
+              "tokens": 11666667
+            }
+          }
+        },
+        "month_12": {
+          "liquid_pct": 11.2,
+          "liquid_tokens": 32500000,
+          "date": "2021-01-15",
+          "tier_breakdown": {
+            "tier_1_profit_seeking": {
+              "pct": 12.0,
+              "tokens": 10833333
+            },
+            "tier_2_entity_controlled": {
+              "pct": 10.83,
+              "tokens": 21666667
+            }
+          }
+        },
+        "month_18": {
+          "liquid_pct": 16.36,
+          "liquid_tokens": 47500000,
+          "date": "2021-07-15",
+          "tier_breakdown": {
+            "tier_1_profit_seeking": {
+              "pct": 17.53,
+              "tokens": 15833333
+            },
+            "tier_2_entity_controlled": {
+              "pct": 15.83,
+              "tokens": 31666667
+            }
+          }
+        },
+        "month_24": {
+          "liquid_pct": 21.53,
+          "liquid_tokens": 62500000,
+          "date": "2022-01-15",
+          "tier_breakdown": {
+            "tier_1_profit_seeking": {
+              "pct": 23.07,
+              "tokens": 20833333
+            },
+            "tier_2_entity_controlled": {
+              "pct": 20.83,
+              "tokens": 41666667
+            }
+          }
+        },
+        "month_36": {
+          "liquid_pct": 21.24,
+          "liquid_tokens": 61666667,
+          "date": "2023-01-15",
+          "tier_breakdown": {
+            "tier_2_entity_controlled": {
+              "pct": 30.83,
+              "tokens": 61666667
+            }
+          }
+        },
+        "month_48": {
+          "liquid_pct": 28.13,
+          "liquid_tokens": 81666667,
+          "date": "2024-01-15",
+          "tier_breakdown": {
+            "tier_2_entity_controlled": {
+              "pct": 40.83,
+              "tokens": 81666667
+            }
+          }
+        }
+      },
+      "unlock_metrics": {
+        "avg_monthly_unlock_rate_year_1_pct": -0.16,
+        "avg_monthly_unlock_rate_year_2_pct": 0.86,
+        "full_unlock_month": 119,
+        "full_unlock_date": "2029-12-15",
+        "note": "Not fully vested - only 68.89% unlocked"
+      }
+    },
+    {
       "name": "kaspa",
       "has_premine": false,
       "note": "No genesis allocation - 100% mining/staking distribution"

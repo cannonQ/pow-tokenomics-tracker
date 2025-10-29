@@ -1,5 +1,5 @@
 {
-  "generated_date": "2025-10-28",
+  "generated_date": "2025-10-29",
   "description": "Cross-project comparison of genesis allocations and vesting schedules",
   "milestone_columns": [
     "tge",
@@ -14,6 +14,7 @@
     {
       "name": "alephium",
       "has_premine": true,
+      "allocation_type": "time_locked_vesting",
       "genesis_date": "2021-11-08",
       "total_genesis_allocation_tokens": 139500000,
       "total_genesis_allocation_pct": 14.0,
@@ -131,12 +132,90 @@
         "avg_monthly_unlock_rate_year_2_pct": 3.27,
         "full_unlock_month": 81,
         "full_unlock_date": "2028-08-08",
-        "note": "Not fully vested - only 21.51% unlocked"
+        "note": "Not fully complete - only 21.51% released"
+      }
+    },
+    {
+      "name": "ergo",
+      "has_premine": true,
+      "allocation_type": "emission_based",
+      "genesis_date": "2019-07-01",
+      "total_genesis_allocation_tokens": 1094830,
+      "total_genesis_allocation_pct": 4.43,
+      "tier_composition": {
+        "tier_2_entity_controlled": {
+          "tokens": 1094830,
+          "pct_of_total_emission": 100.0
+        }
+      },
+      "milestones": {
+        "tge": {
+          "liquid_pct": 3.74,
+          "liquid_tokens": 40960,
+          "date": "2019-07-01",
+          "tier_breakdown": {
+            "tier_2_entity_controlled": {
+              "pct": 3.74,
+              "tokens": 40960
+            }
+          }
+        },
+        "month_6": {
+          "liquid_pct": 26.19,
+          "liquid_tokens": 286720,
+          "date": "2020-01-01",
+          "tier_breakdown": {
+            "tier_2_entity_controlled": {
+              "pct": 26.19,
+              "tokens": 286720
+            }
+          }
+        },
+        "month_12": {
+          "liquid_pct": 48.64,
+          "liquid_tokens": 532480,
+          "date": "2020-07-01",
+          "tier_breakdown": {
+            "tier_2_entity_controlled": {
+              "pct": 48.64,
+              "tokens": 532480
+            }
+          }
+        },
+        "month_18": {
+          "liquid_pct": 71.08,
+          "liquid_tokens": 778240,
+          "date": "2021-01-01",
+          "tier_breakdown": {
+            "tier_2_entity_controlled": {
+              "pct": 71.08,
+              "tokens": 778240
+            }
+          }
+        },
+        "month_24": {
+          "liquid_pct": 92.45,
+          "liquid_tokens": 1012200,
+          "date": "2021-07-01",
+          "tier_breakdown": {
+            "tier_2_entity_controlled": {
+              "pct": 92.45,
+              "tokens": 1012200
+            }
+          }
+        }
+      },
+      "unlock_metrics": {
+        "avg_monthly_unlock_rate_year_1_pct": 3.74,
+        "avg_monthly_unlock_rate_year_2_pct": 3.65,
+        "full_unlock_month": 29,
+        "full_unlock_date": "2021-12-01"
       }
     },
     {
       "name": "kadena",
       "has_premine": true,
+      "allocation_type": "time_locked_vesting",
       "genesis_date": "2020-01-15",
       "total_genesis_allocation_tokens": 290300000,
       "total_genesis_allocation_pct": 29.05,
@@ -254,12 +333,13 @@
         "avg_monthly_unlock_rate_year_2_pct": 0.86,
         "full_unlock_month": 119,
         "full_unlock_date": "2029-12-15",
-        "note": "Not fully vested - only 68.89% unlocked"
+        "note": "Not fully complete - only 68.89% released"
       }
     },
     {
       "name": "kaspa",
       "has_premine": false,
+      "allocation_type": "fair_launch_only",
       "note": "No genesis allocation - 100% mining/staking distribution"
     }
   ]

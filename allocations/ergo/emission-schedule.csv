@@ -1,0 +1,31 @@
+month,date,tier,bucket_name,emission_tokens,emission_pct_of_bucket,cumulative_tokens,cumulative_pct_of_bucket,notes
+0,2019-07-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,40960,3.74,Block rewards 7.5 ERG/block (Phase 1 begins)
+1,2019-08-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,81920,7.48,Block rewards 7.5 ERG/block
+2,2019-09-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,122880,11.22,Block rewards 7.5 ERG/block
+3,2019-10-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,163840,14.96,Block rewards 7.5 ERG/block
+4,2019-11-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,204800,18.71,Block rewards 7.5 ERG/block
+5,2019-12-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,245760,22.45,Block rewards 7.5 ERG/block
+6,2020-01-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,286720,26.19,Block rewards 7.5 ERG/block
+7,2020-02-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,327680,29.93,Block rewards 7.5 ERG/block
+8,2020-03-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,368640,33.67,Block rewards 7.5 ERG/block
+9,2020-04-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,409600,37.41,Block rewards 7.5 ERG/block
+10,2020-05-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,450560,41.15,Block rewards 7.5 ERG/block
+11,2020-06-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,491520,44.89,Block rewards 7.5 ERG/block
+12,2020-07-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,532480,48.64,Block rewards 7.5 ERG/block
+13,2020-08-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,573440,52.38,Block rewards 7.5 ERG/block
+14,2020-09-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,614400,56.12,Block rewards 7.5 ERG/block
+15,2020-10-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,655360,59.86,Block rewards 7.5 ERG/block
+16,2020-11-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,696320,63.60,Block rewards 7.5 ERG/block
+17,2020-12-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,737280,67.34,Block rewards 7.5 ERG/block
+18,2021-01-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,778240,71.08,Block rewards 7.5 ERG/block
+19,2021-02-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,819200,74.82,Block rewards 7.5 ERG/block
+20,2021-03-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,860160,78.57,Block rewards 7.5 ERG/block
+21,2021-04-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,901120,82.31,Block rewards 7.5 ERG/block
+22,2021-05-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,942080,86.05,Block rewards 7.5 ERG/block
+23,2021-06-01,tier_2_entity_controlled,Ergo Foundation Treasury,40960,3.74,983040,89.79,Block rewards 7.5 ERG/block (Phase 1 final month)
+24,2021-07-01,tier_2_entity_controlled,Ergo Foundation Treasury,29160,2.66,1012200,92.45,Block rewards 4.5 ERG/block (Phase 2 begins)
+25,2021-08-01,tier_2_entity_controlled,Ergo Foundation Treasury,29160,2.66,1041360,95.12,Block rewards 4.5 ERG/block
+26,2021-09-01,tier_2_entity_controlled,Ergo Foundation Treasury,29160,2.66,1070520,97.78,Block rewards 4.5 ERG/block (Phase 2 ends)
+27,2021-10-01,tier_2_entity_controlled,Ergo Foundation Treasury,8100,0.74,1078620,98.52,Block rewards 1.5 ERG/block (Phase 3 begins)
+28,2021-11-01,tier_2_entity_controlled,Ergo Foundation Treasury,8100,0.74,1086720,99.26,Block rewards 1.5 ERG/block
+29,2021-12-01,tier_2_entity_controlled,Ergo Foundation Treasury,8110,0.74,1094830,100.00,Block rewards 1.5 ERG/block (Phase 3 ends - emissions complete)

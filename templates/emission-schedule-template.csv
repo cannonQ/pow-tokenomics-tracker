@@ -1,0 +1,12 @@
+# INSTRUCTIONS:
+# 1. This template is for block reward emissions (not traditional time-locked vesting)
+# 2. Use this when tokens are emitted via consensus mechanism over time (like treasury emissions)
+# 3. Replace YYYY-MM-DD with actual dates (genesis_date + month offset)
+# 4. Replace bucket names with exact names from genesis.json allocation_tiers
+# 5. emission_pct_of_bucket is relative to that bucket's total allocation
+# 6. cumulative_pct_of_bucket should reach 100.00 at final emission month
+# 7. Delete this header section before running csv_to_emission_json.py
+#
+month,date,tier,bucket_name,emission_tokens,emission_pct_of_bucket,cumulative_tokens,cumulative_pct_of_bucket,notes
+0,YYYY-MM-DD,tier_2_entity_controlled,Treasury,0,0.00,0,0.00,Genesis - block reward emissions begin
+1,YYYY-MM-DD,tier_2_entity_controlled,Treasury,0,0.00,0,0.00,First month emissions - calculate from block rewards

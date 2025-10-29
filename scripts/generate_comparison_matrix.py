@@ -30,20 +30,37 @@ def load_vesting_schedule(project_path: Path) -> Dict[str, Any]:
         return json.load(f)
 
 
-def extract_milestones(vesting_data: Dict[str, Any], milestone_months: List[int]) -> Dict[str, Any]:
+def load_emission_schedule(project_path: Path) -> Dict[str, Any]:
+    """Load a project's emission schedule JSON."""
+    emission_file = project_path / 'emission-schedule.json'
+
+    if not emission_file.exists():
+        return None
+
+    with open(emission_file, 'r') as f:
+        return json.load(f)
+
+
+def extract_milestones(allocation_data: Dict[str, Any], milestone_months: List[int], is_emission: bool = False) -> Dict[str, Any]:
     """Extract milestone data at specific months."""
     milestones = {}
-    monthly_schedule = vesting_data.get('monthly_schedule', [])
+    monthly_schedule = allocation_data.get('monthly_schedule', [])
 
     # Create lookup by month
     month_lookup = {entry['month']: entry for entry in monthly_schedule}
+
+    # Determine which keys to use based on type
+    if is_emission:
+        pct_key = 'cumulative_pct_of_total'
+    else:
+        pct_key = 'cumulative_pct_of_genesis'
 
     for milestone_month in milestone_months:
         if milestone_month in month_lookup:
             entry = month_lookup[milestone_month]
             key = f"month_{milestone_month}" if milestone_month > 0 else "tge"
             milestones[key] = {
-                'liquid_pct': entry['total']['cumulative_pct_of_genesis'],
+                'liquid_pct': entry['total'].get(pct_key, entry['total'].get('cumulative_pct_of_genesis', 0)),
                 'liquid_tokens': entry['total']['cumulative_tokens'],
                 'date': entry['date']
             }
@@ -61,16 +78,19 @@ def extract_milestones(vesting_data: Dict[str, Any], milestone_months: List[int]
     return milestones
 
 
-def calculate_unlock_rate(vesting_data: Dict[str, Any], start_month: int, end_month: int) -> float:
+def calculate_unlock_rate(allocation_data: Dict[str, Any], start_month: int, end_month: int, is_emission: bool = False) -> float:
     """Calculate average monthly unlock rate between two months."""
-    monthly_schedule = vesting_data.get('monthly_schedule', [])
+    monthly_schedule = allocation_data.get('monthly_schedule', [])
     month_lookup = {entry['month']: entry for entry in monthly_schedule}
 
     if start_month not in month_lookup or end_month not in month_lookup:
         return 0.0
 
-    start_pct = month_lookup[start_month]['total']['cumulative_pct_of_genesis']
-    end_pct = month_lookup[end_month]['total']['cumulative_pct_of_genesis']
+    # Determine which key to use
+    pct_key = 'cumulative_pct_of_total' if is_emission else 'cumulative_pct_of_genesis'
+
+    start_pct = month_lookup[start_month]['total'].get(pct_key, month_lookup[start_month]['total'].get('cumulative_pct_of_genesis', 0))
+    end_pct = month_lookup[end_month]['total'].get(pct_key, month_lookup[end_month]['total'].get('cumulative_pct_of_genesis', 0))
 
     months_diff = end_month - start_month
     if months_diff == 0:
@@ -79,24 +99,29 @@ def calculate_unlock_rate(vesting_data: Dict[str, Any], start_month: int, end_mo
     return round((end_pct - start_pct) / months_diff, 2)
 
 
-def find_full_unlock_month(vesting_data: Dict[str, Any]) -> Dict[str, Any]:
-    """Find when vesting is fully complete (100%)."""
-    monthly_schedule = vesting_data.get('monthly_schedule', [])
+def find_full_unlock_month(allocation_data: Dict[str, Any], is_emission: bool = False) -> Dict[str, Any]:
+    """Find when vesting/emission is fully complete (100%)."""
+    monthly_schedule = allocation_data.get('monthly_schedule', [])
+
+    # Determine which key to use
+    pct_key = 'cumulative_pct_of_total' if is_emission else 'cumulative_pct_of_genesis'
 
     for entry in reversed(monthly_schedule):
-        if entry['total']['cumulative_pct_of_genesis'] >= 99.9:
+        pct = entry['total'].get(pct_key, entry['total'].get('cumulative_pct_of_genesis', 0))
+        if pct >= 99.9:
             return {
                 'month': entry['month'],
                 'date': entry['date']
             }
 
-    # If not fully vested, return last entry
+    # If not fully complete, return last entry
     if monthly_schedule:
         last_entry = monthly_schedule[-1]
+        pct = last_entry['total'].get(pct_key, last_entry['total'].get('cumulative_pct_of_genesis', 0))
         return {
             'month': last_entry['month'],
             'date': last_entry['date'],
-            'note': f"Not fully vested - only {last_entry['total']['cumulative_pct_of_genesis']}% unlocked"
+            'note': f"Not fully complete - only {pct}% released"
         }
 
     return None
@@ -134,38 +159,54 @@ def generate_comparison_matrix(allocations_dir: Path) -> Dict[str, Any]:
         # Load genesis summary
         genesis_summary = load_genesis_summary(project_dir)
 
-        # Check if project has vesting schedule
+        # Load both vesting and emission schedules
         vesting_data = load_vesting_schedule(project_dir)
+        emission_data = load_emission_schedule(project_dir)
 
-        if not vesting_data:
-            # No vesting schedule - check if it's because no premine
+        # Check if project has allocation data
+        if not vesting_data and not emission_data:
+            # No allocation schedule - check if it's because no premine
             if not genesis_summary.get('has_premine', False):
                 projects.append({
                     'name': project_name,
                     'has_premine': False,
+                    'allocation_type': 'fair_launch_only',
                     'note': 'No genesis allocation - 100% mining/staking distribution'
                 })
             continue
 
+        # Determine which schedule to use for milestone extraction
+        # Prefer vesting if both exist, otherwise use emission
+        primary_data = vesting_data if vesting_data else emission_data
+        is_emission = primary_data == emission_data
+
         # Extract data
         milestone_months = [0, 6, 12, 18, 24, 36, 48]
-        milestones = extract_milestones(vesting_data, milestone_months)
+        milestones = extract_milestones(primary_data, milestone_months, is_emission=is_emission)
 
         # Calculate metrics
-        unlock_rate_year_1 = calculate_unlock_rate(vesting_data, 0, 12)
-        unlock_rate_year_2 = calculate_unlock_rate(vesting_data, 12, 24)
+        unlock_rate_year_1 = calculate_unlock_rate(primary_data, 0, 12, is_emission=is_emission)
+        unlock_rate_year_2 = calculate_unlock_rate(primary_data, 12, 24, is_emission=is_emission)
 
-        full_unlock = find_full_unlock_month(vesting_data)
+        full_unlock = find_full_unlock_month(primary_data, is_emission=is_emission)
+
+        # Determine allocation type
+        allocation_type = 'time_locked_vesting'
+        if emission_data and not vesting_data:
+            allocation_type = 'emission_based'
+        elif vesting_data and emission_data:
+            allocation_type = 'hybrid'
 
         project_entry = {
             'name': project_name,
             'has_premine': True,
-            'genesis_date': vesting_data.get('genesis_date', ''),
-            'total_genesis_allocation_tokens': vesting_data.get('total_genesis_allocation_tokens', 0),
+            'allocation_type': allocation_type,
+            'genesis_date': primary_data.get('genesis_date', ''),
+            'total_genesis_allocation_tokens': primary_data.get('total_genesis_allocation_tokens', primary_data.get('total_emission_tokens', 0)),
             'total_genesis_allocation_pct': genesis_summary.get('total_genesis_allocation_pct', 0),
             'tier_composition': {
                 tier: totals
-                for tier, totals in vesting_data.get('tier_totals', {}).items()
+                for tier, totals in primary_data.get('tier_totals', {}).items()
             },
             'milestones': milestones,
             'unlock_metrics': {

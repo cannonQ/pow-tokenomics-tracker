@@ -24,7 +24,25 @@
     "source_investigations": [],
     "notes": "Fair launch with public mining from genesis. No evidence of insider mining advantage."
   },
-  
+
+  "distribution_model": {
+    "labels": ["fair_launch", "emission_based_allocation"],
+    "breakdown": {
+      "fair_launch": {
+        "pct": 95.57,
+        "mechanism": "proof_of_work_mining",
+        "notes": "Open to all miners from genesis"
+      },
+      "emission_based_allocation": {
+        "pct": 4.43,
+        "mechanism": "block_reward_split",
+        "duration_months": 30,
+        "recipients": ["Ergo Foundation Treasury"],
+        "notes": "Treasury received portion of block rewards July 2019 - January 2022"
+      }
+    }
+  },
+
   "allocation_tiers": {
     "tier_1_profit_seeking": {
       "total_pct": 0.51,
@@ -88,6 +106,7 @@
         },
         {
           "name": "Ergo Foundation Treasury",
+          "allocation_mechanism": "block_reward_emission",
           "pct": 2.61,
           "absolute_tokens": 2548176,
           "liquid_at_tge_pct": 0,

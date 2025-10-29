@@ -1,9 +1,10 @@
 {
   "project": "ergo",
-  "has_premine": true,
+  "has_premine": false,
+  "has_emission_allocation": true,
   "has_dev_tax": false,
   "genesis_date": "2019-07-01",
-  
+
   "total_genesis_allocation_pct": 4.43,
   "available_for_mining_genesis_pct": 95.57,
   

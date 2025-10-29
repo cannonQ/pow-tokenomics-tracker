@@ -10,10 +10,13 @@
   "_comment_project": "Must match project name in main JSON",
   
   "has_premine": true,
-  "_comment_has_premine": "Set to true for any genesis allocation",
-  
+  "_comment_has_premine": "Set to true if tokens minted at genesis (time-locked or immediate)",
+
+  "has_emission_allocation": false,
+  "_comment_has_emission": "Set to true if treasury/foundation receives block reward emissions",
+
   "has_dev_tax": false,
-  "_comment_dev_tax": "true if ongoing % of block rewards go to team",
+  "_comment_dev_tax": "true if ongoing % of block rewards go to team (no end date)",
   
   "genesis_date": "2023-01-15",
   "_comment_genesis_date": "YYYY-MM-DD format. TGE/mainnet launch date",

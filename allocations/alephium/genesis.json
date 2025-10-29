@@ -1,6 +1,7 @@
 {
   "project": "alephium",
   "has_premine": true,
+  "has_emission_allocation": false,
   "has_dev_tax": false,
   "genesis_date": "2021-11-08",
   

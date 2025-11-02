@@ -37,6 +37,7 @@ templates/
 README.md                        ← Main overview (start here)
 CONTRIBUTING.md                  ← Detailed guide (6,000+ words)
 QUICK_START.md                   ← 3-minute quick reference
+DOCUMENTING DATA SOURCES.md      ← Detailed guide on how to reference data sources
 ```
 
 **CONTRIBUTING.md includes:**

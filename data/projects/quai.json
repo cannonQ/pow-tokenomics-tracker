@@ -1,5 +1,5 @@
 {
-  "project": "quai-network",
+  "project": "quai",
   "ticker": "QUAI",
   "consensus": "PoW",
   "algorithm": "Proof-of-Entropy-Minima (PoEM)",

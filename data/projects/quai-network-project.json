@@ -1,0 +1,79 @@
+{
+  "project": "quai-network",
+  "ticker": "QUAI",
+  "consensus": "PoW",
+  "algorithm": "Proof-of-Entropy-Minima (PoEM)",
+  "launch_date": "2025-01-29",
+  "launch_type": "premine",
+  "has_premine": true,
+  
+  "supply": {
+    "max_supply": 3000000000,
+    "current_supply": 782484457,
+    "pct_mined": 26.08,
+    "emission_remaining": 2217515543
+  },
+  
+  "emission": {
+    "current_block_reward": null,
+    "block_time_seconds": 1.1,
+    "daily_emission": null,
+    "annual_inflation_pct": null,
+    
+    "halving_schedule": [],
+    "notes": "Market-driven emission model - block rewards determined by difficulty using logarithmic function. Rewards proportional to log2(Difficulty) with variable proportionality constant currently set at 221077819000000000. No fixed halving schedule - emissions respond to network hashrate and difficulty changes."
+  },
+  
+  "premine": {
+    "total_pct": 100,
+    "absolute_tokens": 3000000000,
+    "details": "3 billion QUAI allocated at genesis across 7 categories with time-locked vesting. Remaining supply issued through PoW mining with market-driven difficulty-based rewards."
+  },
+  
+  "genesis_allocation": "See allocations/quai-network/genesis.json",
+  
+  "market_data": {
+    "current_price_usd": 0.0234,
+    "fdmc": 70200000,
+    "circulating_mcap": 18283305,
+    "daily_volume": 813264,
+    "token_velocity": 0.0445,
+    "data_date": "2025-11-16"
+  },
+  
+  "data_sources": {
+    "official_docs": [
+      "https://docs.qu.ai/learn/tokenomics/quai-emissions",
+      "https://docs.qu.ai/learn/tokenomics/tokenomics-overview/tokenomics-overview",
+      "https://qu.ai/blog/quai-foundation-mines-the-quai-network-genesis-block/",
+      "https://qu.ai/blog/announcing-the-quai-network-claims-page/"
+    ],
+    "block_explorer": [
+      "https://quaiscan.io/"
+    ],
+    "market_data": [
+      "https://coinmarketcap.com/currencies/quai-network/",
+      "https://www.coingecko.com/en/coins/quai-network"
+    ],
+    "funding_data": [
+      "https://www.theblock.co/post/313387/quai-strategic-round",
+      "https://tracxn.com/d/companies/quai/___JrBRwHEEpwkhXQcsadZ47RIbuKrwDXDEy1PgQnvnHw/funding-and-investors",
+      "https://coinmarketcap.com/academy/article/3443c4fc-92a6-4b4b-bb6e-164c29d05e6c",
+      "https://pitchbook.com/profiles/company/498274-03"
+    ]
+  },
+  
+  "notes": [
+    "Mainnet launched January 29, 2025, TGE February 5, 2025",
+    "100% premine at genesis (3B QUAI), all with time-locked vesting schedules",
+    "Dual-token system: QUAI (utility, smart contracts) and QI (energy-backed stablecoin)",
+    "Market-driven emission model replaces fixed halving schedule",
+    "Total funding: $15M across 3 rounds: Seed 1 $8M (Polychain Capital, Mar 2022), Seed 2 $2M (Alumni Ventures, May 2022), Strategic $5M (Cogitent Ventures, Aug 2024)",
+    "Hierarchical structure: Prime, Region, and Zone chains for scalability",
+    "50,000+ TPS claimed throughput via merged-mined sharding",
+    "Approximately 70M QUAI (~2.3% of supply) from Testnet allocation to be burned",
+    "11 institutional investors total including Polychain, Cogitent, MH Ventures, Black Edge Capital, Ceras Ventures"
+  ],
+  
+  "last_updated": "2025-11-16"
+}

@@ -1,0 +1,364 @@
+month,date,tier,bucket_name,unlock_tokens,unlock_pct_of_bucket,cumulative_tokens,cumulative_pct_of_bucket,notes
+0,2025-02-05,tier_1_profit_seeking,Seed Round 1,75000000,25.0,75000000,25.0,TGE unlock 25%
+0,2025-02-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,12-month cliff begins
+0,2025-02-05,tier_1_profit_seeking,Strategic Round,15000000,25.0,15000000,25.0,TGE unlock 25%
+0,2025-02-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,12-month cliff begins
+0,2025-02-05,tier_2_entity_controlled,Foundation Reserve,19800000,2.0,19800000,2.0,TGE unlock 2%
+0,2025-02-05,tier_2_entity_controlled,Development Company,45000000,25.0,45000000,25.0,TGE unlock 25%
+0,2025-02-05,tier_3_community,Community Incentives,103500000,15.0,103500000,15.0,TGE unlock 15%
+0,2025-02-05,tier_4_liquidity,Exchange Liquidity,60000000,100.0,60000000,100.0,100% at TGE - complete
+0,2025-02-05,tier_4_liquidity,Testnet & Earn,80000000,100.0,80000000,100.0,100% at TGE (post-burn) - complete
+1,2025-03-05,tier_1_profit_seeking,Seed Round 1,0,0.0,75000000,25.0,Cliff ongoing
+1,2025-03-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,Cliff ongoing
+1,2025-03-05,tier_1_profit_seeking,Strategic Round,0,0.0,15000000,25.0,Cliff ongoing
+1,2025-03-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,Cliff ongoing
+1,2025-03-05,tier_2_entity_controlled,Foundation Reserve,0,0.0,19800000,2.0,Cliff ongoing
+1,2025-03-05,tier_2_entity_controlled,Development Company,0,0.0,45000000,25.0,Cliff ongoing
+1,2025-03-05,tier_3_community,Community Incentives,0,0.0,103500000,15.0,Cliff ongoing
+2,2025-04-05,tier_1_profit_seeking,Seed Round 1,0,0.0,75000000,25.0,Cliff ongoing
+2,2025-04-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,Cliff ongoing
+2,2025-04-05,tier_1_profit_seeking,Strategic Round,0,0.0,15000000,25.0,Cliff ongoing
+2,2025-04-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,Cliff ongoing
+2,2025-04-05,tier_2_entity_controlled,Foundation Reserve,0,0.0,19800000,2.0,Cliff ongoing
+2,2025-04-05,tier_2_entity_controlled,Development Company,0,0.0,45000000,25.0,Cliff ongoing
+2,2025-04-05,tier_3_community,Community Incentives,0,0.0,103500000,15.0,Cliff ongoing
+3,2025-05-05,tier_1_profit_seeking,Seed Round 1,0,0.0,75000000,25.0,Cliff ongoing
+3,2025-05-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,Cliff ongoing
+3,2025-05-05,tier_1_profit_seeking,Strategic Round,0,0.0,15000000,25.0,Cliff ongoing
+3,2025-05-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,Cliff ongoing
+3,2025-05-05,tier_2_entity_controlled,Foundation Reserve,0,0.0,19800000,2.0,Cliff ongoing
+3,2025-05-05,tier_2_entity_controlled,Development Company,0,0.0,45000000,25.0,Cliff ongoing
+3,2025-05-05,tier_3_community,Community Incentives,0,0.0,103500000,15.0,Cliff ongoing
+4,2025-06-05,tier_1_profit_seeking,Seed Round 1,0,0.0,75000000,25.0,Cliff ongoing
+4,2025-06-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,Cliff ongoing
+4,2025-06-05,tier_1_profit_seeking,Strategic Round,0,0.0,15000000,25.0,Cliff ongoing
+4,2025-06-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,Cliff ongoing
+4,2025-06-05,tier_2_entity_controlled,Foundation Reserve,0,0.0,19800000,2.0,Cliff ongoing
+4,2025-06-05,tier_2_entity_controlled,Development Company,0,0.0,45000000,25.0,Cliff ongoing
+4,2025-06-05,tier_3_community,Community Incentives,0,0.0,103500000,15.0,Cliff ongoing
+5,2025-07-05,tier_1_profit_seeking,Seed Round 1,0,0.0,75000000,25.0,Cliff ongoing
+5,2025-07-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,Cliff ongoing
+5,2025-07-05,tier_1_profit_seeking,Strategic Round,0,0.0,15000000,25.0,Cliff ongoing
+5,2025-07-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,Cliff ongoing
+5,2025-07-05,tier_2_entity_controlled,Foundation Reserve,0,0.0,19800000,2.0,Cliff ongoing
+5,2025-07-05,tier_2_entity_controlled,Development Company,0,0.0,45000000,25.0,Cliff ongoing
+5,2025-07-05,tier_3_community,Community Incentives,0,0.0,103500000,15.0,Cliff ongoing
+6,2025-08-05,tier_1_profit_seeking,Seed Round 1,0,0.0,75000000,25.0,Cliff ongoing
+6,2025-08-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,Cliff ongoing
+6,2025-08-05,tier_1_profit_seeking,Strategic Round,0,0.0,15000000,25.0,Cliff ongoing
+6,2025-08-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,Cliff ongoing
+6,2025-08-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,34500000,3.5,Cliff ends - linear vesting begins
+6,2025-08-05,tier_2_entity_controlled,Development Company,3214000,1.8,48214000,26.8,Cliff ends - linear vesting begins
+6,2025-08-05,tier_3_community,Community Incentives,13964000,2.0,117464000,17.0,Cliff ends - linear vesting begins
+7,2025-09-05,tier_1_profit_seeking,Seed Round 1,0,0.0,75000000,25.0,Cliff ongoing
+7,2025-09-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,Cliff ongoing
+7,2025-09-05,tier_1_profit_seeking,Strategic Round,0,0.0,15000000,25.0,Cliff ongoing
+7,2025-09-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,Cliff ongoing
+7,2025-09-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,49200000,5.0,Linear vesting
+7,2025-09-05,tier_2_entity_controlled,Development Company,3214000,1.8,51428000,28.6,Linear vesting
+7,2025-09-05,tier_3_community,Community Incentives,13964000,2.0,131428000,19.0,Linear vesting
+8,2025-10-05,tier_1_profit_seeking,Seed Round 1,0,0.0,75000000,25.0,Cliff ongoing
+8,2025-10-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,Cliff ongoing
+8,2025-10-05,tier_1_profit_seeking,Strategic Round,0,0.0,15000000,25.0,Cliff ongoing
+8,2025-10-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,Cliff ongoing
+8,2025-10-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,63900000,6.5,Linear vesting
+8,2025-10-05,tier_2_entity_controlled,Development Company,3214000,1.8,54642000,30.4,Linear vesting
+8,2025-10-05,tier_3_community,Community Incentives,13964000,2.0,145392000,21.1,Linear vesting
+9,2025-11-05,tier_1_profit_seeking,Seed Round 1,0,0.0,75000000,25.0,Cliff ongoing
+9,2025-11-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,Cliff ongoing
+9,2025-11-05,tier_1_profit_seeking,Strategic Round,0,0.0,15000000,25.0,Cliff ongoing
+9,2025-11-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,Cliff ongoing
+9,2025-11-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,78600000,7.9,Linear vesting
+9,2025-11-05,tier_2_entity_controlled,Development Company,3214000,1.8,57856000,32.1,Linear vesting
+9,2025-11-05,tier_3_community,Community Incentives,13964000,2.0,159356000,23.1,Linear vesting
+10,2025-12-05,tier_1_profit_seeking,Seed Round 1,0,0.0,75000000,25.0,Cliff ongoing
+10,2025-12-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,Cliff ongoing
+10,2025-12-05,tier_1_profit_seeking,Strategic Round,0,0.0,15000000,25.0,Cliff ongoing
+10,2025-12-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,Cliff ongoing
+10,2025-12-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,93300000,9.4,Linear vesting
+10,2025-12-05,tier_2_entity_controlled,Development Company,3214000,1.8,61070000,33.9,Linear vesting
+10,2025-12-05,tier_3_community,Community Incentives,13964000,2.0,173320000,25.1,Linear vesting
+11,2026-01-05,tier_1_profit_seeking,Seed Round 1,0,0.0,75000000,25.0,Cliff ongoing
+11,2026-01-05,tier_1_profit_seeking,Seed Round 2,0,0.0,0,0.0,Cliff ongoing
+11,2026-01-05,tier_1_profit_seeking,Strategic Round,0,0.0,15000000,25.0,Cliff ongoing
+11,2026-01-05,tier_1_profit_seeking,Team,0,0.0,0,0.0,Cliff ongoing
+11,2026-01-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,108000000,10.9,Linear vesting
+11,2026-01-05,tier_2_entity_controlled,Development Company,3214000,1.8,64284000,35.7,Linear vesting
+11,2026-01-05,tier_3_community,Community Incentives,13964000,2.0,187284000,27.1,Linear vesting
+12,2026-02-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,81250000,27.1,Cliff ends - linear vesting begins
+12,2026-02-05,tier_1_profit_seeking,Seed Round 2,15000000,25.0,15000000,25.0,Cliff ends - 25% unlock
+12,2026-02-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,16250000,27.1,Cliff ends - linear vesting begins
+12,2026-02-05,tier_1_profit_seeking,Team,13333000,2.8,13333000,2.8,Cliff ends - linear vesting begins
+12,2026-02-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,122700000,12.4,Linear vesting
+12,2026-02-05,tier_2_entity_controlled,Development Company,3214000,1.8,67498000,37.5,Linear vesting
+12,2026-02-05,tier_3_community,Community Incentives,13964000,2.0,201248000,29.2,Linear vesting
+13,2026-03-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,87500000,29.2,Linear vesting
+13,2026-03-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,16250000,27.1,Linear vesting begins
+13,2026-03-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,17500000,29.2,Linear vesting
+13,2026-03-05,tier_1_profit_seeking,Team,13333000,2.8,26666000,5.6,Linear vesting
+13,2026-03-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,137400000,13.9,Linear vesting
+13,2026-03-05,tier_2_entity_controlled,Development Company,3214000,1.8,70712000,39.3,Linear vesting
+13,2026-03-05,tier_3_community,Community Incentives,13964000,2.0,215212000,31.2,Linear vesting
+14,2026-04-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,93750000,31.3,Linear vesting
+14,2026-04-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,17500000,29.2,Linear vesting
+14,2026-04-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,18750000,31.3,Linear vesting
+14,2026-04-05,tier_1_profit_seeking,Team,13333000,2.8,39999000,8.3,Linear vesting
+14,2026-04-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,152100000,15.4,Linear vesting
+14,2026-04-05,tier_2_entity_controlled,Development Company,3214000,1.8,73926000,41.1,Linear vesting
+14,2026-04-05,tier_3_community,Community Incentives,13964000,2.0,229176000,33.2,Linear vesting
+15,2026-05-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,100000000,33.3,Linear vesting
+15,2026-05-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,18750000,31.3,Linear vesting
+15,2026-05-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,20000000,33.3,Linear vesting
+15,2026-05-05,tier_1_profit_seeking,Team,13333000,2.8,53332000,11.1,Linear vesting
+15,2026-05-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,166800000,16.8,Linear vesting
+15,2026-05-05,tier_2_entity_controlled,Development Company,3214000,1.8,77140000,42.9,Linear vesting
+15,2026-05-05,tier_3_community,Community Incentives,13964000,2.0,243140000,35.2,Linear vesting
+16,2026-06-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,106250000,35.4,Linear vesting
+16,2026-06-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,20000000,33.3,Linear vesting
+16,2026-06-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,21250000,35.4,Linear vesting
+16,2026-06-05,tier_1_profit_seeking,Team,13333000,2.8,66665000,13.9,Linear vesting
+16,2026-06-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,181500000,18.3,Linear vesting
+16,2026-06-05,tier_2_entity_controlled,Development Company,3214000,1.8,80354000,44.6,Linear vesting
+16,2026-06-05,tier_3_community,Community Incentives,13964000,2.0,257104000,37.3,Linear vesting
+17,2026-07-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,112500000,37.5,Linear vesting
+17,2026-07-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,21250000,35.4,Linear vesting
+17,2026-07-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,22500000,37.5,Linear vesting
+17,2026-07-05,tier_1_profit_seeking,Team,13333000,2.8,79998000,16.7,Linear vesting
+17,2026-07-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,196200000,19.8,Linear vesting
+17,2026-07-05,tier_2_entity_controlled,Development Company,3214000,1.8,83568000,46.4,Linear vesting
+17,2026-07-05,tier_3_community,Community Incentives,13964000,2.0,271068000,39.3,Linear vesting
+18,2026-08-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,118750000,39.6,Linear vesting
+18,2026-08-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,22500000,37.5,Linear vesting
+18,2026-08-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,23750000,39.6,Linear vesting
+18,2026-08-05,tier_1_profit_seeking,Team,13333000,2.8,93331000,19.4,Linear vesting
+18,2026-08-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,210900000,21.3,Linear vesting
+18,2026-08-05,tier_2_entity_controlled,Development Company,3214000,1.8,86782000,48.2,Linear vesting
+18,2026-08-05,tier_3_community,Community Incentives,13964000,2.0,285032000,41.3,Linear vesting
+19,2026-09-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,125000000,41.7,Linear vesting
+19,2026-09-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,23750000,39.6,Linear vesting
+19,2026-09-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,25000000,41.7,Linear vesting
+19,2026-09-05,tier_1_profit_seeking,Team,13333000,2.8,106664000,22.2,Linear vesting
+19,2026-09-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,225600000,22.8,Linear vesting
+19,2026-09-05,tier_2_entity_controlled,Development Company,3214000,1.8,89996000,50.0,Linear vesting
+19,2026-09-05,tier_3_community,Community Incentives,13964000,2.0,298996000,43.3,Linear vesting
+20,2026-10-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,131250000,43.8,Linear vesting
+20,2026-10-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,25000000,41.7,Linear vesting
+20,2026-10-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,26250000,43.8,Linear vesting
+20,2026-10-05,tier_1_profit_seeking,Team,13333000,2.8,119997000,25.0,Linear vesting
+20,2026-10-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,240300000,24.3,Linear vesting
+20,2026-10-05,tier_2_entity_controlled,Development Company,3214000,1.8,93210000,51.8,Linear vesting
+20,2026-10-05,tier_3_community,Community Incentives,13964000,2.0,312960000,45.4,Linear vesting
+21,2026-11-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,137500000,45.8,Linear vesting
+21,2026-11-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,26250000,43.8,Linear vesting
+21,2026-11-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,27500000,45.8,Linear vesting
+21,2026-11-05,tier_1_profit_seeking,Team,13333000,2.8,133330000,27.8,Linear vesting
+21,2026-11-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,255000000,25.8,Linear vesting
+21,2026-11-05,tier_2_entity_controlled,Development Company,3214000,1.8,96424000,53.6,Linear vesting
+21,2026-11-05,tier_3_community,Community Incentives,13964000,2.0,326924000,47.4,Linear vesting
+22,2026-12-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,143750000,47.9,Linear vesting
+22,2026-12-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,27500000,45.8,Linear vesting
+22,2026-12-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,28750000,47.9,Linear vesting
+22,2026-12-05,tier_1_profit_seeking,Team,13333000,2.8,146663000,30.6,Linear vesting
+22,2026-12-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,269700000,27.2,Linear vesting
+22,2026-12-05,tier_2_entity_controlled,Development Company,3214000,1.8,99638000,55.4,Linear vesting
+22,2026-12-05,tier_3_community,Community Incentives,13964000,2.0,340888000,49.4,Linear vesting
+23,2027-01-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,150000000,50.0,Linear vesting
+23,2027-01-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,28750000,47.9,Linear vesting
+23,2027-01-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,30000000,50.0,Linear vesting
+23,2027-01-05,tier_1_profit_seeking,Team,13333000,2.8,159996000,33.3,Linear vesting
+23,2027-01-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,284400000,28.7,Linear vesting
+23,2027-01-05,tier_2_entity_controlled,Development Company,3214000,1.8,102852000,57.1,Linear vesting
+23,2027-01-05,tier_3_community,Community Incentives,13964000,2.0,354852000,51.4,Linear vesting
+24,2027-02-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,156250000,52.1,Linear vesting
+24,2027-02-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,30000000,50.0,Linear vesting
+24,2027-02-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,31250000,52.1,Linear vesting
+24,2027-02-05,tier_1_profit_seeking,Team,13333000,2.8,173329000,36.1,Linear vesting
+24,2027-02-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,299100000,30.2,Linear vesting
+24,2027-02-05,tier_2_entity_controlled,Development Company,3214000,1.8,106066000,58.9,Linear vesting
+24,2027-02-05,tier_3_community,Community Incentives,13964000,2.0,368816000,53.5,Linear vesting
+25,2027-03-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,162500000,54.2,Linear vesting
+25,2027-03-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,31250000,52.1,Linear vesting
+25,2027-03-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,32500000,54.2,Linear vesting
+25,2027-03-05,tier_1_profit_seeking,Team,13333000,2.8,186662000,38.9,Linear vesting
+25,2027-03-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,313800000,31.7,Linear vesting
+25,2027-03-05,tier_2_entity_controlled,Development Company,3214000,1.8,109280000,60.7,Linear vesting
+25,2027-03-05,tier_3_community,Community Incentives,13964000,2.0,382780000,55.5,Linear vesting
+26,2027-04-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,168750000,56.3,Linear vesting
+26,2027-04-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,32500000,54.2,Linear vesting
+26,2027-04-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,33750000,56.3,Linear vesting
+26,2027-04-05,tier_1_profit_seeking,Team,13333000,2.8,199995000,41.7,Linear vesting
+26,2027-04-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,328500000,33.2,Linear vesting
+26,2027-04-05,tier_2_entity_controlled,Development Company,3214000,1.8,112494000,62.5,Linear vesting
+26,2027-04-05,tier_3_community,Community Incentives,13964000,2.0,396744000,57.5,Linear vesting
+27,2027-05-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,175000000,58.3,Linear vesting
+27,2027-05-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,33750000,56.3,Linear vesting
+27,2027-05-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,35000000,58.3,Linear vesting
+27,2027-05-05,tier_1_profit_seeking,Team,13333000,2.8,213328000,44.4,Linear vesting
+27,2027-05-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,343200000,34.7,Linear vesting
+27,2027-05-05,tier_2_entity_controlled,Development Company,3214000,1.8,115708000,64.3,Linear vesting
+27,2027-05-05,tier_3_community,Community Incentives,13964000,2.0,410708000,59.5,Linear vesting
+28,2027-06-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,181250000,60.4,Linear vesting
+28,2027-06-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,35000000,58.3,Linear vesting
+28,2027-06-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,36250000,60.4,Linear vesting
+28,2027-06-05,tier_1_profit_seeking,Team,13333000,2.8,226661000,47.2,Linear vesting
+28,2027-06-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,357900000,36.2,Linear vesting
+28,2027-06-05,tier_2_entity_controlled,Development Company,3214000,1.8,118922000,66.1,Linear vesting
+28,2027-06-05,tier_3_community,Community Incentives,13964000,2.0,424672000,61.5,Linear vesting
+29,2027-07-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,187500000,62.5,Linear vesting
+29,2027-07-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,36250000,60.4,Linear vesting
+29,2027-07-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,37500000,62.5,Linear vesting
+29,2027-07-05,tier_1_profit_seeking,Team,13333000,2.8,239994000,50.0,Linear vesting
+29,2027-07-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,372600000,37.6,Linear vesting
+29,2027-07-05,tier_2_entity_controlled,Development Company,3214000,1.8,122136000,67.9,Linear vesting
+29,2027-07-05,tier_3_community,Community Incentives,13964000,2.0,438636000,63.6,Linear vesting
+30,2027-08-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,193750000,64.6,Linear vesting
+30,2027-08-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,37500000,62.5,Linear vesting
+30,2027-08-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,38750000,64.6,Linear vesting
+30,2027-08-05,tier_1_profit_seeking,Team,13333000,2.8,253327000,52.8,Linear vesting
+30,2027-08-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,387300000,39.1,Linear vesting
+30,2027-08-05,tier_2_entity_controlled,Development Company,3214000,1.8,125350000,69.6,Linear vesting
+30,2027-08-05,tier_3_community,Community Incentives,13964000,2.0,452600000,65.6,Linear vesting
+31,2027-09-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,200000000,66.7,Linear vesting
+31,2027-09-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,38750000,64.6,Linear vesting
+31,2027-09-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,40000000,66.7,Linear vesting
+31,2027-09-05,tier_1_profit_seeking,Team,13333000,2.8,266660000,55.6,Linear vesting
+31,2027-09-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,402000000,40.6,Linear vesting
+31,2027-09-05,tier_2_entity_controlled,Development Company,3214000,1.8,128564000,71.4,Linear vesting
+31,2027-09-05,tier_3_community,Community Incentives,13964000,2.0,466564000,67.6,Linear vesting
+32,2027-10-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,206250000,68.8,Linear vesting
+32,2027-10-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,40000000,66.7,Linear vesting
+32,2027-10-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,41250000,68.8,Linear vesting
+32,2027-10-05,tier_1_profit_seeking,Team,13333000,2.8,279993000,58.3,Linear vesting
+32,2027-10-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,416700000,42.1,Linear vesting
+32,2027-10-05,tier_2_entity_controlled,Development Company,3214000,1.8,131778000,73.2,Linear vesting
+32,2027-10-05,tier_3_community,Community Incentives,13964000,2.0,480528000,69.6,Linear vesting
+33,2027-11-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,212500000,70.8,Linear vesting
+33,2027-11-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,41250000,68.8,Linear vesting
+33,2027-11-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,42500000,70.8,Linear vesting
+33,2027-11-05,tier_1_profit_seeking,Team,13333000,2.8,293326000,61.1,Linear vesting
+33,2027-11-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,431400000,43.6,Linear vesting
+33,2027-11-05,tier_2_entity_controlled,Development Company,3214000,1.8,134992000,75.0,Linear vesting
+33,2027-11-05,tier_3_community,Community Incentives,13964000,2.0,494492000,71.7,Linear vesting
+34,2027-12-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,218750000,72.9,Linear vesting
+34,2027-12-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,42500000,70.8,Linear vesting
+34,2027-12-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,43750000,72.9,Linear vesting
+34,2027-12-05,tier_1_profit_seeking,Team,13333000,2.8,306659000,63.9,Linear vesting
+34,2027-12-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,446100000,45.1,Linear vesting
+34,2027-12-05,tier_2_entity_controlled,Development Company,3214000,1.8,138206000,76.8,Linear vesting
+34,2027-12-05,tier_3_community,Community Incentives,13964000,2.0,508456000,73.7,Linear vesting
+35,2028-01-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,225000000,75.0,Linear vesting
+35,2028-01-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,43750000,72.9,Linear vesting
+35,2028-01-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,45000000,75.0,Linear vesting
+35,2028-01-05,tier_1_profit_seeking,Team,13333000,2.8,319992000,66.7,Linear vesting
+35,2028-01-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,460800000,46.5,Linear vesting
+35,2028-01-05,tier_2_entity_controlled,Development Company,3214000,1.8,141420000,78.6,Linear vesting
+35,2028-01-05,tier_3_community,Community Incentives,13964000,2.0,522420000,75.7,Linear vesting
+36,2028-02-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,231250000,77.1,Linear vesting
+36,2028-02-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,45000000,75.0,Linear vesting
+36,2028-02-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,46250000,77.1,Linear vesting
+36,2028-02-05,tier_1_profit_seeking,Team,13333000,2.8,333325000,69.4,Linear vesting
+36,2028-02-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,475500000,48.0,Linear vesting
+36,2028-02-05,tier_2_entity_controlled,Development Company,3214000,1.8,144634000,80.4,Linear vesting
+36,2028-02-05,tier_3_community,Community Incentives,13964000,2.0,536384000,77.7,Linear vesting
+37,2028-03-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,237500000,79.2,Linear vesting
+37,2028-03-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,46250000,77.1,Linear vesting
+37,2028-03-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,47500000,79.2,Linear vesting
+37,2028-03-05,tier_1_profit_seeking,Team,13333000,2.8,346658000,72.2,Linear vesting
+37,2028-03-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,490200000,49.5,Linear vesting
+37,2028-03-05,tier_2_entity_controlled,Development Company,3214000,1.8,147848000,82.1,Linear vesting
+37,2028-03-05,tier_3_community,Community Incentives,13964000,2.0,550348000,79.8,Linear vesting
+38,2028-04-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,243750000,81.3,Linear vesting
+38,2028-04-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,47500000,79.2,Linear vesting
+38,2028-04-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,48750000,81.3,Linear vesting
+38,2028-04-05,tier_1_profit_seeking,Team,13333000,2.8,359991000,75.0,Linear vesting
+38,2028-04-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,504900000,51.0,Linear vesting
+38,2028-04-05,tier_2_entity_controlled,Development Company,3214000,1.8,151062000,83.9,Linear vesting
+38,2028-04-05,tier_3_community,Community Incentives,13964000,2.0,564312000,81.8,Linear vesting
+39,2028-05-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,250000000,83.3,Linear vesting
+39,2028-05-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,48750000,81.3,Linear vesting
+39,2028-05-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,50000000,83.3,Linear vesting
+39,2028-05-05,tier_1_profit_seeking,Team,13333000,2.8,373324000,77.8,Linear vesting
+39,2028-05-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,519600000,52.5,Linear vesting
+39,2028-05-05,tier_2_entity_controlled,Development Company,3214000,1.8,154276000,85.7,Linear vesting
+39,2028-05-05,tier_3_community,Community Incentives,13964000,2.0,578276000,83.8,Linear vesting
+40,2028-06-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,256250000,85.4,Linear vesting
+40,2028-06-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,50000000,83.3,Linear vesting
+40,2028-06-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,51250000,85.4,Linear vesting
+40,2028-06-05,tier_1_profit_seeking,Team,13333000,2.8,386657000,80.6,Linear vesting
+40,2028-06-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,534300000,54.0,Linear vesting
+40,2028-06-05,tier_2_entity_controlled,Development Company,3214000,1.8,157490000,87.5,Linear vesting
+40,2028-06-05,tier_3_community,Community Incentives,13964000,2.0,592240000,85.8,Linear vesting
+41,2028-07-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,262500000,87.5,Linear vesting
+41,2028-07-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,51250000,85.4,Linear vesting
+41,2028-07-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,52500000,87.5,Linear vesting
+41,2028-07-05,tier_1_profit_seeking,Team,13333000,2.8,399990000,83.3,Linear vesting
+41,2028-07-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,549000000,55.5,Linear vesting
+41,2028-07-05,tier_2_entity_controlled,Development Company,3214000,1.8,160704000,89.3,Linear vesting
+41,2028-07-05,tier_3_community,Community Incentives,13964000,2.0,606204000,87.9,Linear vesting
+42,2028-08-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,268750000,89.6,Linear vesting
+42,2028-08-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,52500000,87.5,Linear vesting
+42,2028-08-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,53750000,89.6,Linear vesting
+42,2028-08-05,tier_1_profit_seeking,Team,13333000,2.8,413323000,86.1,Linear vesting
+42,2028-08-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,563700000,56.9,Linear vesting
+42,2028-08-05,tier_2_entity_controlled,Development Company,3214000,1.8,163918000,91.1,Linear vesting
+42,2028-08-05,tier_3_community,Community Incentives,13964000,2.0,620168000,89.9,Linear vesting
+43,2028-09-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,275000000,91.7,Linear vesting
+43,2028-09-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,53750000,89.6,Linear vesting
+43,2028-09-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,55000000,91.7,Linear vesting
+43,2028-09-05,tier_1_profit_seeking,Team,13333000,2.8,426656000,88.9,Linear vesting
+43,2028-09-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,578400000,58.4,Linear vesting
+43,2028-09-05,tier_2_entity_controlled,Development Company,3214000,1.8,167132000,92.9,Linear vesting
+43,2028-09-05,tier_3_community,Community Incentives,13964000,2.0,634132000,91.9,Linear vesting
+44,2028-10-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,281250000,93.8,Linear vesting
+44,2028-10-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,55000000,91.7,Linear vesting
+44,2028-10-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,56250000,93.8,Linear vesting
+44,2028-10-05,tier_1_profit_seeking,Team,13333000,2.8,439989000,91.7,Linear vesting
+44,2028-10-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,593100000,59.9,Linear vesting
+44,2028-10-05,tier_2_entity_controlled,Development Company,3214000,1.8,170346000,94.6,Linear vesting
+44,2028-10-05,tier_3_community,Community Incentives,13964000,2.0,648096000,93.9,Linear vesting
+45,2028-11-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,287500000,95.8,Linear vesting
+45,2028-11-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,56250000,93.8,Linear vesting
+45,2028-11-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,57500000,95.8,Linear vesting
+45,2028-11-05,tier_1_profit_seeking,Team,13333000,2.8,453322000,94.4,Linear vesting
+45,2028-11-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,607800000,61.4,Linear vesting
+45,2028-11-05,tier_2_entity_controlled,Development Company,3214000,1.8,173560000,96.4,Linear vesting
+45,2028-11-05,tier_3_community,Community Incentives,13964000,2.0,662060000,96.0,Linear vesting
+46,2028-12-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,293750000,97.9,Linear vesting
+46,2028-12-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,57500000,95.8,Linear vesting
+46,2028-12-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,58750000,97.9,Linear vesting
+46,2028-12-05,tier_1_profit_seeking,Team,13333000,2.8,466655000,97.2,Linear vesting
+46,2028-12-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,622500000,62.9,Linear vesting
+46,2028-12-05,tier_2_entity_controlled,Development Company,3214000,1.8,176774000,98.2,Linear vesting
+46,2028-12-05,tier_3_community,Community Incentives,13964000,2.0,676024000,98.0,Linear vesting
+47,2029-01-05,tier_1_profit_seeking,Seed Round 1,6250000,2.1,300000000,100.0,Final vest - complete
+47,2029-01-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,58750000,97.9,Linear vesting
+47,2029-01-05,tier_1_profit_seeking,Strategic Round,1250000,2.1,60000000,100.0,Final vest - complete
+47,2029-01-05,tier_1_profit_seeking,Team,13345000,2.8,480000000,100.0,Final vest - complete (adjusted for rounding)
+47,2029-01-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,637200000,64.3,Linear vesting
+47,2029-01-05,tier_2_entity_controlled,Development Company,3226000,1.8,180000000,100.0,Final vest - complete (adjusted for rounding)
+47,2029-01-05,tier_3_community,Community Incentives,13976000,2.0,690000000,100.0,Final vest - complete (adjusted for rounding)
+48,2029-02-05,tier_1_profit_seeking,Seed Round 2,1250000,2.1,60000000,100.0,Final vest - complete
+48,2029-02-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,651900000,65.9,Linear vesting
+49,2029-03-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,666600000,67.3,Linear vesting
+50,2029-04-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,681300000,68.8,Linear vesting
+51,2029-05-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,696000000,70.3,Linear vesting
+52,2029-06-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,710700000,71.8,Linear vesting
+53,2029-07-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,725400000,73.3,Linear vesting
+54,2029-08-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,740100000,74.8,Linear vesting
+55,2029-09-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,754800000,76.2,Linear vesting
+56,2029-10-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,769500000,77.7,Linear vesting
+57,2029-11-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,784200000,79.2,Linear vesting
+58,2029-12-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,798900000,80.7,Linear vesting
+59,2030-01-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,813600000,82.2,Linear vesting
+60,2030-02-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,828300000,83.7,Linear vesting
+61,2030-03-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,843000000,85.2,Linear vesting
+62,2030-04-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,857700000,86.6,Linear vesting
+63,2030-05-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,872400000,88.1,Linear vesting
+64,2030-06-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,887100000,89.6,Linear vesting
+65,2030-07-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,901800000,91.1,Linear vesting
+66,2030-08-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,916500000,92.6,Linear vesting
+67,2030-09-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,931200000,94.1,Linear vesting
+68,2030-10-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,945900000,95.5,Linear vesting
+69,2030-11-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,960600000,97.0,Linear vesting
+70,2030-12-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,975300000,98.5,Linear vesting
+71,2031-01-05,tier_2_entity_controlled,Foundation Reserve,14700000,1.5,990000000,100.0,Final vest - complete

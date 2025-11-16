@@ -1,97 +1,84 @@
-# Quick Reference: Adding a Project
+# Quick Start: Add a Project in 10 Minutes
 
-**Too busy to read CONTRIBUTING.md? Here's the ultra-quick version:**
+## Prerequisites
+- GitHub account
+- Basic JSON editing skills
+- Project data ready
 
----
+## 3 Steps to Contribute
 
-## 3-Minute Setup
+### Step 1: Copy the Right Template (30 seconds)
 
-### 1. Copy Template(s)
-
-**Fair launch (no premine):**
+**Fair launch (no premine)?**
 ```bash
 cp templates/project-template.json data/projects/yourproject.json
 ```
 
-**Has premine:**
+**Has premine/ICO?**
 ```bash
 cp templates/project-template.json data/projects/yourproject.json
+mkdir -p allocations/yourproject
 cp templates/genesis-template.json allocations/yourproject/genesis.json
 ```
 
-### 2. Fill Required Fields
+### Step 2: Fill in the Data (8 minutes)
 
-**In `data/projects/yourproject.json`:**
-- `project` - lowercase name (bitcoin, kaspa)
-- `ticker` - BTC, KAS, etc.
-- `launch_date` - YYYY-MM-DD
-- `supply.max_supply` - total cap (or null)
-- `supply.current_supply` - mined so far
-- `emission.current_block_reward` - current reward
-- `emission.block_time_seconds` - avg block time
-- `data_sources` - MUST provide URLs
+**Critical fields table:**
+| Field | Where to Find | Example |
+|-------|---------------|---------|
+| `ticker` | Official docs | "BTC" |
+| `launch_date` | Block explorer | "2009-01-03" |
+| `current_supply` | Block explorer | 19562000 |
+| `max_supply` | Whitepaper | 21000000 |
+| `current_block_reward` | Block explorer | 6.25 |
+| `block_time_seconds` | Block explorer average | 600 |
+| `current_price_usd` | CoinGecko | 67500 |
 
-**In `allocations/yourproject/genesis.json` (if premine):**
-- `total_genesis_allocation_pct` - % premined
-- Break down in `allocation_tiers`
-- List known investors
-- Add vesting schedules
-
-### 3. Delete Comments
-
-Remove ALL lines starting with `_comment` before submitting!
-
-### 4. Submit PR
-
-Done! We'll review and merge.
-
----
-
-## Where to Find Data
-
-| Need | Where to Look |
-|------|--------------|
-| Supply | Block explorer |
-| Block reward | Block explorer (recent blocks) |
-| Block time | Block explorer (average) |
-| Hashrate | Mining pools, WhatToMine |
-| Price | CoinGecko, Livecoinwatch |
-| VCs | Medium, Twitter, CrunchBase |
-
----
-
-## Quick Calculations
-
+**Quick calculations:**
 ```javascript
-// Daily emission
-daily_emission = (86400 / block_time) * block_reward
-
-// % mined
-pct_mined = (current_supply / max_supply) * 100
-
-// Annual inflation
-annual_inflation = (daily_emission * 365 / current_supply) * 100
-
-// FDMC
-fdmc = price * max_supply
+daily_emission = (86400 / block_time_seconds) * current_block_reward
+annual_inflation_pct = (daily_emission * 365 / current_supply) * 100
+fdmc = current_price_usd * max_supply
 ```
 
----
+**CRITICAL:** Delete all lines starting with `_comment` before submitting!
 
-## Common Mistakes
+### Step 3: Validate & Submit (90 seconds)
+```bash
+# Optional validation
+python scripts/validate_submission.py yourproject
 
-❌ Leaving `_comment` fields in JSON  
-❌ Percentages don't sum to 100%  
-❌ No data sources provided  
-❌ Wrong date format (use YYYY-MM-DD)  
-❌ Outdated data (>30 days old)
+# Commit and push
+git add data/projects/yourproject.json
+git commit -m "Add [Project Name] tokenomics"
+git push origin main
+```
 
----
+Create PR on GitHub. Done!
 
-## Need Help?
+## Data Source Shortcuts
 
-1. Check examples: `data/projects/bitcoin.json`
-2. Read full guide: `CONTRIBUTING.md`
-3. Open an issue with `question` label
+| Data Type | Best Sources |
+|-----------|--------------|
+| Supply/emission | Blockchain.com, Blockchair, project explorer |
+| Price/market cap | CoinGecko, CoinMarketCap |
+| Mining stats | WhatToMine, Minerstat |
+| Investor info | Crunchbase, project blog, Twitter |
+| Vesting | Project docs, Etherscan (if on-chain) |
 
-**That's it!** Thanks for contributing! 🚀
+## Common Mistakes (5-Second Checklist)
+
+- [ ] Deleted all `_comment` lines?
+- [ ] Provided data sources for each claim?
+- [ ] Percentages sum to 100%?
+- [ ] Dates in YYYY-MM-DD format?
+- [ ] Data less than 30 days old?
+
+## Need More Detail?
+
+→ Read [CONTRIBUTING.md](CONTRIBUTING.md) for comprehensive guide
+
+## Stuck?
+
+→ Check [examples/](examples/) for completed submissions
+→ Open an [Issue](../../issues) with `question` label

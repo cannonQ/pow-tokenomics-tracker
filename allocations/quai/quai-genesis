@@ -1,0 +1,216 @@
+{
+  "project": "quai",
+  "has_premine": true,
+  "has_dev_tax": false,
+  "genesis_date": "2025-02-05",
+  
+  "total_genesis_allocation_pct": 100,
+  "available_for_mining_genesis_pct": 0,
+  
+  "dev_tax": {
+    "type": "none",
+    "pct_of_block_reward": 0,
+    "duration_blocks": null,
+    "recipient": null,
+    "notes": "No ongoing dev tax from block rewards. All genesis allocations are time-locked with vesting schedules."
+  },
+  
+  "suspected_insider_mining": {
+    "enabled": false,
+    "timeframe": null,
+    "estimated_pct_of_supply": 0,
+    "evidence": [],
+    "verifiable": false,
+    "source_investigations": []
+  },
+  
+  "allocation_tiers": {
+    "tier_1_profit_seeking": {
+      "total_pct": 30,
+      "buckets": [
+        {
+          "name": "Seed Round 1",
+          "pct": 10.0,
+          "absolute_tokens": 300000000,
+          "cost_per_token_usd": null,
+          "date": "2022-03-24",
+          "vesting_months": 36,
+          "cliff_months": 12,
+          "tge_unlock_pct": 25,
+          
+          "investors": {
+            "known": [
+              {
+                "name": "Polychain Capital",
+                "pct_of_round": null,
+                "tokens": null
+              },
+              {
+                "name": "Black Edge Capital",
+                "pct_of_round": null,
+                "tokens": null
+              }
+            ],
+            "unknown_count": null,
+            "total_investors": null,
+            "notes": "Seed 1 raised $8M led by Polychain Capital. Individual allocations not disclosed."
+          }
+        },
+        {
+          "name": "Seed Round 2",
+          "pct": 2.0,
+          "absolute_tokens": 60000000,
+          "cost_per_token_usd": null,
+          "date": "2022-05-06",
+          "vesting_months": 36,
+          "cliff_months": 12,
+          "tge_unlock_pct": 0,
+          
+          "investors": {
+            "known": [
+              {
+                "name": "Alumni Ventures",
+                "pct_of_round": null,
+                "tokens": null
+              }
+            ],
+            "unknown_count": null,
+            "total_investors": null,
+            "notes": "Seed 2 raised $2M from Alumni Ventures. 25% unlock at 1-year cliff, not at TGE."
+          }
+        },
+        {
+          "name": "Strategic Round",
+          "pct": 2.0,
+          "absolute_tokens": 60000000,
+          "cost_per_token_usd": null,
+          "date": "2024-08-29",
+          "vesting_months": 36,
+          "cliff_months": 12,
+          "tge_unlock_pct": 25,
+          
+          "investors": {
+            "known": [
+              {"name": "Cogitent Ventures", "pct_of_round": null, "tokens": null},
+              {"name": "MH Ventures", "pct_of_round": null, "tokens": null},
+              {"name": "TPC Ventures", "pct_of_round": null, "tokens": null},
+              {"name": "Giga Chad Ventures", "pct_of_round": null, "tokens": null},
+              {"name": "DexCheck Ventures", "pct_of_round": null, "tokens": null}
+            ],
+            "unknown_count": 0,
+            "total_investors": 5,
+            "notes": "Strategic round raised $5M led by Cogitent Ventures."
+          }
+        },
+        {
+          "name": "Team",
+          "pct": 16.0,
+          "absolute_tokens": 480000000,
+          "cost_per_token_usd": 0,
+          "date": "2025-02-05",
+          "vesting_months": 36,
+          "cliff_months": 12,
+          "tge_unlock_pct": 0,
+          
+          "recipients": {
+            "known": [
+              {"name": "Alan Orwick", "role": "Co-Founder", "pct_of_bucket": null},
+              {"name": "Core Team", "role": "Engineering/Development", "pct_of_bucket": null}
+            ],
+            "unknown_count": null,
+            "notes": "1-year cliff + 36 months linear vesting. Individual allocations not disclosed."
+          }
+        }
+      ]
+    },
+    
+    "tier_2_entity_controlled": {
+      "total_pct": 39,
+      "buckets": [
+        {
+          "name": "Foundation Reserve",
+          "pct": 33.0,
+          "absolute_tokens": 990000000,
+          "liquid_at_tge_pct": 2,
+          "vesting_months": 66,
+          "cliff_months": 6,
+          "multisig": {"signers": null, "threshold": null},
+          "usage": "Fund innovations, partnerships, and ecosystem growth",
+          "transparency": "Governed by Quai Foundation",
+          "notes": "2% TGE, 6-month cliff, 66 months linear (5.5 years total)"
+        },
+        {
+          "name": "Development Company",
+          "pct": 6.0,
+          "absolute_tokens": 180000000,
+          "liquid_at_tge_pct": 25,
+          "vesting_months": 42,
+          "cliff_months": 6,
+          "controlled_by": "Dominant Strategies Inc.",
+          "usage": "Fund protocol development and engineering",
+          "notes": "25% TGE, 6-month cliff, 42 months linear"
+        }
+      ]
+    },
+    
+    "tier_3_community": {
+      "total_pct": 23,
+      "buckets": [
+        {
+          "name": "Community Incentives",
+          "pct": 23.0,
+          "absolute_tokens": 690000000,
+          "liquid_at_tge_pct": 15,
+          "vesting_months": 42,
+          "cliff_months": 6,
+          "controlled_by_foundation": true,
+          "usage": "Reward active participation with predefined criteria",
+          "notes": "15% TGE, 6-month cliff, 42 months linear"
+        }
+      ]
+    },
+    
+    "tier_4_liquidity": {
+      "total_pct": 7,
+      "buckets": [
+        {
+          "name": "Exchange Liquidity",
+          "pct": 2.0,
+          "absolute_tokens": 60000000,
+          "liquid_at_tge_pct": 100,
+          "usage": "Exchange liquidity and price discovery",
+          "notes": "100% at TGE"
+        },
+        {
+          "name": "Testnet & Earn",
+          "pct": 5.0,
+          "absolute_tokens": 150000000,
+          "distribution_months": 0,
+          "distribution_mechanism": "Testnet rewards, node operators, builders, social media",
+          "notes": "100% TGE; ~70M burned from unallocated. Wave 2/3: 25% first, then monthly over 24mo. Builder grants: 1yr cliff, 25% at cliff, 3yr monthly"
+        }
+      ]
+    }
+  },
+  
+  "vesting_waterfall": [
+    {"month": 0, "unlock_tokens": 332400000, "pct_of_premine": 11.08, "source": "TGE unlocks minus ~70M burned"},
+    {"month": 6, "unlock_tokens": null, "pct_of_premine": null, "source": "Foundation & Community cliff ends"},
+    {"month": 12, "unlock_tokens": null, "pct_of_premine": null, "source": "Seed 1, Strategic, Team cliffs end; Seed 2 first unlock"}
+  ],
+  
+  "transparency_notes": [
+    "Individual allocations undisclosed for all rounds",
+    "$15M total funding well-documented",
+    "Vesting schedules clear in official docs",
+    "~70M QUAI (2.3%) burned reduces effective supply",
+    "KYC required via Fractal.id ($5 ETH fee)",
+    "OFAC restrictions apply"
+  ],
+  
+  "data_sources": {
+    "tokenomics": "https://docs.qu.ai/learn/tokenomics/quai-emissions",
+    "claims": "https://qu.ai/blog/announcing-the-quai-network-claims-page/",
+    "funding": "https://www.theblock.co/post/313387/quai-strategic-round"
+  }
+}

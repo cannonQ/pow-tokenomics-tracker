@@ -30,7 +30,7 @@
     "details": "3 billion QUAI allocated at genesis across 7 categories with time-locked vesting. Remaining supply issued through PoW mining with market-driven difficulty-based rewards."
   },
   
-  "genesis_allocation": "See allocations/quai-network/genesis.json",
+  "genesis_allocation": "See allocations/quai/genesis.json",
   
   "market_data": {
     "current_price_usd": 0.0234,

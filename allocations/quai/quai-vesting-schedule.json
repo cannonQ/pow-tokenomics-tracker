@@ -1,0 +1,5123 @@
+{
+  "project": "quai",
+  "genesis_date": "2025-02-05",
+  "total_genesis_allocation_tokens": 2900000000,
+  "total_genesis_allocation_pct": 100,
+  "tier_totals": {
+    "tier_1_profit_seeking": {
+      "tokens": 900000000,
+      "pct_of_genesis": 31.03
+    },
+    "tier_2_entity_controlled": {
+      "tokens": 1170000000,
+      "pct_of_genesis": 40.34
+    },
+    "tier_3_community": {
+      "tokens": 690000000,
+      "pct_of_genesis": 23.79
+    },
+    "tier_4_liquidity": {
+      "tokens": 140000000,
+      "pct_of_genesis": 4.83
+    }
+  },
+  "monthly_schedule": [
+    {
+      "month": 0,
+      "date": "2025-02-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 75000000,
+          "unlock_pct_of_bucket": 25.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "TGE unlock 25%"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "12-month cliff begins"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 15000000,
+          "unlock_pct_of_bucket": 25.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "TGE unlock 25%"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "12-month cliff begins"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 19800000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 19800000,
+          "cumulative_pct_of_bucket": 2.0,
+          "notes": "TGE unlock 2%"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 45000000,
+          "unlock_pct_of_bucket": 25.0,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "TGE unlock 25%"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 103500000,
+          "unlock_pct_of_bucket": 15.0,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_bucket": 15.0,
+          "notes": "TGE unlock 15%"
+        },
+        {
+          "tier": "tier_4_liquidity",
+          "bucket_name": "Exchange Liquidity",
+          "unlock_tokens": 60000000,
+          "unlock_pct_of_bucket": 100.0,
+          "cumulative_tokens": 60000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "100% at TGE - complete"
+        },
+        {
+          "tier": "tier_4_liquidity",
+          "bucket_name": "Testnet & Earn",
+          "unlock_tokens": 80000000,
+          "unlock_pct_of_bucket": 100.0,
+          "cumulative_tokens": 80000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "100% at TGE (post-burn) - complete"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 90000000,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 64800000,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_tier": 3.85
+        },
+        "tier_3_community": {
+          "unlock_tokens": 103500000,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_tier": 15.0
+        },
+        "tier_4_liquidity": {
+          "unlock_tokens": 140000000,
+          "cumulative_tokens": 80000000,
+          "cumulative_pct_of_tier": 57.14
+        }
+      },
+      "total": {
+        "unlock_tokens": 398300000,
+        "cumulative_tokens": 303500000,
+        "cumulative_pct_of_genesis": 10.47
+      }
+    },
+    {
+      "month": 1,
+      "date": "2025-03-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 19800000,
+          "cumulative_pct_of_bucket": 2.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_bucket": 15.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_tier": 3.85
+        },
+        "tier_3_community": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_tier": 15.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 0,
+        "cumulative_tokens": 223500000,
+        "cumulative_pct_of_genesis": 7.71
+      }
+    },
+    {
+      "month": 2,
+      "date": "2025-04-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 19800000,
+          "cumulative_pct_of_bucket": 2.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_bucket": 15.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_tier": 3.85
+        },
+        "tier_3_community": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_tier": 15.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 0,
+        "cumulative_tokens": 223500000,
+        "cumulative_pct_of_genesis": 7.71
+      }
+    },
+    {
+      "month": 3,
+      "date": "2025-05-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 19800000,
+          "cumulative_pct_of_bucket": 2.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_bucket": 15.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_tier": 3.85
+        },
+        "tier_3_community": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_tier": 15.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 0,
+        "cumulative_tokens": 223500000,
+        "cumulative_pct_of_genesis": 7.71
+      }
+    },
+    {
+      "month": 4,
+      "date": "2025-06-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 19800000,
+          "cumulative_pct_of_bucket": 2.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_bucket": 15.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_tier": 3.85
+        },
+        "tier_3_community": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_tier": 15.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 0,
+        "cumulative_tokens": 223500000,
+        "cumulative_pct_of_genesis": 7.71
+      }
+    },
+    {
+      "month": 5,
+      "date": "2025-07-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 19800000,
+          "cumulative_pct_of_bucket": 2.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_bucket": 15.0,
+          "notes": "Cliff ongoing"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_tier": 3.85
+        },
+        "tier_3_community": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 103500000,
+          "cumulative_pct_of_tier": 15.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 0,
+        "cumulative_tokens": 223500000,
+        "cumulative_pct_of_genesis": 7.71
+      }
+    },
+    {
+      "month": 6,
+      "date": "2025-08-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 34500000,
+          "cumulative_pct_of_bucket": 3.5,
+          "notes": "Cliff ends - linear vesting begins"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 48214000,
+          "cumulative_pct_of_bucket": 26.8,
+          "notes": "Cliff ends - linear vesting begins"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 117464000,
+          "cumulative_pct_of_bucket": 17.0,
+          "notes": "Cliff ends - linear vesting begins"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 48214000,
+          "cumulative_pct_of_tier": 4.12
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 117464000,
+          "cumulative_pct_of_tier": 17.02
+        }
+      },
+      "total": {
+        "unlock_tokens": 31878000,
+        "cumulative_tokens": 240678000,
+        "cumulative_pct_of_genesis": 8.3
+      }
+    },
+    {
+      "month": 7,
+      "date": "2025-09-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 49200000,
+          "cumulative_pct_of_bucket": 5.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 51428000,
+          "cumulative_pct_of_bucket": 28.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 131428000,
+          "cumulative_pct_of_bucket": 19.0,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 51428000,
+          "cumulative_pct_of_tier": 4.4
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 131428000,
+          "cumulative_pct_of_tier": 19.05
+        }
+      },
+      "total": {
+        "unlock_tokens": 31878000,
+        "cumulative_tokens": 257856000,
+        "cumulative_pct_of_genesis": 8.89
+      }
+    },
+    {
+      "month": 8,
+      "date": "2025-10-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 63900000,
+          "cumulative_pct_of_bucket": 6.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 54642000,
+          "cumulative_pct_of_bucket": 30.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 145392000,
+          "cumulative_pct_of_bucket": 21.1,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 63900000,
+          "cumulative_pct_of_tier": 5.46
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 145392000,
+          "cumulative_pct_of_tier": 21.07
+        }
+      },
+      "total": {
+        "unlock_tokens": 31878000,
+        "cumulative_tokens": 284292000,
+        "cumulative_pct_of_genesis": 9.8
+      }
+    },
+    {
+      "month": 9,
+      "date": "2025-11-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 78600000,
+          "cumulative_pct_of_bucket": 7.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 57856000,
+          "cumulative_pct_of_bucket": 32.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 159356000,
+          "cumulative_pct_of_bucket": 23.1,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 78600000,
+          "cumulative_pct_of_tier": 6.72
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 159356000,
+          "cumulative_pct_of_tier": 23.1
+        }
+      },
+      "total": {
+        "unlock_tokens": 31878000,
+        "cumulative_tokens": 312956000,
+        "cumulative_pct_of_genesis": 10.79
+      }
+    },
+    {
+      "month": 10,
+      "date": "2025-12-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 93300000,
+          "cumulative_pct_of_bucket": 9.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 61070000,
+          "cumulative_pct_of_bucket": 33.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 173320000,
+          "cumulative_pct_of_bucket": 25.1,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 93300000,
+          "cumulative_pct_of_tier": 7.97
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 173320000,
+          "cumulative_pct_of_tier": 25.12
+        }
+      },
+      "total": {
+        "unlock_tokens": 31878000,
+        "cumulative_tokens": 341620000,
+        "cumulative_pct_of_genesis": 11.78
+      }
+    },
+    {
+      "month": 11,
+      "date": "2026-01-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 0,
+          "unlock_pct_of_bucket": 0.0,
+          "cumulative_tokens": 0,
+          "cumulative_pct_of_bucket": 0.0,
+          "notes": "Cliff ongoing"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 108000000,
+          "cumulative_pct_of_bucket": 10.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 64284000,
+          "cumulative_pct_of_bucket": 35.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 187284000,
+          "cumulative_pct_of_bucket": 27.1,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 75000000,
+          "cumulative_pct_of_tier": 8.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 108000000,
+          "cumulative_pct_of_tier": 9.23
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 187284000,
+          "cumulative_pct_of_tier": 27.14
+        }
+      },
+      "total": {
+        "unlock_tokens": 31878000,
+        "cumulative_tokens": 370284000,
+        "cumulative_pct_of_genesis": 12.77
+      }
+    },
+    {
+      "month": 12,
+      "date": "2026-02-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 81250000,
+          "cumulative_pct_of_bucket": 27.1,
+          "notes": "Cliff ends - linear vesting begins"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 15000000,
+          "unlock_pct_of_bucket": 25.0,
+          "cumulative_tokens": 15000000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Cliff ends - 25% unlock"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 16250000,
+          "cumulative_pct_of_bucket": 27.1,
+          "notes": "Cliff ends - linear vesting begins"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 13333000,
+          "cumulative_pct_of_bucket": 2.8,
+          "notes": "Cliff ends - linear vesting begins"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 122700000,
+          "cumulative_pct_of_bucket": 12.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 67498000,
+          "cumulative_pct_of_bucket": 37.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 201248000,
+          "cumulative_pct_of_bucket": 29.2,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 35833000,
+          "cumulative_tokens": 81250000,
+          "cumulative_pct_of_tier": 9.03
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 122700000,
+          "cumulative_pct_of_tier": 10.49
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 201248000,
+          "cumulative_pct_of_tier": 29.17
+        }
+      },
+      "total": {
+        "unlock_tokens": 67711000,
+        "cumulative_tokens": 405198000,
+        "cumulative_pct_of_genesis": 13.97
+      }
+    },
+    {
+      "month": 13,
+      "date": "2026-03-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 87500000,
+          "cumulative_pct_of_bucket": 29.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 16250000,
+          "cumulative_pct_of_bucket": 27.1,
+          "notes": "Linear vesting begins"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 17500000,
+          "cumulative_pct_of_bucket": 29.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 26666000,
+          "cumulative_pct_of_bucket": 5.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 137400000,
+          "cumulative_pct_of_bucket": 13.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 70712000,
+          "cumulative_pct_of_bucket": 39.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 215212000,
+          "cumulative_pct_of_bucket": 31.2,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 87500000,
+          "cumulative_pct_of_tier": 9.72
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 137400000,
+          "cumulative_pct_of_tier": 11.74
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 215212000,
+          "cumulative_pct_of_tier": 31.19
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 440112000,
+        "cumulative_pct_of_genesis": 15.18
+      }
+    },
+    {
+      "month": 14,
+      "date": "2026-04-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 93750000,
+          "cumulative_pct_of_bucket": 31.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 17500000,
+          "cumulative_pct_of_bucket": 29.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 18750000,
+          "cumulative_pct_of_bucket": 31.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 39999000,
+          "cumulative_pct_of_bucket": 8.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 152100000,
+          "cumulative_pct_of_bucket": 15.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 73926000,
+          "cumulative_pct_of_bucket": 41.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 229176000,
+          "cumulative_pct_of_bucket": 33.2,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 93750000,
+          "cumulative_pct_of_tier": 10.42
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 152100000,
+          "cumulative_pct_of_tier": 13.0
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 229176000,
+          "cumulative_pct_of_tier": 33.21
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 475026000,
+        "cumulative_pct_of_genesis": 16.38
+      }
+    },
+    {
+      "month": 15,
+      "date": "2026-05-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 100000000,
+          "cumulative_pct_of_bucket": 33.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 18750000,
+          "cumulative_pct_of_bucket": 31.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 20000000,
+          "cumulative_pct_of_bucket": 33.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 53332000,
+          "cumulative_pct_of_bucket": 11.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 166800000,
+          "cumulative_pct_of_bucket": 16.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 77140000,
+          "cumulative_pct_of_bucket": 42.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 243140000,
+          "cumulative_pct_of_bucket": 35.2,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 100000000,
+          "cumulative_pct_of_tier": 11.11
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 166800000,
+          "cumulative_pct_of_tier": 14.26
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 243140000,
+          "cumulative_pct_of_tier": 35.24
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 509940000,
+        "cumulative_pct_of_genesis": 17.58
+      }
+    },
+    {
+      "month": 16,
+      "date": "2026-06-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 106250000,
+          "cumulative_pct_of_bucket": 35.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 20000000,
+          "cumulative_pct_of_bucket": 33.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 21250000,
+          "cumulative_pct_of_bucket": 35.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 66665000,
+          "cumulative_pct_of_bucket": 13.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 181500000,
+          "cumulative_pct_of_bucket": 18.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 80354000,
+          "cumulative_pct_of_bucket": 44.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 257104000,
+          "cumulative_pct_of_bucket": 37.3,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 106250000,
+          "cumulative_pct_of_tier": 11.81
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 181500000,
+          "cumulative_pct_of_tier": 15.51
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 257104000,
+          "cumulative_pct_of_tier": 37.26
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 544854000,
+        "cumulative_pct_of_genesis": 18.79
+      }
+    },
+    {
+      "month": 17,
+      "date": "2026-07-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 112500000,
+          "cumulative_pct_of_bucket": 37.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 21250000,
+          "cumulative_pct_of_bucket": 35.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 22500000,
+          "cumulative_pct_of_bucket": 37.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 79998000,
+          "cumulative_pct_of_bucket": 16.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 196200000,
+          "cumulative_pct_of_bucket": 19.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 83568000,
+          "cumulative_pct_of_bucket": 46.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 271068000,
+          "cumulative_pct_of_bucket": 39.3,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 112500000,
+          "cumulative_pct_of_tier": 12.5
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 196200000,
+          "cumulative_pct_of_tier": 16.77
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 271068000,
+          "cumulative_pct_of_tier": 39.29
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 579768000,
+        "cumulative_pct_of_genesis": 19.99
+      }
+    },
+    {
+      "month": 18,
+      "date": "2026-08-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 118750000,
+          "cumulative_pct_of_bucket": 39.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 22500000,
+          "cumulative_pct_of_bucket": 37.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 23750000,
+          "cumulative_pct_of_bucket": 39.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 93331000,
+          "cumulative_pct_of_bucket": 19.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 210900000,
+          "cumulative_pct_of_bucket": 21.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 86782000,
+          "cumulative_pct_of_bucket": 48.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 285032000,
+          "cumulative_pct_of_bucket": 41.3,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 118750000,
+          "cumulative_pct_of_tier": 13.19
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 210900000,
+          "cumulative_pct_of_tier": 18.03
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 285032000,
+          "cumulative_pct_of_tier": 41.31
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 614682000,
+        "cumulative_pct_of_genesis": 21.2
+      }
+    },
+    {
+      "month": 19,
+      "date": "2026-09-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 125000000,
+          "cumulative_pct_of_bucket": 41.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 23750000,
+          "cumulative_pct_of_bucket": 39.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 25000000,
+          "cumulative_pct_of_bucket": 41.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 106664000,
+          "cumulative_pct_of_bucket": 22.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 225600000,
+          "cumulative_pct_of_bucket": 22.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 89996000,
+          "cumulative_pct_of_bucket": 50.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 298996000,
+          "cumulative_pct_of_bucket": 43.3,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 125000000,
+          "cumulative_pct_of_tier": 13.89
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 225600000,
+          "cumulative_pct_of_tier": 19.28
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 298996000,
+          "cumulative_pct_of_tier": 43.33
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 649596000,
+        "cumulative_pct_of_genesis": 22.4
+      }
+    },
+    {
+      "month": 20,
+      "date": "2026-10-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 131250000,
+          "cumulative_pct_of_bucket": 43.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 25000000,
+          "cumulative_pct_of_bucket": 41.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 26250000,
+          "cumulative_pct_of_bucket": 43.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 119997000,
+          "cumulative_pct_of_bucket": 25.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 240300000,
+          "cumulative_pct_of_bucket": 24.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 93210000,
+          "cumulative_pct_of_bucket": 51.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 312960000,
+          "cumulative_pct_of_bucket": 45.4,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 131250000,
+          "cumulative_pct_of_tier": 14.58
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 240300000,
+          "cumulative_pct_of_tier": 20.54
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 312960000,
+          "cumulative_pct_of_tier": 45.36
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 684510000,
+        "cumulative_pct_of_genesis": 23.6
+      }
+    },
+    {
+      "month": 21,
+      "date": "2026-11-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 137500000,
+          "cumulative_pct_of_bucket": 45.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 26250000,
+          "cumulative_pct_of_bucket": 43.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 27500000,
+          "cumulative_pct_of_bucket": 45.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 133330000,
+          "cumulative_pct_of_bucket": 27.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 255000000,
+          "cumulative_pct_of_bucket": 25.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 96424000,
+          "cumulative_pct_of_bucket": 53.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 326924000,
+          "cumulative_pct_of_bucket": 47.4,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 137500000,
+          "cumulative_pct_of_tier": 15.28
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 255000000,
+          "cumulative_pct_of_tier": 21.79
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 326924000,
+          "cumulative_pct_of_tier": 47.38
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 719424000,
+        "cumulative_pct_of_genesis": 24.81
+      }
+    },
+    {
+      "month": 22,
+      "date": "2026-12-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 143750000,
+          "cumulative_pct_of_bucket": 47.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 27500000,
+          "cumulative_pct_of_bucket": 45.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 28750000,
+          "cumulative_pct_of_bucket": 47.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 146663000,
+          "cumulative_pct_of_bucket": 30.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 269700000,
+          "cumulative_pct_of_bucket": 27.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 99638000,
+          "cumulative_pct_of_bucket": 55.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 340888000,
+          "cumulative_pct_of_bucket": 49.4,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 146663000,
+          "cumulative_pct_of_tier": 16.3
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 269700000,
+          "cumulative_pct_of_tier": 23.05
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 340888000,
+          "cumulative_pct_of_tier": 49.4
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 757251000,
+        "cumulative_pct_of_genesis": 26.11
+      }
+    },
+    {
+      "month": 23,
+      "date": "2027-01-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 150000000,
+          "cumulative_pct_of_bucket": 50.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 28750000,
+          "cumulative_pct_of_bucket": 47.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 30000000,
+          "cumulative_pct_of_bucket": 50.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 159996000,
+          "cumulative_pct_of_bucket": 33.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 284400000,
+          "cumulative_pct_of_bucket": 28.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 102852000,
+          "cumulative_pct_of_bucket": 57.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 354852000,
+          "cumulative_pct_of_bucket": 51.4,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 159996000,
+          "cumulative_pct_of_tier": 17.78
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 284400000,
+          "cumulative_pct_of_tier": 24.31
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 354852000,
+          "cumulative_pct_of_tier": 51.43
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 799248000,
+        "cumulative_pct_of_genesis": 27.56
+      }
+    },
+    {
+      "month": 24,
+      "date": "2027-02-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 156250000,
+          "cumulative_pct_of_bucket": 52.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 30000000,
+          "cumulative_pct_of_bucket": 50.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 31250000,
+          "cumulative_pct_of_bucket": 52.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 173329000,
+          "cumulative_pct_of_bucket": 36.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 299100000,
+          "cumulative_pct_of_bucket": 30.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 106066000,
+          "cumulative_pct_of_bucket": 58.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 368816000,
+          "cumulative_pct_of_bucket": 53.5,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 173329000,
+          "cumulative_pct_of_tier": 19.26
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 299100000,
+          "cumulative_pct_of_tier": 25.56
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 368816000,
+          "cumulative_pct_of_tier": 53.45
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 841245000,
+        "cumulative_pct_of_genesis": 29.01
+      }
+    },
+    {
+      "month": 25,
+      "date": "2027-03-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 162500000,
+          "cumulative_pct_of_bucket": 54.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 31250000,
+          "cumulative_pct_of_bucket": 52.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 32500000,
+          "cumulative_pct_of_bucket": 54.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 186662000,
+          "cumulative_pct_of_bucket": 38.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 313800000,
+          "cumulative_pct_of_bucket": 31.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 109280000,
+          "cumulative_pct_of_bucket": 60.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 382780000,
+          "cumulative_pct_of_bucket": 55.5,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 186662000,
+          "cumulative_pct_of_tier": 20.74
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 313800000,
+          "cumulative_pct_of_tier": 26.82
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 382780000,
+          "cumulative_pct_of_tier": 55.48
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 883242000,
+        "cumulative_pct_of_genesis": 30.46
+      }
+    },
+    {
+      "month": 26,
+      "date": "2027-04-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 168750000,
+          "cumulative_pct_of_bucket": 56.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 32500000,
+          "cumulative_pct_of_bucket": 54.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 33750000,
+          "cumulative_pct_of_bucket": 56.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 199995000,
+          "cumulative_pct_of_bucket": 41.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 328500000,
+          "cumulative_pct_of_bucket": 33.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 112494000,
+          "cumulative_pct_of_bucket": 62.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 396744000,
+          "cumulative_pct_of_bucket": 57.5,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 199995000,
+          "cumulative_pct_of_tier": 22.22
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 328500000,
+          "cumulative_pct_of_tier": 28.08
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 396744000,
+          "cumulative_pct_of_tier": 57.5
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 925239000,
+        "cumulative_pct_of_genesis": 31.9
+      }
+    },
+    {
+      "month": 27,
+      "date": "2027-05-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 175000000,
+          "cumulative_pct_of_bucket": 58.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 33750000,
+          "cumulative_pct_of_bucket": 56.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 35000000,
+          "cumulative_pct_of_bucket": 58.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 213328000,
+          "cumulative_pct_of_bucket": 44.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 343200000,
+          "cumulative_pct_of_bucket": 34.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 115708000,
+          "cumulative_pct_of_bucket": 64.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 410708000,
+          "cumulative_pct_of_bucket": 59.5,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 213328000,
+          "cumulative_pct_of_tier": 23.7
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 343200000,
+          "cumulative_pct_of_tier": 29.33
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 410708000,
+          "cumulative_pct_of_tier": 59.52
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 967236000,
+        "cumulative_pct_of_genesis": 33.35
+      }
+    },
+    {
+      "month": 28,
+      "date": "2027-06-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 181250000,
+          "cumulative_pct_of_bucket": 60.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 35000000,
+          "cumulative_pct_of_bucket": 58.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 36250000,
+          "cumulative_pct_of_bucket": 60.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 226661000,
+          "cumulative_pct_of_bucket": 47.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 357900000,
+          "cumulative_pct_of_bucket": 36.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 118922000,
+          "cumulative_pct_of_bucket": 66.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 424672000,
+          "cumulative_pct_of_bucket": 61.5,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 226661000,
+          "cumulative_pct_of_tier": 25.18
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 357900000,
+          "cumulative_pct_of_tier": 30.59
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 424672000,
+          "cumulative_pct_of_tier": 61.55
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1009233000,
+        "cumulative_pct_of_genesis": 34.8
+      }
+    },
+    {
+      "month": 29,
+      "date": "2027-07-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 187500000,
+          "cumulative_pct_of_bucket": 62.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 36250000,
+          "cumulative_pct_of_bucket": 60.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 37500000,
+          "cumulative_pct_of_bucket": 62.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 239994000,
+          "cumulative_pct_of_bucket": 50.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 372600000,
+          "cumulative_pct_of_bucket": 37.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 122136000,
+          "cumulative_pct_of_bucket": 67.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 438636000,
+          "cumulative_pct_of_bucket": 63.6,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 239994000,
+          "cumulative_pct_of_tier": 26.67
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 372600000,
+          "cumulative_pct_of_tier": 31.85
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 438636000,
+          "cumulative_pct_of_tier": 63.57
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1051230000,
+        "cumulative_pct_of_genesis": 36.25
+      }
+    },
+    {
+      "month": 30,
+      "date": "2027-08-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 193750000,
+          "cumulative_pct_of_bucket": 64.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 37500000,
+          "cumulative_pct_of_bucket": 62.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 38750000,
+          "cumulative_pct_of_bucket": 64.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 253327000,
+          "cumulative_pct_of_bucket": 52.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 387300000,
+          "cumulative_pct_of_bucket": 39.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 125350000,
+          "cumulative_pct_of_bucket": 69.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 452600000,
+          "cumulative_pct_of_bucket": 65.6,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 253327000,
+          "cumulative_pct_of_tier": 28.15
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 387300000,
+          "cumulative_pct_of_tier": 33.1
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 452600000,
+          "cumulative_pct_of_tier": 65.59
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1093227000,
+        "cumulative_pct_of_genesis": 37.7
+      }
+    },
+    {
+      "month": 31,
+      "date": "2027-09-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 200000000,
+          "cumulative_pct_of_bucket": 66.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 38750000,
+          "cumulative_pct_of_bucket": 64.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 40000000,
+          "cumulative_pct_of_bucket": 66.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 266660000,
+          "cumulative_pct_of_bucket": 55.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 402000000,
+          "cumulative_pct_of_bucket": 40.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 128564000,
+          "cumulative_pct_of_bucket": 71.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 466564000,
+          "cumulative_pct_of_bucket": 67.6,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 266660000,
+          "cumulative_pct_of_tier": 29.63
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 402000000,
+          "cumulative_pct_of_tier": 34.36
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 466564000,
+          "cumulative_pct_of_tier": 67.62
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1135224000,
+        "cumulative_pct_of_genesis": 39.15
+      }
+    },
+    {
+      "month": 32,
+      "date": "2027-10-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 206250000,
+          "cumulative_pct_of_bucket": 68.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 40000000,
+          "cumulative_pct_of_bucket": 66.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 41250000,
+          "cumulative_pct_of_bucket": 68.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 279993000,
+          "cumulative_pct_of_bucket": 58.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 416700000,
+          "cumulative_pct_of_bucket": 42.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 131778000,
+          "cumulative_pct_of_bucket": 73.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 480528000,
+          "cumulative_pct_of_bucket": 69.6,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 279993000,
+          "cumulative_pct_of_tier": 31.11
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 416700000,
+          "cumulative_pct_of_tier": 35.62
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 480528000,
+          "cumulative_pct_of_tier": 69.64
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1177221000,
+        "cumulative_pct_of_genesis": 40.59
+      }
+    },
+    {
+      "month": 33,
+      "date": "2027-11-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 212500000,
+          "cumulative_pct_of_bucket": 70.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 41250000,
+          "cumulative_pct_of_bucket": 68.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 42500000,
+          "cumulative_pct_of_bucket": 70.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 293326000,
+          "cumulative_pct_of_bucket": 61.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 431400000,
+          "cumulative_pct_of_bucket": 43.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 134992000,
+          "cumulative_pct_of_bucket": 75.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 494492000,
+          "cumulative_pct_of_bucket": 71.7,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 293326000,
+          "cumulative_pct_of_tier": 32.59
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 431400000,
+          "cumulative_pct_of_tier": 36.87
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 494492000,
+          "cumulative_pct_of_tier": 71.67
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1219218000,
+        "cumulative_pct_of_genesis": 42.04
+      }
+    },
+    {
+      "month": 34,
+      "date": "2027-12-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 218750000,
+          "cumulative_pct_of_bucket": 72.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 42500000,
+          "cumulative_pct_of_bucket": 70.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 43750000,
+          "cumulative_pct_of_bucket": 72.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 306659000,
+          "cumulative_pct_of_bucket": 63.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 446100000,
+          "cumulative_pct_of_bucket": 45.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 138206000,
+          "cumulative_pct_of_bucket": 76.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 508456000,
+          "cumulative_pct_of_bucket": 73.7,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 306659000,
+          "cumulative_pct_of_tier": 34.07
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 446100000,
+          "cumulative_pct_of_tier": 38.13
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 508456000,
+          "cumulative_pct_of_tier": 73.69
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1261215000,
+        "cumulative_pct_of_genesis": 43.49
+      }
+    },
+    {
+      "month": 35,
+      "date": "2028-01-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 225000000,
+          "cumulative_pct_of_bucket": 75.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 43750000,
+          "cumulative_pct_of_bucket": 72.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_bucket": 75.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 319992000,
+          "cumulative_pct_of_bucket": 66.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 460800000,
+          "cumulative_pct_of_bucket": 46.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 141420000,
+          "cumulative_pct_of_bucket": 78.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 522420000,
+          "cumulative_pct_of_bucket": 75.7,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 319992000,
+          "cumulative_pct_of_tier": 35.55
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 460800000,
+          "cumulative_pct_of_tier": 39.38
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 522420000,
+          "cumulative_pct_of_tier": 75.71
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1303212000,
+        "cumulative_pct_of_genesis": 44.94
+      }
+    },
+    {
+      "month": 36,
+      "date": "2028-02-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 231250000,
+          "cumulative_pct_of_bucket": 77.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 45000000,
+          "cumulative_pct_of_bucket": 75.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 46250000,
+          "cumulative_pct_of_bucket": 77.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 333325000,
+          "cumulative_pct_of_bucket": 69.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 475500000,
+          "cumulative_pct_of_bucket": 48.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 144634000,
+          "cumulative_pct_of_bucket": 80.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 536384000,
+          "cumulative_pct_of_bucket": 77.7,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 333325000,
+          "cumulative_pct_of_tier": 37.04
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 475500000,
+          "cumulative_pct_of_tier": 40.64
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 536384000,
+          "cumulative_pct_of_tier": 77.74
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1345209000,
+        "cumulative_pct_of_genesis": 46.39
+      }
+    },
+    {
+      "month": 37,
+      "date": "2028-03-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 237500000,
+          "cumulative_pct_of_bucket": 79.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 46250000,
+          "cumulative_pct_of_bucket": 77.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 47500000,
+          "cumulative_pct_of_bucket": 79.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 346658000,
+          "cumulative_pct_of_bucket": 72.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 490200000,
+          "cumulative_pct_of_bucket": 49.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 147848000,
+          "cumulative_pct_of_bucket": 82.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 550348000,
+          "cumulative_pct_of_bucket": 79.8,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 346658000,
+          "cumulative_pct_of_tier": 38.52
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 490200000,
+          "cumulative_pct_of_tier": 41.9
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 550348000,
+          "cumulative_pct_of_tier": 79.76
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1387206000,
+        "cumulative_pct_of_genesis": 47.83
+      }
+    },
+    {
+      "month": 38,
+      "date": "2028-04-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 243750000,
+          "cumulative_pct_of_bucket": 81.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 47500000,
+          "cumulative_pct_of_bucket": 79.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 48750000,
+          "cumulative_pct_of_bucket": 81.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 359991000,
+          "cumulative_pct_of_bucket": 75.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 504900000,
+          "cumulative_pct_of_bucket": 51.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 151062000,
+          "cumulative_pct_of_bucket": 83.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 564312000,
+          "cumulative_pct_of_bucket": 81.8,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 359991000,
+          "cumulative_pct_of_tier": 40.0
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 504900000,
+          "cumulative_pct_of_tier": 43.15
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 564312000,
+          "cumulative_pct_of_tier": 81.78
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1429203000,
+        "cumulative_pct_of_genesis": 49.28
+      }
+    },
+    {
+      "month": 39,
+      "date": "2028-05-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 250000000,
+          "cumulative_pct_of_bucket": 83.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 48750000,
+          "cumulative_pct_of_bucket": 81.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 50000000,
+          "cumulative_pct_of_bucket": 83.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 373324000,
+          "cumulative_pct_of_bucket": 77.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 519600000,
+          "cumulative_pct_of_bucket": 52.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 154276000,
+          "cumulative_pct_of_bucket": 85.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 578276000,
+          "cumulative_pct_of_bucket": 83.8,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 373324000,
+          "cumulative_pct_of_tier": 41.48
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 519600000,
+          "cumulative_pct_of_tier": 44.41
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 578276000,
+          "cumulative_pct_of_tier": 83.81
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1471200000,
+        "cumulative_pct_of_genesis": 50.73
+      }
+    },
+    {
+      "month": 40,
+      "date": "2028-06-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 256250000,
+          "cumulative_pct_of_bucket": 85.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 50000000,
+          "cumulative_pct_of_bucket": 83.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 51250000,
+          "cumulative_pct_of_bucket": 85.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 386657000,
+          "cumulative_pct_of_bucket": 80.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 534300000,
+          "cumulative_pct_of_bucket": 54.0,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 157490000,
+          "cumulative_pct_of_bucket": 87.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 592240000,
+          "cumulative_pct_of_bucket": 85.8,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 386657000,
+          "cumulative_pct_of_tier": 42.96
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 534300000,
+          "cumulative_pct_of_tier": 45.67
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 592240000,
+          "cumulative_pct_of_tier": 85.83
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1513197000,
+        "cumulative_pct_of_genesis": 52.18
+      }
+    },
+    {
+      "month": 41,
+      "date": "2028-07-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 262500000,
+          "cumulative_pct_of_bucket": 87.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 51250000,
+          "cumulative_pct_of_bucket": 85.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 52500000,
+          "cumulative_pct_of_bucket": 87.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 399990000,
+          "cumulative_pct_of_bucket": 83.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 549000000,
+          "cumulative_pct_of_bucket": 55.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 160704000,
+          "cumulative_pct_of_bucket": 89.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 606204000,
+          "cumulative_pct_of_bucket": 87.9,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 399990000,
+          "cumulative_pct_of_tier": 44.44
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 549000000,
+          "cumulative_pct_of_tier": 46.92
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 606204000,
+          "cumulative_pct_of_tier": 87.86
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1555194000,
+        "cumulative_pct_of_genesis": 53.63
+      }
+    },
+    {
+      "month": 42,
+      "date": "2028-08-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 268750000,
+          "cumulative_pct_of_bucket": 89.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 52500000,
+          "cumulative_pct_of_bucket": 87.5,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 53750000,
+          "cumulative_pct_of_bucket": 89.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 413323000,
+          "cumulative_pct_of_bucket": 86.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 563700000,
+          "cumulative_pct_of_bucket": 56.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 163918000,
+          "cumulative_pct_of_bucket": 91.1,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 620168000,
+          "cumulative_pct_of_bucket": 89.9,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 413323000,
+          "cumulative_pct_of_tier": 45.92
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 563700000,
+          "cumulative_pct_of_tier": 48.18
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 620168000,
+          "cumulative_pct_of_tier": 89.88
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1597191000,
+        "cumulative_pct_of_genesis": 55.08
+      }
+    },
+    {
+      "month": 43,
+      "date": "2028-09-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 275000000,
+          "cumulative_pct_of_bucket": 91.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 53750000,
+          "cumulative_pct_of_bucket": 89.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 55000000,
+          "cumulative_pct_of_bucket": 91.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 426656000,
+          "cumulative_pct_of_bucket": 88.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 578400000,
+          "cumulative_pct_of_bucket": 58.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 167132000,
+          "cumulative_pct_of_bucket": 92.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 634132000,
+          "cumulative_pct_of_bucket": 91.9,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 426656000,
+          "cumulative_pct_of_tier": 47.41
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 578400000,
+          "cumulative_pct_of_tier": 49.44
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 634132000,
+          "cumulative_pct_of_tier": 91.9
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1639188000,
+        "cumulative_pct_of_genesis": 56.52
+      }
+    },
+    {
+      "month": 44,
+      "date": "2028-10-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 281250000,
+          "cumulative_pct_of_bucket": 93.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 55000000,
+          "cumulative_pct_of_bucket": 91.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 56250000,
+          "cumulative_pct_of_bucket": 93.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 439989000,
+          "cumulative_pct_of_bucket": 91.7,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 593100000,
+          "cumulative_pct_of_bucket": 59.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 170346000,
+          "cumulative_pct_of_bucket": 94.6,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 648096000,
+          "cumulative_pct_of_bucket": 93.9,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 439989000,
+          "cumulative_pct_of_tier": 48.89
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 593100000,
+          "cumulative_pct_of_tier": 50.69
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 648096000,
+          "cumulative_pct_of_tier": 93.93
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1681185000,
+        "cumulative_pct_of_genesis": 57.97
+      }
+    },
+    {
+      "month": 45,
+      "date": "2028-11-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 287500000,
+          "cumulative_pct_of_bucket": 95.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 56250000,
+          "cumulative_pct_of_bucket": 93.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 57500000,
+          "cumulative_pct_of_bucket": 95.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 453322000,
+          "cumulative_pct_of_bucket": 94.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 607800000,
+          "cumulative_pct_of_bucket": 61.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 173560000,
+          "cumulative_pct_of_bucket": 96.4,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 662060000,
+          "cumulative_pct_of_bucket": 96.0,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 453322000,
+          "cumulative_pct_of_tier": 50.37
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 607800000,
+          "cumulative_pct_of_tier": 51.95
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 662060000,
+          "cumulative_pct_of_tier": 95.95
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1723182000,
+        "cumulative_pct_of_genesis": 59.42
+      }
+    },
+    {
+      "month": 46,
+      "date": "2028-12-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 293750000,
+          "cumulative_pct_of_bucket": 97.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 57500000,
+          "cumulative_pct_of_bucket": 95.8,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 58750000,
+          "cumulative_pct_of_bucket": 97.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13333000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 466655000,
+          "cumulative_pct_of_bucket": 97.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 622500000,
+          "cumulative_pct_of_bucket": 62.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3214000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 176774000,
+          "cumulative_pct_of_bucket": 98.2,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13964000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 676024000,
+          "cumulative_pct_of_bucket": 98.0,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22083000,
+          "cumulative_tokens": 466655000,
+          "cumulative_pct_of_tier": 51.85
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17914000,
+          "cumulative_tokens": 622500000,
+          "cumulative_pct_of_tier": 53.21
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13964000,
+          "cumulative_tokens": 676024000,
+          "cumulative_pct_of_tier": 97.97
+        }
+      },
+      "total": {
+        "unlock_tokens": 53961000,
+        "cumulative_tokens": 1765179000,
+        "cumulative_pct_of_genesis": 60.87
+      }
+    },
+    {
+      "month": 47,
+      "date": "2029-01-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 1",
+          "unlock_tokens": 6250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 300000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Final vest - complete"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 58750000,
+          "cumulative_pct_of_bucket": 97.9,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Strategic Round",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 60000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Final vest - complete"
+        },
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Team",
+          "unlock_tokens": 13345000,
+          "unlock_pct_of_bucket": 2.8,
+          "cumulative_tokens": 480000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Final vest - complete (adjusted for rounding)"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 637200000,
+          "cumulative_pct_of_bucket": 64.3,
+          "notes": "Linear vesting"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Development Company",
+          "unlock_tokens": 3226000,
+          "unlock_pct_of_bucket": 1.8,
+          "cumulative_tokens": 180000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Final vest - complete (adjusted for rounding)"
+        },
+        {
+          "tier": "tier_3_community",
+          "bucket_name": "Community Incentives",
+          "unlock_tokens": 13976000,
+          "unlock_pct_of_bucket": 2.0,
+          "cumulative_tokens": 690000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Final vest - complete (adjusted for rounding)"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 22095000,
+          "cumulative_tokens": 480000000,
+          "cumulative_pct_of_tier": 53.33
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 17926000,
+          "cumulative_tokens": 637200000,
+          "cumulative_pct_of_tier": 54.46
+        },
+        "tier_3_community": {
+          "unlock_tokens": 13976000,
+          "cumulative_tokens": 690000000,
+          "cumulative_pct_of_tier": 100.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 53997000,
+        "cumulative_tokens": 1807200000,
+        "cumulative_pct_of_genesis": 62.32
+      }
+    },
+    {
+      "month": 48,
+      "date": "2029-02-05",
+      "buckets": [
+        {
+          "tier": "tier_1_profit_seeking",
+          "bucket_name": "Seed Round 2",
+          "unlock_tokens": 1250000,
+          "unlock_pct_of_bucket": 2.1,
+          "cumulative_tokens": 60000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Final vest - complete"
+        },
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 651900000,
+          "cumulative_pct_of_bucket": 65.9,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 1250000,
+          "cumulative_tokens": 60000000,
+          "cumulative_pct_of_tier": 6.67
+        },
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 651900000,
+          "cumulative_pct_of_tier": 55.72
+        }
+      },
+      "total": {
+        "unlock_tokens": 15950000,
+        "cumulative_tokens": 711900000,
+        "cumulative_pct_of_genesis": 24.55
+      }
+    },
+    {
+      "month": 49,
+      "date": "2029-03-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 666600000,
+          "cumulative_pct_of_bucket": 67.3,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 666600000,
+          "cumulative_pct_of_tier": 56.97
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 666600000,
+        "cumulative_pct_of_genesis": 22.99
+      }
+    },
+    {
+      "month": 50,
+      "date": "2029-04-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 681300000,
+          "cumulative_pct_of_bucket": 68.8,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 681300000,
+          "cumulative_pct_of_tier": 58.23
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 681300000,
+        "cumulative_pct_of_genesis": 23.49
+      }
+    },
+    {
+      "month": 51,
+      "date": "2029-05-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 696000000,
+          "cumulative_pct_of_bucket": 70.3,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 696000000,
+          "cumulative_pct_of_tier": 59.49
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 696000000,
+        "cumulative_pct_of_genesis": 24.0
+      }
+    },
+    {
+      "month": 52,
+      "date": "2029-06-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 710700000,
+          "cumulative_pct_of_bucket": 71.8,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 710700000,
+          "cumulative_pct_of_tier": 60.74
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 710700000,
+        "cumulative_pct_of_genesis": 24.51
+      }
+    },
+    {
+      "month": 53,
+      "date": "2029-07-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 725400000,
+          "cumulative_pct_of_bucket": 73.3,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 725400000,
+          "cumulative_pct_of_tier": 62.0
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 725400000,
+        "cumulative_pct_of_genesis": 25.01
+      }
+    },
+    {
+      "month": 54,
+      "date": "2029-08-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 740100000,
+          "cumulative_pct_of_bucket": 74.8,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 740100000,
+          "cumulative_pct_of_tier": 63.26
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 740100000,
+        "cumulative_pct_of_genesis": 25.52
+      }
+    },
+    {
+      "month": 55,
+      "date": "2029-09-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 754800000,
+          "cumulative_pct_of_bucket": 76.2,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 754800000,
+          "cumulative_pct_of_tier": 64.51
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 754800000,
+        "cumulative_pct_of_genesis": 26.03
+      }
+    },
+    {
+      "month": 56,
+      "date": "2029-10-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 769500000,
+          "cumulative_pct_of_bucket": 77.7,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 769500000,
+          "cumulative_pct_of_tier": 65.77
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 769500000,
+        "cumulative_pct_of_genesis": 26.53
+      }
+    },
+    {
+      "month": 57,
+      "date": "2029-11-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 784200000,
+          "cumulative_pct_of_bucket": 79.2,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 784200000,
+          "cumulative_pct_of_tier": 67.03
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 784200000,
+        "cumulative_pct_of_genesis": 27.04
+      }
+    },
+    {
+      "month": 58,
+      "date": "2029-12-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 798900000,
+          "cumulative_pct_of_bucket": 80.7,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 798900000,
+          "cumulative_pct_of_tier": 68.28
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 798900000,
+        "cumulative_pct_of_genesis": 27.55
+      }
+    },
+    {
+      "month": 59,
+      "date": "2030-01-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 813600000,
+          "cumulative_pct_of_bucket": 82.2,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 813600000,
+          "cumulative_pct_of_tier": 69.54
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 813600000,
+        "cumulative_pct_of_genesis": 28.06
+      }
+    },
+    {
+      "month": 60,
+      "date": "2030-02-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 828300000,
+          "cumulative_pct_of_bucket": 83.7,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 828300000,
+          "cumulative_pct_of_tier": 70.79
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 828300000,
+        "cumulative_pct_of_genesis": 28.56
+      }
+    },
+    {
+      "month": 61,
+      "date": "2030-03-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 843000000,
+          "cumulative_pct_of_bucket": 85.2,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 843000000,
+          "cumulative_pct_of_tier": 72.05
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 843000000,
+        "cumulative_pct_of_genesis": 29.07
+      }
+    },
+    {
+      "month": 62,
+      "date": "2030-04-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 857700000,
+          "cumulative_pct_of_bucket": 86.6,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 857700000,
+          "cumulative_pct_of_tier": 73.31
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 857700000,
+        "cumulative_pct_of_genesis": 29.58
+      }
+    },
+    {
+      "month": 63,
+      "date": "2030-05-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 872400000,
+          "cumulative_pct_of_bucket": 88.1,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 872400000,
+          "cumulative_pct_of_tier": 74.56
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 872400000,
+        "cumulative_pct_of_genesis": 30.08
+      }
+    },
+    {
+      "month": 64,
+      "date": "2030-06-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 887100000,
+          "cumulative_pct_of_bucket": 89.6,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 887100000,
+          "cumulative_pct_of_tier": 75.82
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 887100000,
+        "cumulative_pct_of_genesis": 30.59
+      }
+    },
+    {
+      "month": 65,
+      "date": "2030-07-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 901800000,
+          "cumulative_pct_of_bucket": 91.1,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 901800000,
+          "cumulative_pct_of_tier": 77.08
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 901800000,
+        "cumulative_pct_of_genesis": 31.1
+      }
+    },
+    {
+      "month": 66,
+      "date": "2030-08-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 916500000,
+          "cumulative_pct_of_bucket": 92.6,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 916500000,
+          "cumulative_pct_of_tier": 78.33
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 916500000,
+        "cumulative_pct_of_genesis": 31.6
+      }
+    },
+    {
+      "month": 67,
+      "date": "2030-09-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 931200000,
+          "cumulative_pct_of_bucket": 94.1,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 931200000,
+          "cumulative_pct_of_tier": 79.59
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 931200000,
+        "cumulative_pct_of_genesis": 32.11
+      }
+    },
+    {
+      "month": 68,
+      "date": "2030-10-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 945900000,
+          "cumulative_pct_of_bucket": 95.5,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 945900000,
+          "cumulative_pct_of_tier": 80.85
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 945900000,
+        "cumulative_pct_of_genesis": 32.62
+      }
+    },
+    {
+      "month": 69,
+      "date": "2030-11-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 960600000,
+          "cumulative_pct_of_bucket": 97.0,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 960600000,
+          "cumulative_pct_of_tier": 82.1
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 960600000,
+        "cumulative_pct_of_genesis": 33.12
+      }
+    },
+    {
+      "month": 70,
+      "date": "2030-12-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 975300000,
+          "cumulative_pct_of_bucket": 98.5,
+          "notes": "Linear vesting"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 975300000,
+          "cumulative_pct_of_tier": 83.36
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 975300000,
+        "cumulative_pct_of_genesis": 33.63
+      }
+    },
+    {
+      "month": 71,
+      "date": "2031-01-05",
+      "buckets": [
+        {
+          "tier": "tier_2_entity_controlled",
+          "bucket_name": "Foundation Reserve",
+          "unlock_tokens": 14700000,
+          "unlock_pct_of_bucket": 1.5,
+          "cumulative_tokens": 990000000,
+          "cumulative_pct_of_bucket": 100.0,
+          "notes": "Final vest - complete"
+        }
+      ],
+      "tier_aggregates": {
+        "tier_2_entity_controlled": {
+          "unlock_tokens": 14700000,
+          "cumulative_tokens": 990000000,
+          "cumulative_pct_of_tier": 84.62
+        }
+      },
+      "total": {
+        "unlock_tokens": 14700000,
+        "cumulative_tokens": 990000000,
+        "cumulative_pct_of_genesis": 34.14
+      }
+    }
+  ],
+  "milestone_summary": {
+    "at_tge": {
+      "month": 0,
+      "date": "2025-02-05",
+      "liquid_pct_of_genesis": 10.47,
+      "liquid_tokens": 303500000
+    },
+    "at_month_6": {
+      "month": 6,
+      "date": "2025-08-05",
+      "liquid_pct_of_genesis": 8.3,
+      "liquid_tokens": 240678000
+    },
+    "at_month_12": {
+      "month": 12,
+      "date": "2026-02-05",
+      "liquid_pct_of_genesis": 13.97,
+      "liquid_tokens": 405198000
+    },
+    "at_month_18": {
+      "month": 18,
+      "date": "2026-08-05",
+      "liquid_pct_of_genesis": 21.2,
+      "liquid_tokens": 614682000
+    },
+    "at_month_24": {
+      "month": 24,
+      "date": "2027-02-05",
+      "liquid_pct_of_genesis": 29.01,
+      "liquid_tokens": 841245000
+    },
+    "at_month_36": {
+      "month": 36,
+      "date": "2028-02-05",
+      "liquid_pct_of_genesis": 46.39,
+      "liquid_tokens": 1345209000
+    },
+    "at_month_48": {
+      "month": 48,
+      "date": "2029-02-05",
+      "liquid_pct_of_genesis": 24.55,
+      "liquid_tokens": 711900000
+    }
+  }
+}

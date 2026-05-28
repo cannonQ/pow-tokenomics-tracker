@@ -1,0 +1,6 @@
+# Scratch workspace for /acquire-project (evidence files, intermediate CSVs)
+.acquisition/
+
+# Python
+__pycache__/
+*.pyc

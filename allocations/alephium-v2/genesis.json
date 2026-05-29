@@ -151,7 +151,18 @@
     }
   },
 
-  "vesting_waterfall": "See allocations/alephium-v2/vesting-schedule.json (generated from vesting-schedule.csv by scripts/csv_to_vesting_json.py)",
+  "vesting_waterfall": [
+    {"month": 0, "unlock_tokens": 0, "pct_of_premine": 0, "source": "TGE — all premine locked (Sales, Treasury, Ecosystem)"},
+    {"month": 3, "unlock_tokens": 9620923, "pct_of_premine": 6.87, "source": "First quarterly unlock — Sales (5.25M) + Treasury (2.5M) + Ecosystem (1.875M)"},
+    {"month": 12, "unlock_tokens": 9620923, "pct_of_premine": 6.87, "source": "Year 1 complete — Sales 33% / Treasury 33% / Ecosystem 25%"},
+    {"month": 24, "unlock_tokens": 9620923, "pct_of_premine": 6.87, "source": "Year 2 complete — Sales 67% / Treasury 67% / Ecosystem 50%"},
+    {"month": 36, "unlock_tokens": 9620923, "pct_of_premine": 6.87, "source": "Sales & Treasury 100% complete (Nov 2024) — Ecosystem 75%"},
+    {"month": 39, "unlock_tokens": 1875000, "pct_of_premine": 1.34, "source": "Ecosystem quarterly only"},
+    {"month": 42, "unlock_tokens": 1875000, "pct_of_premine": 1.34, "source": "Ecosystem quarterly only"},
+    {"month": 45, "unlock_tokens": 1875000, "pct_of_premine": 1.34, "source": "Ecosystem quarterly only"},
+    {"month": 48, "unlock_tokens": 1875000, "pct_of_premine": 1.34, "source": "Ecosystem 100% complete (Nov 2025) — scheduled vesting ends; 17.05M Reserved Future Sales remains undeployed"}
+  ],
+  "vesting_waterfall_full": "See allocations/alephium-v2/vesting-schedule.json (44-row monthly CSV-derived schedule)",
 
   "red_flags": {
     "critical_issues": [],

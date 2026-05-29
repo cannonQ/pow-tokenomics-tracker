@@ -16,8 +16,9 @@
   "emission": {
     "current_block_reward": null,
     "block_time_seconds": 8,
-    "daily_emission": null,
-    "annual_inflation_pct": null,
+    "daily_emission": 44651,
+    "annual_inflation_pct": 7.35,
+    "daily_emission_basis": "empirical: supply delta (221,615,739 ALPH on 2026-05-28) minus (212,000,000 ALPH on 2025-10-25) = 9,615,739 ALPH over 215 days = 44,724 ALPH/day average. Used as the best available proxy for current emission since PoLW's hashrate-dependent reward makes the (86400/block_time)*block_reward formula inapplicable.",
     "halving_schedule": [
       {
         "event": "Danube upgrade",

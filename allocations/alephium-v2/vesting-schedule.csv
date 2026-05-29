@@ -1,0 +1,45 @@
+month,date,tier,bucket_name,unlock_tokens,unlock_pct_of_bucket,cumulative_tokens,cumulative_pct_of_bucket,notes
+0,2021-11-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),0,0.00,0,0.00,Genesis - all locked
+0,2021-11-08,tier_1_profit_seeking,Reserved Future Sales,0,0.00,0,0.00,Genesis - 17048943 reserved unsold; deployed strategically (no fixed schedule)
+0,2021-11-08,tier_2_entity_controlled,Treasury & Team,0,0.00,0,0.00,Genesis - 30M locked; quarterly vesting begins
+0,2021-11-08,tier_2_entity_controlled,Ecosystem Development,0,0.00,0,0.00,Genesis - 30M locked; quarterly vesting begins
+3,2022-02-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245923,8.33,5245923,8.33,Q1 quarterly unlock (3yr blended model for 62.95M sold)
+3,2022-02-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,2500000,8.33,Q1 quarterly unlock (10M/yr x 3yr)
+3,2022-02-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,1875000,6.25,Q1 quarterly unlock (4yr)
+6,2022-05-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245923,8.33,10491846,16.67,Q2 quarterly unlock
+6,2022-05-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,5000000,16.67,Q2 quarterly unlock
+6,2022-05-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,3750000,12.50,Q2 quarterly unlock
+9,2022-08-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245923,8.33,15737769,25.00,Q3 quarterly unlock
+9,2022-08-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,7500000,25.00,Q3 quarterly unlock
+9,2022-08-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,5625000,18.75,Q3 quarterly unlock
+12,2022-11-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245923,8.33,20983692,33.33,Q4 quarterly unlock (Year 1 complete)
+12,2022-11-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,10000000,33.33,Q4 quarterly unlock (Year 1 10M complete)
+12,2022-11-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,7500000,25.00,Q4 quarterly unlock (Year 1 complete)
+15,2023-02-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245923,8.33,26229615,41.67,Q5 quarterly unlock
+15,2023-02-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,12500000,41.67,Q5 quarterly unlock
+15,2023-02-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,9375000,31.25,Q5 quarterly unlock
+18,2023-05-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245923,8.33,31475538,50.00,Q6 quarterly unlock
+18,2023-05-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,15000000,50.00,Q6 quarterly unlock
+18,2023-05-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,11250000,37.50,Q6 quarterly unlock
+21,2023-08-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245923,8.33,36721461,58.33,Q7 quarterly unlock
+21,2023-08-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,17500000,58.33,Q7 quarterly unlock
+21,2023-08-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,13125000,43.75,Q7 quarterly unlock
+24,2023-11-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245923,8.33,41967384,66.67,Q8 quarterly unlock (Year 2 complete)
+24,2023-11-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,20000000,66.67,Q8 quarterly unlock (Year 2 20M complete)
+24,2023-11-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,15000000,50.00,Q8 quarterly unlock (Year 2 complete)
+27,2024-02-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245923,8.33,47213307,75.00,Q9 quarterly unlock
+27,2024-02-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,22500000,75.00,Q9 quarterly unlock
+27,2024-02-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,16875000,56.25,Q9 quarterly unlock
+30,2024-05-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245923,8.33,52459230,83.33,Q10 quarterly unlock
+30,2024-05-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,25000000,83.33,Q10 quarterly unlock
+30,2024-05-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,18750000,62.50,Q10 quarterly unlock
+33,2024-08-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245923,8.33,57705153,91.67,Q11 quarterly unlock
+33,2024-08-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,27500000,91.67,Q11 quarterly unlock
+33,2024-08-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,20625000,68.75,Q11 quarterly unlock
+36,2024-11-08,tier_1_profit_seeking,Sales (Seed/Pre-sale/Private),5245924,8.33,62951077,100.00,Q12 final unlock - Sales COMPLETE (Year 3)
+36,2024-11-08,tier_2_entity_controlled,Treasury & Team,2500000,8.33,30000000,100.00,Q12 final unlock - Treasury & Team COMPLETE (Year 3)
+36,2024-11-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,22500000,75.00,Q12 quarterly unlock (Year 3 complete)
+39,2025-02-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,24375000,81.25,Q13 quarterly unlock
+42,2025-05-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,26250000,87.50,Q14 quarterly unlock
+45,2025-08-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,28125000,93.75,Q15 quarterly unlock
+48,2025-11-08,tier_2_entity_controlled,Ecosystem Development,1875000,6.25,30000000,100.00,Q16 final unlock - Ecosystem COMPLETE (Year 4)

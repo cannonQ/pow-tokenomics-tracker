@@ -14,11 +14,12 @@
     "notes": "Original 1B ALPH hard cap was removed by the Danube upgrade activated 2025-07-15; ALPH now has unlimited Monero-style tail emission. Current_supply pulled from the official Alephium mainnet backend (total-alph endpoint) on 2026-05-28. Circulating-only figure from the explorer's circulating endpoint is 133,187,781.90 ALPH (excludes locked premine addresses)."
   },
   "emission": {
-    "current_block_reward": null,
+    "current_block_reward": 4.1411,
     "block_time_seconds": 8,
     "daily_emission": 44724,
     "annual_inflation_pct": 7.37,
-    "daily_emission_basis": "empirical: supply delta (221,615,739 ALPH on 2026-05-28) minus 212,000,000 ALPH on 2025-10-25 = 9,615,739 ALPH over 215 days = 44,724 ALPH/day average. Used as the best available proxy for current emission since PoLW's hashrate-dependent reward + 16 sharded chains make the (86400/block_time)*block_reward formula inapplicable. annual_inflation_pct = 44724 * 365 / 221615739 * 100 = 7.37%.",
+    "current_block_reward_note": "Network-aggregate per 8-second slot across all 16 sharded chains. Per-shard per-block reward is approximately 0.259 ALPH (4.1411 ÷ 16). Under PoLW the effective per-shard reward = min(time-based ceiling 1.25 ALPH/block post-Danube, hashrate-based curve); the hashrate-based curve currently dominates, so the actual per-block reward is well below the time-based ceiling. The 4.1411 figure is back-calculated from the empirical daily emission (44,724 ALPH/day ÷ 10,800 8-second slots) and is the value that satisfies the renderer's daily-emission formula for a sharded chain.",
+    "daily_emission_basis": "empirical: supply delta (221,615,739 ALPH on 2026-05-28) minus 212,000,000 ALPH on 2025-10-25 = 9,615,739 ALPH over 215 days = 44,724 ALPH/day average. annual_inflation_pct = 44724 × 365 / 221615739 × 100 = 7.37%.",
     "halving_schedule": [
       {
         "event": "Danube upgrade",

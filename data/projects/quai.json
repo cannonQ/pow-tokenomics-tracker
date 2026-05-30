@@ -6,74 +6,102 @@
   "launch_date": "2025-01-29",
   "launch_type": "premine",
   "has_premine": true,
-  
   "supply": {
     "max_supply": 3000000000,
-    "current_supply": 782484457,
-    "pct_mined": 26.08,
-    "emission_remaining": 2217515543
+    "current_supply": 996061428,
+    "pct_mined": 33.2,
+    "emission_remaining": 2003938572
   },
-  
   "emission": {
-    "current_block_reward": null,
-    "block_time_seconds": 1.1,
-    "daily_emission": null,
-    "annual_inflation_pct": null,
-    
+    "current_block_reward": 9.0726,
+    "block_time_seconds": 1.111,
     "halving_schedule": [],
-    "notes": "Market-driven emission model - block rewards determined by difficulty using logarithmic function. Rewards proportional to log2(Difficulty) with variable proportionality constant currently set at 221077819000000000. No fixed halving schedule - emissions respond to network hashrate and difficulty changes."
+    "notes": "Market-driven emission: BlockReward = k * log2(Difficulty), k previously documented as 221,077,819,000,000,000 (attowei units). No fixed halving schedule. Reward sampled at 2026-05-30 at difficulty 1.5023T per minerstat (~9.0726 QUAI per zone). Quai is hierarchical (Prime/Region/Zone): per-zone target block time is 10s; 9 parallel zones give a network-aggregate effective block time of ~1.111s, which is the figure used for daily_emission math. SOAP buyback-and-burn (launched Dec 2025) offsets emissions toward a target of ~180M QUAI/yr burned. Singularity Fork (Dec 2025) skipped ~1.67B of future genesis unlocks via multilateral agreement; protocol hard cap remains 3B but effective soft cap is ~1.4B.",
+    "daily_emission": 705555.93,
+    "annual_inflation_pct": 25.85
   },
-  
   "premine": {
     "total_pct": 100,
     "absolute_tokens": 3000000000,
-    "details": "3 billion QUAI allocated at genesis across 7 categories with time-locked vesting. Remaining supply issued through PoW mining with market-driven difficulty-based rewards."
+    "details": "3 billion QUAI allocated at genesis across 7 categories with time-locked vesting. Remaining supply issued through PoW mining with market-driven difficulty-based rewards. ~70M QUAI from the Testnet & Earn bucket designated for burn."
   },
-  
   "genesis_allocation": "See allocations/quai/genesis.json",
-  
   "market_data": {
-    "current_price_usd": 0.0234,
-    "fdmc": 70200000,
-    "circulating_mcap": 18283305,
-    "daily_volume": 813264,
-    "token_velocity": 0.0445,
-    "data_date": "2025-11-16"
+    "current_price_usd": 0.02141,
+    "daily_volume": 29747.4,
+    "data_date": "2026-05-30",
+    "fdmc": 64230000,
+    "circulating_mcap": 21325675,
+    "token_velocity": 0.0014
   },
-  
   "data_sources": {
     "official_docs": [
       "https://docs.qu.ai/learn/tokenomics/quai-emissions",
       "https://docs.qu.ai/learn/tokenomics/tokenomics-overview/tokenomics-overview",
+      "https://docs.qu.ai/learn/tokenomics/token-dynamics/block-rewards",
       "https://qu.ai/blog/quai-foundation-mines-the-quai-network-genesis-block/",
-      "https://qu.ai/blog/announcing-the-quai-network-claims-page/"
+      "https://qu.ai/blog/announcing-the-quai-network-claims-page/",
+      "https://www.qu.ai/blog/singularity-fork-live"
     ],
     "block_explorer": [
       "https://quaiscan.io/"
     ],
     "market_data": [
+      "https://www.coingecko.com/en/coins/quai-network",
       "https://coinmarketcap.com/currencies/quai-network/",
-      "https://www.coingecko.com/en/coins/quai-network"
+      "https://minerstat.com/coin/QUAI"
     ],
     "funding_data": [
+      "https://qu.ai/blog/polychain",
+      "https://qu.ai/blog/alumni-ventures/",
       "https://www.theblock.co/post/313387/quai-strategic-round",
+      "https://siliconangle.com/2024/08/29/quai-raises-5m-build-proof-work-stablecoin-uses-energy-generate-value/",
+      "https://www.crunchbase.com/funding_round/quai-network-seed--452cbd19",
       "https://tracxn.com/d/companies/quai/___JrBRwHEEpwkhXQcsadZ47RIbuKrwDXDEy1PgQnvnHw/funding-and-investors",
-      "https://coinmarketcap.com/academy/article/3443c4fc-92a6-4b4b-bb6e-164c29d05e6c",
-      "https://pitchbook.com/profiles/company/498274-03"
+      "https://www.theblock.co/press-releases/376064/quai-network-launches-soap-to-reshape-proof-of-work-economics"
     ]
   },
-  
-  "notes": [
-    "Mainnet launched January 29, 2025, TGE February 5, 2025",
-    "100% premine at genesis (3B QUAI), all with time-locked vesting schedules",
-    "Dual-token system: QUAI (utility, smart contracts) and QI (energy-backed stablecoin)",
-    "Market-driven emission model replaces fixed halving schedule",
-    "Total funding: $15M across 3 rounds: Seed 1 $8M (Polychain Capital, Mar 2022), Seed 2 $2M (Alumni Ventures, May 2022), Strategic $5M (Cogitent Ventures, Aug 2024)",
-    "Hierarchical structure: Prime, Region, and Zone chains for scalability",
-    "50,000+ TPS claimed throughput via merged-mined sharding",
-    "Approximately 70M QUAI (~2.3% of supply) from Testnet allocation to be burned",
-    "11 institutional investors total including Polychain, Cogitent, MH Ventures, Black Edge Capital, Ceras Ventures"
+  "red_flags": [
+    "100% premine - zero supply available for permissionless mining at TGE; only paths in were claims, exchange, or vesting unlock",
+    "~69% of supply sits with insider/entity-controlled tiers (Foundation 33% + Team 16% + DevCo 6% + investors 14%); Community Incentives (23%) is also foundation-controlled",
+    "Claims excluded US persons and OFAC-sanctioned jurisdictions, materially limiting eligibility for early contributors",
+    "Non-refundable $5 ETH KYC fee via Fractal.id required even for claimants ultimately deemed ineligible",
+    "Fractal.id (Quai's KYC vendor) suffered a confirmed 2024-07 data breach exposing ~50K users' PII; Quai still used the vendor for 2025 claims",
+    "Adaptive market-driven emission with no fixed cap on issuance rate; 1.33B 'illustrative' baseline depends on SOAP buybacks, not a hardcoded limit",
+    "Dual-token QUAI/QI design (EVM utility token + UTXO energy-backed stablecoin) introduces integration and regulatory complexity",
+    "Asymmetric cost basis: seed investors at <$0.09/token, ATH $0.36 (2025-02-24), price now ~$0.021 (-94% drawdown); seed allocations stay in-the-money down to <$0.001",
+    "Concentrated 12-month cliff overhang on 2026-02-05: Seed 1 (10%) + Strategic (2%) + Team (16%) cliffs end + Seed 2 (2%) first 25% lands \u2014 ~30% of supply at the same date",
+    "Foundation Reserve (33% of supply) controlled by Quai Foundation multisig with signers/threshold not publicly disclosed",
+    "Development Company allocation (6%) sits with a single private entity (Dominant Strategies Inc.) with 25% liquid at TGE",
+    "Singularity Fork (Dec 2025) modified genesis economics retroactively, removing ~1.67B QUAI of future unlocks via off-chain multilateral agreement \u2014 demonstrates that genesis terms are mutable via insider coordination",
+    "Tight claim deadlines (Jan 27 / Feb 3 / Feb 21 2025) with KYC + Pelagus Wallet friction; unclaimed allocations retained by the project, not redistributed pro-rata",
+    "Documented genesis buckets at docs.qu.ai sum to 99% — a 1% gap with no named bucket (modeled here as Undisclosed/Unaccounted under entity-controlled tier)"
   ],
-  
-  "last_updated": "2025-11-16"
+  "transparency_notes": [
+    "Tokenomics documentation at docs.qu.ai is reasonably structured: tier %, cliff/vesting durations, and emission philosophy are all publicly stated",
+    "Total funding well-documented across three rounds: Seed 1 $8M (Polychain-led, Mar 2022), Seed 2 $2M (Alumni Ventures, May 2022), Strategic $5M (Cogitent-led, Aug 2024) \u2014 total $15M",
+    "Individual investor and team-member allocations within each round are NOT disclosed \u2014 only round-level totals and lead names",
+    "~70M QUAI testnet burn acknowledged in docs; 64.9M already burned per Coingabbar reporting, though no specific tx hash surfaced",
+    "KYC ($5 ETH via Fractal.id) and OFAC/US-jurisdiction exclusions for claims were disclosed in advance via the claims announcement",
+    "Claims Terms & Conditions page (qu.ai/quai-claims-terms-and-conditions) returns 404 as of 2026-05-30 \u2014 legal terms users agreed to no longer publicly available (transparency regression)",
+    "Listed on CertiK Skynet but no full third-party audit report (Trail of Bits / OpenZeppelin / Quantstamp) surfaces in public search",
+    "Per-bucket vesting schedules (TGE %, cliff months, linear vesting months) are documented in enough detail to compute a vesting waterfall",
+    "Singularity Fork (Dec 2025) was publicly announced with rationale; multi-party (investors + Dominant Strategies + Foundation) signatories not itemized",
+    "SOAP buyback-and-burn (launched Dec 2025) documented with mechanics; cited chain-revenue ($3.1M cumulative, 64M burned) lacks itemized on-chain audit trail",
+    "Foundation Reserve multisig signers and threshold NOT publicly disclosed \u2014 gap relative to mature premine projects"
+  ],
+  "notes": [
+    "Mainnet launched 2025-01-29; TGE/claims opened 2025-02-05",
+    "100% premine at genesis (3B QUAI), all with time-locked vesting schedules; 0% available for mining at TGE",
+    "Hierarchical multi-chain architecture (Prime/Region/Zone) \u2014 9 parallel zones at ~10s each give ~1.111s network-aggregate block time",
+    "Dual-token system: QUAI (EVM utility/smart contracts) and QI (UTXO energy-backed stablecoin)",
+    "Market-driven adaptive emission via BlockReward = k * log2(Difficulty); no fixed halving schedule",
+    "Singularity Fork (Dec 2025) skipped ~1.67B QUAI of future genesis unlocks via multilateral agreement, lowering effective soft cap to ~1.4B (protocol hard cap remains 3B)",
+    "SOAP buyback-and-burn protocol launched Dec 2025 \u2014 targets ~180M QUAI/yr burned to offset mining emissions",
+    "~70M QUAI (2.3% of supply) from unallocated Testnet & Earn slated for burn; 64.9M already burned per Coingabbar",
+    "Total funding $15M across 3 rounds: Seed 1 $8M Polychain (Mar 2022), Seed 2 $2M Alumni Ventures (May 2022), Strategic $5M Cogitent + MH/TPC/Giga Chad/DexCheck Ventures (Aug 2024)",
+    "Per-zone block reward 9.0726 QUAI at difficulty 1.5023T (minerstat, 2026-05-30); reward varies block-by-block",
+    "24h volume varies dramatically across aggregators ($29.7k CG vs $303.7k CMC) indicating thin liquidity"
+  ],
+  "last_updated": "2026-05-30"
 }

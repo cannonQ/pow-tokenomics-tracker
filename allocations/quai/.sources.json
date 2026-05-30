@@ -1,0 +1,51 @@
+{
+  "project": "quai",
+  "compiled_on": "2026-05-30",
+  "note": "Provenance sidecar — every non-derived field maps to its primary source URL and confidence. Derived fields (pct_mined, emission_remaining, daily_emission, annual_inflation_pct, fdmc, circulating_mcap, token_velocity) are computed by scripts/compute_derived.py and not listed.",
+
+  "identity": {
+    "project":         {"source_url": "https://docs.qu.ai/", "confidence": "high"},
+    "ticker":          {"source_url": "https://coinmarketcap.com/currencies/quai-network/", "confidence": "high"},
+    "consensus":       {"source_url": "https://docs.qu.ai/", "confidence": "high"},
+    "algorithm":       {"source_url": "https://docs.qu.ai/", "confidence": "high"},
+    "launch_date":     {"source_url": "https://qu.ai/blog/quai-foundation-mines-the-quai-network-genesis-block/", "confidence": "high"},
+    "launch_type":     {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "high"},
+    "has_premine":     {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "high"}
+  },
+
+  "supply": {
+    "max_supply":      {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "med", "notes": "Whitepaper hard cap 3B; Singularity Fork dropped effective soft cap to ~1.4B"},
+    "current_supply":  {"source_url": "https://www.coingecko.com/en/coins/quai-network", "confidence": "med", "notes": "Total minted per CG 2026-05-30; CMC circulating differs (782M)"}
+  },
+
+  "emission": {
+    "current_block_reward": {"source_url": "https://minerstat.com/coin/QUAI", "confidence": "med"},
+    "block_time_seconds":   {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "med", "notes": "Network-aggregate 1.111s = 10s zone target / 9 zones"},
+    "halving_schedule":     {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "high"}
+  },
+
+  "market_data": {
+    "current_price_usd": {"source_url": "https://www.coingecko.com/en/coins/quai-network", "confidence": "high"},
+    "daily_volume":      {"source_url": "https://www.coingecko.com/en/coins/quai-network", "confidence": "low", "notes": "CG $29.7k vs CMC $303.7k — 10× discrepancy; thin liquidity"}
+  },
+
+  "genesis_buckets": {
+    "Seed Round 1":            {"source_url": "https://qu.ai/blog/polychain", "confidence": "high"},
+    "Seed Round 2":            {"source_url": "https://qu.ai/blog/alumni-ventures/", "confidence": "high"},
+    "Strategic Round":         {"source_url": "https://www.theblock.co/post/313387/quai-strategic-round", "confidence": "high"},
+    "Team":                    {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "high"},
+    "Foundation Reserve":      {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "high"},
+    "Development Company":     {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "high"},
+    "Community Incentives":    {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "high"},
+    "Exchange Liquidity":      {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "high"},
+    "Testnet & Earn":          {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "high"},
+    "Undisclosed / Unaccounted": {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "low", "notes": "Inferred 1% gap; no named bucket exists in docs — transparency flag"}
+  },
+
+  "post_genesis_events": {
+    "Singularity Fork (Dec 2025)": {"source_url": "https://www.qu.ai/blog/singularity-fork-live", "confidence": "high"},
+    "SOAP launch (Dec 2025)":      {"source_url": "https://www.theblock.co/press-releases/376064/quai-network-launches-soap-to-reshape-proof-of-work-economics", "confidence": "high"},
+    "~70M testnet burn":           {"source_url": "https://docs.qu.ai/learn/tokenomics/quai-emissions", "confidence": "high"},
+    "64.9M burned reported":       {"source_url": "https://www.coingabbar.com/en/crypto-currency-news/quai-network-chain-revenue-hit-145k-with-64m-token-burn", "confidence": "med"}
+  }
+}

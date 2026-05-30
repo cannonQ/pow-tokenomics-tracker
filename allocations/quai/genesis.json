@@ -3,10 +3,10 @@
   "has_premine": true,
   "has_dev_tax": false,
   "genesis_date": "2025-02-05",
-  
+
   "total_genesis_allocation_pct": 100,
   "available_for_mining_genesis_pct": 0,
-  
+
   "dev_tax": {
     "type": "none",
     "pct_of_block_reward": 0,
@@ -14,16 +14,17 @@
     "recipient": null,
     "notes": "No ongoing dev tax from block rewards. All genesis allocations are time-locked with vesting schedules."
   },
-  
+
   "suspected_insider_mining": {
     "enabled": false,
     "timeframe": null,
     "estimated_pct_of_supply": 0,
     "evidence": [],
     "verifiable": false,
-    "source_investigations": []
+    "source_investigations": [],
+    "notes": "N/A — 100% premine, zero genesis-mineable supply, no early-mining window to suspect."
   },
-  
+
   "allocation_tiers": {
     "tier_1_profit_seeking": {
       "total_pct": 30,
@@ -32,66 +33,50 @@
           "name": "Seed Round 1",
           "pct": 10.0,
           "absolute_tokens": 300000000,
-          "cost_per_token_usd": null,
+          "cost_per_token_usd": 0.02667,
           "date": "2022-03-24",
           "vesting_months": 36,
           "cliff_months": 12,
           "tge_unlock_pct": 25,
-          
           "investors": {
             "known": [
-              {
-                "name": "Polychain Capital",
-                "pct_of_round": null,
-                "tokens": null
-              },
-              {
-                "name": "Black Edge Capital",
-                "pct_of_round": null,
-                "tokens": null
-              }
+              {"name": "Polychain Capital", "pct_of_round": null, "tokens": null, "notes": "Lead investor; only named name in primary sources (qu.ai/blog/polychain, The Block, SiliconAngle)."}
             ],
-            "unknown_count": null,
-            "total_investors": null,
-            "notes": "Seed 1 raised $8M led by Polychain Capital. Individual allocations not disclosed."
+            "unknown_count": "unknown",
+            "total_investors": "unknown",
+            "notes": "Seed 1 raised $8M led by Polychain Capital. Crunchbase mentions 'Investors include Alumni Ventures, Polychain and 9 others' as a combined seed listing, but the $8M Mar-2022 round only names Polychain in primary announcements. Black Edge Capital appears in some secondary trackers but is not corroborated by qu.ai/blog/polychain — excluded under honesty rule."
           }
         },
         {
           "name": "Seed Round 2",
           "pct": 2.0,
           "absolute_tokens": 60000000,
-          "cost_per_token_usd": null,
+          "cost_per_token_usd": 0.03333,
           "date": "2022-05-06",
           "vesting_months": 36,
           "cliff_months": 12,
           "tge_unlock_pct": 0,
-          
           "investors": {
             "known": [
-              {
-                "name": "Alumni Ventures",
-                "pct_of_round": null,
-                "tokens": null
-              }
+              {"name": "Alumni Ventures (Blockchain Fund)", "pct_of_round": "100%", "tokens": 60000000, "notes": "Sole named investor; entire $2M from Alumni Ventures' Blockchain Fund."}
             ],
-            "unknown_count": null,
-            "total_investors": null,
-            "notes": "Seed 2 raised $2M from Alumni Ventures. 25% unlock at 1-year cliff, not at TGE."
+            "unknown_count": 0,
+            "total_investors": 1,
+            "notes": "Seed 2 raised $2M from Alumni Ventures (Blockchain Fund), sole investor. 25% chunk unlocks at the 1-year cliff, not at TGE; then linear over 36 months."
           }
         },
         {
           "name": "Strategic Round",
           "pct": 2.0,
           "absolute_tokens": 60000000,
-          "cost_per_token_usd": null,
+          "cost_per_token_usd": 0.08333,
           "date": "2024-08-29",
           "vesting_months": 36,
           "cliff_months": 12,
           "tge_unlock_pct": 25,
-          
           "investors": {
             "known": [
-              {"name": "Cogitent Ventures", "pct_of_round": null, "tokens": null},
+              {"name": "Cogitent Ventures", "pct_of_round": null, "tokens": null, "notes": "Lead investor"},
               {"name": "MH Ventures", "pct_of_round": null, "tokens": null},
               {"name": "TPC Ventures", "pct_of_round": null, "tokens": null},
               {"name": "Giga Chad Ventures", "pct_of_round": null, "tokens": null},
@@ -99,7 +84,7 @@
             ],
             "unknown_count": 0,
             "total_investors": 5,
-            "notes": "Strategic round raised $5M led by Cogitent Ventures."
+            "notes": "Strategic round raised $5M led by Cogitent Ventures. 5 investors named consistently across The Block, SiliconAngle, NFTGators, FinSMEs, AlexaBlockchain. ICO Drops and Chainbroker additionally list Black Edge Capital, Ceras Ventures, and GTS Ventures but those are NOT corroborated by primary announcements — excluded under honesty rule. Individual allocations not disclosed."
           }
         },
         {
@@ -111,22 +96,34 @@
           "vesting_months": 36,
           "cliff_months": 12,
           "tge_unlock_pct": 0,
-          
           "recipients": {
             "known": [
               {"name": "Alan Orwick", "role": "Co-Founder", "pct_of_bucket": null},
               {"name": "Core Team", "role": "Engineering/Development", "pct_of_bucket": null}
             ],
-            "unknown_count": null,
-            "notes": "1-year cliff + 36 months linear vesting. Individual allocations not disclosed."
+            "unknown_count": "unknown",
+            "notes": "1-year cliff + 36 months linear vesting. Individual team allocations not publicly disclosed beyond co-founder identity."
           }
         }
       ]
     },
-    
+
     "tier_2_entity_controlled": {
-      "total_pct": 39,
+      "total_pct": 40,
       "buckets": [
+        {
+          "name": "Undisclosed / Unaccounted",
+          "pct": 1.0,
+          "absolute_tokens": 30000000,
+          "cost_per_token_usd": null,
+          "date": "2025-02-05",
+          "vesting_months": 0,
+          "cliff_months": 0,
+          "tge_unlock_pct": 0,
+          "controlled_by": "unknown",
+          "usage": "unknown",
+          "notes": "The canonical Quai tokenomics docs at docs.qu.ai/learn/tokenomics/quai-emissions enumerate 9 buckets summing to 99% of supply. No 10th bucket (Advisors / KOL / Marketing / Public Sale / Treasury Reserve) is documented despite the project asserting 100% premine. The 1% gap is documented here for accounting completeness; possible explanations include rounding across whole-number percentages, an undisclosed Foundation treasury reserve, or the genesis coinbase grant to the entity that mined block 0 (Quai Foundation). Flagged as a transparency gap rather than forced to balance."
+        },
         {
           "name": "Foundation Reserve",
           "pct": 33.0,
@@ -134,10 +131,12 @@
           "liquid_at_tge_pct": 2,
           "vesting_months": 66,
           "cliff_months": 6,
+          "tge_unlock_pct": 2,
           "multisig": {"signers": null, "threshold": null},
+          "controlled_by": "Quai Foundation",
           "usage": "Fund innovations, partnerships, and ecosystem growth",
-          "transparency": "Governed by Quai Foundation",
-          "notes": "2% TGE, 6-month cliff, 66 months linear (5.5 years total)"
+          "transparency": "Governed by Quai Foundation; multisig signers/threshold not publicly disclosed",
+          "notes": "2% TGE, 6-month cliff, 66 months linear (5.5 years total)."
         },
         {
           "name": "Development Company",
@@ -146,13 +145,14 @@
           "liquid_at_tge_pct": 25,
           "vesting_months": 42,
           "cliff_months": 6,
+          "tge_unlock_pct": 25,
           "controlled_by": "Dominant Strategies Inc.",
           "usage": "Fund protocol development and engineering",
-          "notes": "25% TGE, 6-month cliff, 42 months linear"
+          "notes": "25% TGE, 6-month cliff, 42 months linear."
         }
       ]
     },
-    
+
     "tier_3_community": {
       "total_pct": 23,
       "buckets": [
@@ -163,13 +163,14 @@
           "liquid_at_tge_pct": 15,
           "vesting_months": 42,
           "cliff_months": 6,
+          "tge_unlock_pct": 15,
           "controlled_by_foundation": true,
           "usage": "Reward active participation with predefined criteria",
-          "notes": "15% TGE, 6-month cliff, 42 months linear"
+          "notes": "15% TGE, 6-month cliff, 42 months linear."
         }
       ]
     },
-    
+
     "tier_4_liquidity": {
       "total_pct": 7,
       "buckets": [
@@ -178,39 +179,76 @@
           "pct": 2.0,
           "absolute_tokens": 60000000,
           "liquid_at_tge_pct": 100,
+          "vesting_months": 0,
+          "cliff_months": 0,
+          "tge_unlock_pct": 100,
           "usage": "Exchange liquidity and price discovery",
-          "notes": "100% at TGE"
+          "notes": "100% at TGE."
         },
         {
           "name": "Testnet & Earn",
           "pct": 5.0,
           "absolute_tokens": 150000000,
-          "distribution_months": 0,
+          "liquid_at_tge_pct": 100,
+          "vesting_months": 0,
+          "cliff_months": 0,
+          "tge_unlock_pct": 100,
           "distribution_mechanism": "Testnet rewards, node operators, builders, social media",
-          "notes": "100% TGE; ~70M burned from unallocated. Wave 2/3: 25% first, then monthly over 24mo. Builder grants: 1yr cliff, 25% at cliff, 3yr monthly"
+          "burn_tokens": 70000000,
+          "notes": "100% available at TGE per docs; ~70M tokens designated for burn from unallocated portion (64.9M already burned per Coingabbar). Sub-programs have own vesting: Wave 2/3 reward programs vest 25% first then monthly over 24mo; Builder Grants (1M QUAI) vest 1yr cliff + 25% at cliff + 3yr monthly."
         }
       ]
     }
   },
-  
-  "vesting_waterfall": [
-    {"month": 0, "unlock_tokens": 332400000, "pct_of_premine": 11.08, "source": "TGE unlocks minus ~70M burned"},
-    {"month": 6, "unlock_tokens": null, "pct_of_premine": null, "source": "Foundation & Community cliff ends"},
-    {"month": 12, "unlock_tokens": null, "pct_of_premine": null, "source": "Seed 1, Strategic, Team cliffs end; Seed 2 first unlock"}
+
+  "vesting_waterfall_summary": [
+    {"month": 0, "date": "2025-02-05", "unlock_tokens": 398300000, "pct_of_premine": 13.28, "source": "TGE unlocks (468.3M gross) net of ~70M testnet burn"},
+    {"month": 6, "date": "2025-08-05", "unlock_tokens": null, "pct_of_premine": null, "source": "Foundation, Community, Development Co cliffs end; linear vesting begins"},
+    {"month": 12, "date": "2026-02-05", "unlock_tokens": null, "pct_of_premine": null, "source": "Seed 1, Strategic, Team cliffs end; Seed 2 first 25% chunk unlocks — concentrated supply event"}
   ],
-  
+
+  "post_genesis_events": [
+    {
+      "name": "Singularity Fork",
+      "date": "2025-12",
+      "source_url": "https://www.qu.ai/blog/singularity-fork-live",
+      "notes": "Multilateral agreement among investors, Dominant Strategies Inc., and the Quai Foundation skipped ~1.67B QUAI of future genesis unlocks. Protocol-level hard cap remains 3B but effective soft cap dropped to ~1.4B."
+    },
+    {
+      "name": "SOAP buyback-and-burn",
+      "date": "2025-12-17",
+      "source_url": "https://www.theblock.co/press-releases/376064/quai-network-launches-soap-to-reshape-proof-of-work-economics",
+      "notes": "AuxPoW-captured external subsidy converted to open-market QUAI buys and burned. ~180M QUAI/yr burn target; 64.9M reportedly burned to date."
+    }
+  ],
+
   "transparency_notes": [
-    "Individual allocations undisclosed for all rounds",
-    "$15M total funding well-documented",
-    "Vesting schedules clear in official docs",
-    "~70M QUAI (2.3%) burned reduces effective supply",
-    "KYC required via Fractal.id ($5 ETH fee)",
-    "OFAC restrictions apply"
+    "Documented allocation buckets at docs.qu.ai sum to 99%, not 100% — a 1% gap with no named bucket. Modeled here as an 'Undisclosed / Unaccounted' bucket under tier_2_entity_controlled.",
+    "Individual investor allocations within each round are not publicly disclosed.",
+    "Seed 1 names only Polychain Capital in primary sources; Black Edge appearance in secondary trackers excluded under honesty rule.",
+    "Seed 2 fully disclosed as Alumni Ventures (Blockchain Fund) sole investor.",
+    "Strategic round names 5 investors consistently across primary sources; ICO Drops/Chainbroker additions excluded.",
+    "Approximately 70M QUAI from Testnet & Earn designated for burn; 64.9M already burned (Coingabbar reporting).",
+    "Total funding raised: $15M (Seed 1 $8M + Seed 2 $2M + Strategic $5M).",
+    "Mainnet launched 2025-01-29; TGE/claims opened 2025-02-05.",
+    "Foundation Reserve multisig signers and threshold NOT publicly disclosed.",
+    "Claims Terms & Conditions page (qu.ai/quai-claims-terms-and-conditions) returns 404 as of 2026-05-30 — original legal terms no longer publicly available.",
+    "Listed on CertiK Skynet but no full named third-party audit report surfaces.",
+    "docs.qu.ai refers to this allocation as 'legacy' model — predates SOAP and Singularity Fork changes."
   ],
-  
+
   "data_sources": {
-    "tokenomics": "https://docs.qu.ai/learn/tokenomics/quai-emissions",
-    "claims": "https://qu.ai/blog/announcing-the-quai-network-claims-page/",
-    "funding": "https://www.theblock.co/post/313387/quai-strategic-round"
+    "tokenomics_emissions": "https://docs.qu.ai/learn/tokenomics/quai-emissions",
+    "tokenomics_overview": "https://docs.qu.ai/learn/tokenomics/tokenomics-overview/tokenomics-overview",
+    "claims_page": "https://qu.ai/blog/announcing-the-quai-network-claims-page/",
+    "seed_1_announcement": "https://qu.ai/blog/polychain",
+    "seed_2_announcement": "https://qu.ai/blog/alumni-ventures/",
+    "strategic_round_theblock": "https://www.theblock.co/post/313387/quai-strategic-round",
+    "strategic_round_siliconangle": "https://siliconangle.com/2024/08/29/quai-raises-5m-build-proof-work-stablecoin-uses-energy-generate-value/",
+    "crunchbase_seed1": "https://www.crunchbase.com/funding_round/quai-network-seed--452cbd19",
+    "tracxn_funding": "https://tracxn.com/d/companies/quai/___JrBRwHEEpwkhXQcsadZ47RIbuKrwDXDEy1PgQnvnHw/funding-and-investors",
+    "singularity_fork": "https://www.qu.ai/blog/singularity-fork-live",
+    "soap_launch": "https://www.theblock.co/press-releases/376064/quai-network-launches-soap-to-reshape-proof-of-work-economics",
+    "burn_reporting": "https://www.coingabbar.com/en/crypto-currency-news/quai-network-chain-revenue-hit-145k-with-64m-token-burn"
   }
 }

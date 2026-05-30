@@ -1,0 +1,105 @@
+{
+  "project": "alephium",
+  "generated_at": "2026-05-28",
+  "note": "Provenance sidecar — every non-derived field maps to its source_url and confidence. Derived fields (pct_mined, emission_remaining, daily_emission, annual_inflation_pct, fdmc, circulating_mcap, token_velocity) are computed by scripts/compute_derived.py and not listed here.",
+
+  "project_file": "data/projects/alephium.json",
+  "fields": {
+    "consensus": {"source_url": "https://docs.alephium.org/", "confidence": "high"},
+    "algorithm": {"source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c", "confidence": "high"},
+    "launch_date": {"source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c", "confidence": "high"},
+    "launch_type": {"source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c", "confidence": "high"},
+    "has_premine": {"source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c", "confidence": "high"},
+
+    "supply.max_supply": {
+      "value": null,
+      "source_url": "https://medium.com/@alephium/danube-upgrade-everything-you-need-to-know-faq-b6038cf61017",
+      "confidence": "high",
+      "notes": "Danube upgrade (2025-07-15) removed the original 1B cap; ALPH now has unlimited tail emission."
+    },
+    "supply.current_supply": {
+      "value": 221615739,
+      "source_url": "https://backend.mainnet.alephium.org/infos/supply/total-alph",
+      "confidence": "high",
+      "notes": "Official Alephium mainnet backend, 2026-05-28; cross-checked with CoinGecko (221.61M)."
+    },
+
+    "emission.current_block_reward": {
+      "value": null,
+      "source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c",
+      "confidence": "high",
+      "notes": "PoLW dynamic + 16 sharded chains make a single static block_reward value misleading; left null with notes."
+    },
+    "emission.block_time_seconds": {
+      "value": 8,
+      "source_url": "https://docs.alephium.org/integration/danube-upgrade/",
+      "confidence": "high",
+      "notes": "Per-shard target; halved from 16s by Danube upgrade 2025-07-15."
+    },
+    "emission.halving_schedule": {
+      "source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c",
+      "confidence": "med",
+      "notes": "Continuous emission curve, not Bitcoin-style halvings. Two documented step-events: Danube (2025-07-15) and Year-4 stabilization (2025-11-08)."
+    },
+
+    "premine.total_pct": {"source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c", "confidence": "high"},
+    "premine.absolute_tokens": {"source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c", "confidence": "high"},
+
+    "market_data.current_price_usd": {
+      "value": 0.03756,
+      "source_url": "https://www.coingecko.com/en/coins/alephium",
+      "confidence": "high",
+      "notes": "CoinGecko 2026-05-28; CMC corroborates at $0.037582."
+    },
+    "market_data.daily_volume": {
+      "value": 128355.30,
+      "source_url": "https://www.coingecko.com/en/coins/alephium",
+      "confidence": "med",
+      "notes": "CMC reports $169,722 (different exchange weighting). Thinly traded; primary venue MEXC."
+    },
+    "market_data.data_date": {"value": "2026-05-28", "source_url": "https://www.coingecko.com/en/coins/alephium", "confidence": "high"}
+  },
+
+  "genesis_file": "allocations/alephium/genesis.json",
+  "genesis_fields": {
+    "genesis_date": {"source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c", "confidence": "high"},
+    "total_genesis_allocation_pct": {"value": 14.0, "source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c", "confidence": "high"},
+    "available_for_mining_genesis_pct": {"value": 86.0, "source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c", "confidence": "high"},
+    "dev_tax": {"value": "none", "source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c", "confidence": "high"},
+
+    "tier_1.Sales": {
+      "source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c",
+      "confidence": "high",
+      "notes": "Sold tokens (62,951,077), vesting language (2-4 yrs quarterly), 80M sales allocation total all from primary source."
+    },
+    "tier_1.Sales.investors": {
+      "source_url": "https://medium.com/@alephium/alephium-closes-3-6m-pre-sale-from-80-contributors-to-expand-sharded-utxo-blockchain-platform-84f80492e28d",
+      "confidence": "high",
+      "notes": "80 contributors and $3.6M raised confirmed by official Sep 2021 announcement; 6 investors named via primary + later disclosures."
+    },
+    "tier_1.Reserved_Future_Sales": {"source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c", "confidence": "high"},
+    "tier_2.Treasury_and_Team": {
+      "source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c",
+      "confidence": "high",
+      "notes": "30M tokens, 3yr quarterly vest, no cliff — directly quoted from official post."
+    },
+    "tier_2.Ecosystem_Development": {
+      "source_url": "https://medium.com/@alephium/tokenomics-of-alephium-61d59b51029c",
+      "confidence": "high",
+      "notes": "30M tokens, 4yr quarterly vest, no cliff — directly quoted from official post."
+    },
+
+    "red_flags.warnings": {
+      "confidence": "high",
+      "notes": "Each entry cited via tokenomics post + Sep 2021 announcement + Danube FAQ."
+    },
+    "red_flags.suspicious_timeline": {
+      "source_url": "https://docs.alephium.org/integration/danube-upgrade/",
+      "confidence": "high"
+    },
+    "transparency_notes": {
+      "confidence": "high",
+      "notes": "All 7 entries traceable to data_sources URLs (tokenomics post, Sep 2021 announcement, Cetacean Capital announcement, explorer, Tokenomist, Danube blog)."
+    }
+  }
+}

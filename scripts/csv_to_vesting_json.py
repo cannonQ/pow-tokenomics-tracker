@@ -185,8 +185,16 @@ def convert_to_json(rows: List[Dict], genesis_data: Dict[str, Any]) -> Dict[str,
         }
         total_genesis_tokens += tier_total
 
-    # Build monthly schedule
+    # Build monthly schedule.
+    #
+    # bucket_state carries each bucket's latest cumulative across months so a
+    # tier's cumulative at month N is the sum of (cumulative for each bucket
+    # in that tier as of month N), using each bucket's most recent value when
+    # it has no row in the current month. Previously the script only summed
+    # rows present in the current month, which under-reported any tier whose
+    # earlier-finishing buckets had stopped emitting rows.
     monthly_schedule = []
+    bucket_state = {}  # (tier, bucket_name) -> latest cumulative_tokens
 
     for month in sorted(months_data.keys()):
         month_rows = months_data[month]
@@ -194,9 +202,10 @@ def convert_to_json(rows: List[Dict], genesis_data: Dict[str, Any]) -> Dict[str,
         # Get the date from first row (should be same for all rows in month)
         date = month_rows[0]['date']
 
-        # Build buckets array
+        # Build buckets array; track this month's unlocks per tier separately
+        # from cumulative (cumulative is sourced from bucket_state below).
         buckets = []
-        tier_aggregates = defaultdict(lambda: {'unlock_tokens': 0, 'cumulative_tokens': 0})
+        tier_unlock = defaultdict(float)
 
         for row in month_rows:
             tier = row['tier']
@@ -217,12 +226,16 @@ def convert_to_json(rows: List[Dict], genesis_data: Dict[str, Any]) -> Dict[str,
                 'notes': notes
             })
 
-            # Aggregate by tier
-            tier_aggregates[tier]['unlock_tokens'] += unlock_tokens
-            tier_aggregates[tier]['cumulative_tokens'] = max(
-                tier_aggregates[tier]['cumulative_tokens'],
-                cumulative_tokens
-            )
+            tier_unlock[tier] += unlock_tokens
+            bucket_state[(tier, bucket_name)] = cumulative_tokens
+
+        # Build tier_aggregates from the carried-forward bucket_state, summing
+        # across all buckets in each tier (not just those with rows this month).
+        tier_aggregates = defaultdict(lambda: {'unlock_tokens': 0, 'cumulative_tokens': 0})
+        for (tier, _bucket_name), cum in bucket_state.items():
+            tier_aggregates[tier]['cumulative_tokens'] += cum
+        for tier, unlock in tier_unlock.items():
+            tier_aggregates[tier]['unlock_tokens'] = unlock
 
         # Calculate tier percentages
         for tier in tier_aggregates:

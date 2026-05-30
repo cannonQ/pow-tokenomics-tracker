@@ -113,14 +113,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 2500000,
-          "cumulative_pct_of_tier": 4.17
+          "cumulative_tokens": 4375000,
+          "cumulative_pct_of_tier": 7.29
         }
       },
       "total": {
         "unlock_tokens": 9620923,
-        "cumulative_tokens": 7745923,
-        "cumulative_pct_of_genesis": 6.3
+        "cumulative_tokens": 9620923,
+        "cumulative_pct_of_genesis": 7.83
       }
     },
     {
@@ -163,14 +163,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 5000000,
-          "cumulative_pct_of_tier": 8.33
+          "cumulative_tokens": 8750000,
+          "cumulative_pct_of_tier": 14.58
         }
       },
       "total": {
         "unlock_tokens": 9620923,
-        "cumulative_tokens": 15491846,
-        "cumulative_pct_of_genesis": 12.6
+        "cumulative_tokens": 19241846,
+        "cumulative_pct_of_genesis": 15.65
       }
     },
     {
@@ -213,14 +213,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 7500000,
-          "cumulative_pct_of_tier": 12.5
+          "cumulative_tokens": 13125000,
+          "cumulative_pct_of_tier": 21.88
         }
       },
       "total": {
         "unlock_tokens": 9620923,
-        "cumulative_tokens": 23237769,
-        "cumulative_pct_of_genesis": 18.9
+        "cumulative_tokens": 28862769,
+        "cumulative_pct_of_genesis": 23.48
       }
     },
     {
@@ -263,14 +263,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 10000000,
-          "cumulative_pct_of_tier": 16.67
+          "cumulative_tokens": 17500000,
+          "cumulative_pct_of_tier": 29.17
         }
       },
       "total": {
         "unlock_tokens": 9620923,
-        "cumulative_tokens": 30983692,
-        "cumulative_pct_of_genesis": 25.2
+        "cumulative_tokens": 38483692,
+        "cumulative_pct_of_genesis": 31.3
       }
     },
     {
@@ -313,14 +313,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 12500000,
-          "cumulative_pct_of_tier": 20.83
+          "cumulative_tokens": 21875000,
+          "cumulative_pct_of_tier": 36.46
         }
       },
       "total": {
         "unlock_tokens": 9620923,
-        "cumulative_tokens": 38729615,
-        "cumulative_pct_of_genesis": 31.5
+        "cumulative_tokens": 48104615,
+        "cumulative_pct_of_genesis": 39.13
       }
     },
     {
@@ -363,14 +363,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 15000000,
-          "cumulative_pct_of_tier": 25.0
+          "cumulative_tokens": 26250000,
+          "cumulative_pct_of_tier": 43.75
         }
       },
       "total": {
         "unlock_tokens": 9620923,
-        "cumulative_tokens": 46475538,
-        "cumulative_pct_of_genesis": 37.8
+        "cumulative_tokens": 57725538,
+        "cumulative_pct_of_genesis": 46.95
       }
     },
     {
@@ -413,14 +413,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 17500000,
-          "cumulative_pct_of_tier": 29.17
+          "cumulative_tokens": 30625000,
+          "cumulative_pct_of_tier": 51.04
         }
       },
       "total": {
         "unlock_tokens": 9620923,
-        "cumulative_tokens": 54221461,
-        "cumulative_pct_of_genesis": 44.1
+        "cumulative_tokens": 67346461,
+        "cumulative_pct_of_genesis": 54.78
       }
     },
     {
@@ -463,14 +463,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 20000000,
-          "cumulative_pct_of_tier": 33.33
+          "cumulative_tokens": 35000000,
+          "cumulative_pct_of_tier": 58.33
         }
       },
       "total": {
         "unlock_tokens": 9620923,
-        "cumulative_tokens": 61967384,
-        "cumulative_pct_of_genesis": 50.4
+        "cumulative_tokens": 76967384,
+        "cumulative_pct_of_genesis": 62.6
       }
     },
     {
@@ -513,14 +513,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 22500000,
-          "cumulative_pct_of_tier": 37.5
+          "cumulative_tokens": 39375000,
+          "cumulative_pct_of_tier": 65.62
         }
       },
       "total": {
         "unlock_tokens": 9620923,
-        "cumulative_tokens": 69713307,
-        "cumulative_pct_of_genesis": 56.7
+        "cumulative_tokens": 86588307,
+        "cumulative_pct_of_genesis": 70.43
       }
     },
     {
@@ -563,14 +563,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 25000000,
-          "cumulative_pct_of_tier": 41.67
+          "cumulative_tokens": 43750000,
+          "cumulative_pct_of_tier": 72.92
         }
       },
       "total": {
         "unlock_tokens": 9620923,
-        "cumulative_tokens": 77459230,
-        "cumulative_pct_of_genesis": 63.0
+        "cumulative_tokens": 96209230,
+        "cumulative_pct_of_genesis": 78.25
       }
     },
     {
@@ -613,14 +613,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 27500000,
-          "cumulative_pct_of_tier": 45.83
+          "cumulative_tokens": 48125000,
+          "cumulative_pct_of_tier": 80.21
         }
       },
       "total": {
         "unlock_tokens": 9620923,
-        "cumulative_tokens": 85205153,
-        "cumulative_pct_of_genesis": 69.3
+        "cumulative_tokens": 105830153,
+        "cumulative_pct_of_genesis": 86.08
       }
     },
     {
@@ -663,14 +663,14 @@
         },
         "tier_2_entity_controlled": {
           "unlock_tokens": 4375000,
-          "cumulative_tokens": 30000000,
-          "cumulative_pct_of_tier": 50.0
+          "cumulative_tokens": 52500000,
+          "cumulative_pct_of_tier": 87.5
         }
       },
       "total": {
         "unlock_tokens": 9620924,
-        "cumulative_tokens": 92951077,
-        "cumulative_pct_of_genesis": 75.6
+        "cumulative_tokens": 115451077,
+        "cumulative_pct_of_genesis": 93.9
       }
     },
     {
@@ -688,16 +688,21 @@
         }
       ],
       "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 62951077,
+          "cumulative_pct_of_tier": 100.0
+        },
         "tier_2_entity_controlled": {
           "unlock_tokens": 1875000,
-          "cumulative_tokens": 24375000,
-          "cumulative_pct_of_tier": 40.62
+          "cumulative_tokens": 54375000,
+          "cumulative_pct_of_tier": 90.62
         }
       },
       "total": {
         "unlock_tokens": 1875000,
-        "cumulative_tokens": 24375000,
-        "cumulative_pct_of_genesis": 19.82
+        "cumulative_tokens": 117326077,
+        "cumulative_pct_of_genesis": 95.43
       }
     },
     {
@@ -715,16 +720,21 @@
         }
       ],
       "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 62951077,
+          "cumulative_pct_of_tier": 100.0
+        },
         "tier_2_entity_controlled": {
           "unlock_tokens": 1875000,
-          "cumulative_tokens": 26250000,
-          "cumulative_pct_of_tier": 43.75
+          "cumulative_tokens": 56250000,
+          "cumulative_pct_of_tier": 93.75
         }
       },
       "total": {
         "unlock_tokens": 1875000,
-        "cumulative_tokens": 26250000,
-        "cumulative_pct_of_genesis": 21.35
+        "cumulative_tokens": 119201077,
+        "cumulative_pct_of_genesis": 96.95
       }
     },
     {
@@ -742,16 +752,21 @@
         }
       ],
       "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 62951077,
+          "cumulative_pct_of_tier": 100.0
+        },
         "tier_2_entity_controlled": {
           "unlock_tokens": 1875000,
-          "cumulative_tokens": 28125000,
-          "cumulative_pct_of_tier": 46.88
+          "cumulative_tokens": 58125000,
+          "cumulative_pct_of_tier": 96.88
         }
       },
       "total": {
         "unlock_tokens": 1875000,
-        "cumulative_tokens": 28125000,
-        "cumulative_pct_of_genesis": 22.87
+        "cumulative_tokens": 121076077,
+        "cumulative_pct_of_genesis": 98.48
       }
     },
     {
@@ -769,16 +784,21 @@
         }
       ],
       "tier_aggregates": {
+        "tier_1_profit_seeking": {
+          "unlock_tokens": 0,
+          "cumulative_tokens": 62951077,
+          "cumulative_pct_of_tier": 100.0
+        },
         "tier_2_entity_controlled": {
           "unlock_tokens": 1875000,
-          "cumulative_tokens": 30000000,
-          "cumulative_pct_of_tier": 50.0
+          "cumulative_tokens": 60000000,
+          "cumulative_pct_of_tier": 100.0
         }
       },
       "total": {
         "unlock_tokens": 1875000,
-        "cumulative_tokens": 30000000,
-        "cumulative_pct_of_genesis": 24.4
+        "cumulative_tokens": 122951077,
+        "cumulative_pct_of_genesis": 100.0
       }
     }
   ],
@@ -792,38 +812,44 @@
     "at_month_6": {
       "month": 6,
       "date": "2022-05-08",
-      "liquid_pct_of_genesis": 12.6,
-      "liquid_tokens": 15491846
+      "liquid_pct_of_genesis": 15.65,
+      "liquid_tokens": 19241846
     },
     "at_month_12": {
       "month": 12,
       "date": "2022-11-08",
-      "liquid_pct_of_genesis": 25.2,
-      "liquid_tokens": 30983692
+      "liquid_pct_of_genesis": 31.3,
+      "liquid_tokens": 38483692
     },
     "at_month_18": {
       "month": 18,
       "date": "2023-05-08",
-      "liquid_pct_of_genesis": 37.8,
-      "liquid_tokens": 46475538
+      "liquid_pct_of_genesis": 46.95,
+      "liquid_tokens": 57725538
     },
     "at_month_24": {
       "month": 24,
       "date": "2023-11-08",
-      "liquid_pct_of_genesis": 50.4,
-      "liquid_tokens": 61967384
+      "liquid_pct_of_genesis": 62.6,
+      "liquid_tokens": 76967384
     },
     "at_month_36": {
       "month": 36,
       "date": "2024-11-08",
-      "liquid_pct_of_genesis": 75.6,
-      "liquid_tokens": 92951077
+      "liquid_pct_of_genesis": 93.9,
+      "liquid_tokens": 115451077
     },
     "at_month_48": {
       "month": 48,
       "date": "2025-11-08",
-      "liquid_pct_of_genesis": 24.4,
-      "liquid_tokens": 30000000
+      "liquid_pct_of_genesis": 100.0,
+      "liquid_tokens": 122951077
+    },
+    "at_full_unlock": {
+      "month": 48,
+      "date": "2025-11-08",
+      "liquid_pct_of_genesis": 100.0,
+      "liquid_tokens": 122951077
     }
   }
 }

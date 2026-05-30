@@ -35,10 +35,14 @@ subagent list are printed. **Fail:** if `launch_type` is ambiguous, ask the huma
 
 ## CP2 — Gather (fan out subagents in parallel)
 Dispatch the applicable subagents **in a single message with multiple Agent calls** so they run
-concurrently. Always: `supply-emission-researcher`, `market-data-researcher`, `mining-researcher`.
+concurrently. Always: `supply-emission-researcher`, `market-data-researcher`.
 Conditionally: `allocation-researcher` (premine/ICO/private_sale), `forensics-researcher` (suspicion /
-missing data / dev_tax / treasury_emission). Pass each the project name, ticker, and the evidence path
+missing data / dev_tax / treasury_emission, and the Analysis-tab `red_flags`/`transparency_notes` for
+any premined project). Pass each the project name, ticker, and the evidence path
 `.acquisition/<name>.evidence.json`.
+
+(There is intentionally **no mining researcher** — the site renders no mining data; see
+`docs/DATA_FIELDS.md`.)
 
 **Gate:** every required field for this `launch_type` has a candidate value **with a `source_url`**, or
 is explicitly `null`/`"unknown"` with a `notes` reason. **Fail:** re-dispatch the relevant subagent

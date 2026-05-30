@@ -63,14 +63,11 @@ reason when no source can be found — never guess.
 | `daily_emission` `[DERIVED]` | — | — |
 | `annual_inflation_pct` `[DERIVED]` | — | — |
 
-### Group: mining  → `mining-researcher`
-| field | source | example query |
-|---|---|---|
-| `current_hashrate_th` (note unit) | project explorer, MiningPoolStats | `<name> network hashrate` |
-| `current_difficulty` | block explorer | `<name> mining difficulty` |
-| `asic_resistant`, `dominant_hardware` | docs, WhatToMine | `<name> ASIC GPU mining`, `<name> whattomine` |
-| `cost_to_mine_one_unit.*` | WhatToMine profitability | `<name> mining profitability cost` |
-| `decentralization.active_pools`, `top_5_pools_pct`, `largest_pool`, `nakamoto_coefficient` | MiningPoolStats | `<name> mining pool distribution` |
+> **No `mining` group.** The consuming site renders Supply / Emission / Investors / Analysis / Market
+> only — there is no Mining tab, and "miner parity" is computed client-side from
+> `daily_emission`, `max_supply`, `launch_date`, and `total_genesis_allocation_pct` (all already
+> collected elsewhere). Do **not** research hashrate, difficulty, ASIC-resistance, cost-to-mine, or
+> pool distribution — none of it is displayed.
 
 ### Group: market_data  → `market-data-researcher`
 | field | source | example query |
@@ -81,7 +78,8 @@ reason when no source can be found — never guess.
 
 ### Group: data_sources  → assembled by orchestrator
 Aggregate every `source_url` the subagents returned into the
-`official_docs / block_explorer / market_data / mining_data` lists. Validator requires real URLs.
+`official_docs / block_explorer / market_data` lists (and `funding_data` if applicable for premined
+projects). Validator requires real URLs.
 
 ### Group: genesis allocation_tiers  → `allocation-researcher` (premine/ICO only)
 For each tier (`tier_1_profit_seeking`, `tier_2_entity_controlled`, `tier_3_community`,
@@ -107,10 +105,11 @@ total_investors, notes}`. Build `vesting_waterfall[]` (months 0..N) — emit as 
 ---
 
 ## 3. Source priority (tie-breaking during CP3 review)
-1. **On-chain / block explorer** for supply, emission, difficulty, addresses (most authoritative).
+1. **On-chain / block explorer** for supply, emission, addresses (most authoritative).
 2. **Whitepaper / official docs** for design constants (max supply, halving curve, tokenomics).
 3. **CoinGecko / CMC** for price, volume, market caps.
-4. **MiningPoolStats / WhatToMine** for hashrate, pools, profitability.
-5. **Medium / Crunchbase / Twitter** for investor & funding info — corroborate with ≥2 where possible.
+4. **Medium / Crunchbase / Twitter** for investor & funding info — corroborate with ≥2 where possible.
+5. **Community analyses / on-chain investigations** for forensic & red-flag claims — link the
+   analysis, set `verifiable:false` unless on-chain-proven.
 
 When two sources conflict, prefer the higher-priority one and record the discrepancy in `notes`.

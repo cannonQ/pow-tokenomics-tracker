@@ -1,0 +1,96 @@
+name: Validate project data
+
+on:
+  pull_request:
+    paths:
+      - 'data/projects/**'
+      - 'allocations/**'
+      - 'scripts/**'
+      - 'templates/**'
+      - '.github/workflows/validate.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/projects/**'
+      - 'allocations/**'
+      - 'scripts/**'
+  # Allow manual runs from the Actions tab — useful for sweeping after a script fix.
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history so we can diff against the PR base / previous commit.
+          fetch-depth: 0
+
+      - name: Determine and validate affected projects
+        run: |
+          set -euo pipefail
+
+          # 1. Figure out the diff range.
+          case "${{ github.event_name }}" in
+            pull_request)
+              git fetch --no-tags --depth=1 origin "${{ github.base_ref }}"
+              base="origin/${{ github.base_ref }}"
+              changed=$(git diff --name-only "$base"...HEAD)
+              ;;
+            push)
+              # Compare to the previous commit on main (or the full tree on first push).
+              changed=$(git diff --name-only HEAD^ HEAD 2>/dev/null || git ls-files)
+              ;;
+            workflow_dispatch)
+              # Manual run: validate everything.
+              changed="(manual)"
+              ;;
+          esac
+
+          echo "Files changed:"
+          echo "$changed" | sed 's/^/  /'
+          echo
+
+          # 2. Decide which projects to validate.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] \
+             || echo "$changed" | grep -qE '^(scripts/|templates/)'; then
+            echo "Scripts or templates changed — validating ALL projects"
+            projects=$(ls data/projects/*.json | xargs -n1 basename | sed 's/\.json$//')
+          else
+            # Extract slugs from data/projects/<slug>.json and allocations/<slug>/...
+            projects=$(echo "$changed" \
+              | grep -E '^(data/projects/[^/]+\.json|allocations/[^/]+/)' \
+              | sed -E 's|^data/projects/([^/]+)\.json$|\1|; s|^allocations/([^/]+)/.*|\1|' \
+              | sort -u)
+          fi
+
+          if [ -z "$projects" ]; then
+            echo "No project files affected by this change; nothing to validate."
+            exit 0
+          fi
+
+          echo "Affected projects:"
+          echo "$projects" | sed 's/^/  /'
+          echo
+
+          # 3. Run the validator for each, accumulating failures so we report them all.
+          failed_projects=""
+          while IFS= read -r project; do
+            [ -z "$project" ] && continue
+            echo "::group::Validating $project"
+            if python3 scripts/validate_submission.py "$project"; then
+              echo "::endgroup::"
+            else
+              echo "::endgroup::"
+              failed_projects="$failed_projects $project"
+            fi
+          done <<< "$projects"
+
+          if [ -n "$failed_projects" ]; then
+            echo
+            echo "::error::Validation failed for:$failed_projects"
+            exit 1
+          fi
+
+          echo "All affected projects passed."

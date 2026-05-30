@@ -1,0 +1,104 @@
+{
+  "project": "pearl",
+  "ticker": "PRL",
+  "consensus": "PoW",
+  "algorithm": "Proof-of-Useful-Work (PoUW) - GPU matrix multiplication",
+  "launch_date": "2026-04-27",
+  "launch_type": "fair_with_suspicion",
+  "has_premine": false,
+  "supply": {
+    "max_supply": 2100000000,
+    "current_supply": 189600000,
+    "pct_mined": 9.03,
+    "emission_remaining": 1910400000,
+    "notes": "current_supply is an estimate from the whitepaper's closed-form cumulative emission curve: cumulative(t) = S * t/(t+H), with S=2,100,000,000, H=650,226, and t = current block height ~64,528 (observed on explorer.pearlresearch.ai on 2026-05-30). Pearl's block explorer has no supply endpoint, and third-party trackers (LiveCoinWatch, CoinPaprika, Blockspot) all show 'no data' for circulating supply at the time of collection (chain is ~5 weeks old). Confidence: low \u2014 refresh when an on-chain supply endpoint or tracker becomes available."
+  },
+  "emission": {
+    "current_block_reward": 2672.84,
+    "block_time_seconds": 194,
+    "daily_emission": 1190378.23,
+    "annual_inflation_pct": 229.16,
+    "halving_schedule": [
+      {
+        "event": "~10% emitted",
+        "date_est": "2026-10-06",
+        "height": 72247,
+        "reward_before": 2672.84,
+        "reward_after": 2616.02,
+        "description": "Computed waypoint from polynomial decay formula \u2014 not a discrete protocol event."
+      },
+      {
+        "event": "~25% emitted",
+        "date_est": "2027-08-26",
+        "height": 216742,
+        "reward_before": 2616.02,
+        "reward_after": 1816.68,
+        "description": "Computed waypoint from polynomial decay formula."
+      },
+      {
+        "event": "~50% emitted (H anchor)",
+        "date_est": "2030-04-25",
+        "height": 650226,
+        "reward_before": 1816.68,
+        "reward_after": 807.41,
+        "description": "Whitepaper half-emission anchor H=650,226 blocks (~4 years at 194s target block time)."
+      },
+      {
+        "event": "~75% emitted",
+        "date_est": "2038-04-23",
+        "height": 1950678,
+        "reward_before": 807.41,
+        "reward_after": 201.85,
+        "description": "Computed waypoint from polynomial decay formula."
+      },
+      {
+        "event": "~90% emitted",
+        "date_est": "2062-04-17",
+        "height": 5852034,
+        "reward_before": 201.85,
+        "reward_after": 32.3,
+        "description": "Computed waypoint from polynomial decay formula."
+      }
+    ],
+    "emission_notes": "Pearl uses continuous polynomial decay (~1/t^2), not discrete halvings. Closed-form per-block subsidy E*(t) = S*H/((t+H)(t+H-1)) with S=2,100,000,000 and H=650,226 blocks (~the 50%-emitted block-height anchor). At block ~64,528 this yields 2,672.84 PRL/block \u2014 independently reported by WhatToMine (2,672.84) and Hashrate.no (2,673). This is approximately the highest block reward the network will ever produce; future rewards decline smoothly. No dev tax \u2014 the full subsidy goes to the miner.",
+    "block_time_notes": "Reporting the whitepaper TARGET of 194s rather than the live observation. Actual average block time since launch (block 64,528 over 33 days) is ~44s; aggregator point-in-time estimates were 114-119s. Both are transient artifacts of the difficulty-ramp phase in the first 5 weeks post-launch and aren't representative of steady state. Using observed values produces wildly inflated headline daily/annual emission (e.g. 1.94M PRL/day at 119s, which would exhaust the 2.1B cap in 3 years \u2014 inconsistent with the polynomial decay curve that targets ~50% emitted at block H=650,226). The 194s target is the design constant the protocol drives toward via difficulty retargeting. NOTE: even with 194s, the current-reward-times-time daily_emission overstates the long-run rate because current_block_reward (2,672.84 PRL) is at the all-time peak; the polynomial 1/t^2 decay reduces it sharply (see halving_schedule waypoints)."
+  },
+  "premine": null,
+  "genesis_allocation": "allocations/pearl/genesis.json",
+  "market_data": {
+    "current_price_usd": 1.04,
+    "fdmc": 2184000000,
+    "circulating_mcap": 197184000,
+    "daily_volume": 1498353,
+    "token_velocity": 0.0076,
+    "data_date": "2026-05-30",
+    "notes": "Price and volume from SafeTrade PRL/USDT on 2026-05-30; corroborated by Hashrate.no aggregator. SafeTrade is currently the only known CEX listing this specific project \u2014 Pearl Research Labs' PRL is not yet on CoinGecko, CoinMarketCap, Coinbase, MEXC, Gate.io, or Bitget. The PRL tokens on those platforms ('Perle' by perle.io and 'Pearl Research' Base memecoins on Coinbase) are unrelated projects. Volume is single-exchange and highly volatile post-launch (intraday range $0.79-$1.57)."
+  },
+  "data_sources": {
+    "official_docs": [
+      "https://pearlresearch.ai/",
+      "https://github.com/pearl-research-labs/pearl",
+      "https://compute.pearlresearch.ai/",
+      "https://www.together.ai/blog/together-ai-partners-with-pearl-research-labs"
+    ],
+    "block_explorer": [
+      "https://explorer.pearlresearch.ai/"
+    ],
+    "market_data": [
+      "https://safetrade.com/exchange/PRL-USDT?type=basic",
+      "https://hashrate.no/coins/PRL",
+      "https://www.livecoinwatch.com/price/PearlResearch-_____PRL",
+      "https://whattomine.com/coins/469-prl-pearl"
+    ]
+  },
+  "notes": [
+    "CLASSIFIED fair_with_suspicion. Technically clean fair launch (no premine, no dev tax, no missing chain data, no undisclosed VC), but launch mechanics produced a Kaspa-style early-emission windfall: ~9% of max supply (189.6M PRL) mined in the first 33 days at peak block reward, while the reference miner was restricted to NVIDIA H100/H200 datacenter GPUs and the official pool charged 20% fee with no community-pool alternative for the first ~48 hours. See allocations/pearl/genesis.json for the full forensic analysis.",
+    "Mainnet launched 2026-04-27 as a Bitcoin-protocol fork with Proof-of-Useful-Work consensus \u2014 mining work is GPU matrix multiplication used in AI inference/training (PoUW paper: eprint.iacr.org/2025/685 by Komargodski & Weinstein).",
+    "Emission follows a continuous polynomial decay curve (~1/t^2) with S=2.1B total supply and H=650,226 blocks as the half-emission anchor; no discrete halving events. The closed-form subsidy formula is E*(t) = S*H/((t+H)(t+H-1)). halving_schedule entries are COMPUTED waypoints, not protocol events.",
+    "On-chain verification (forensics-researcher): coinbase transactions carry a single output paying the full ~2,672.84 PRL subsidy to one miner address \u2014 NO protocol-level dev tax. Caveat: the official Pearl Research mining pool charges a 20% off-protocol fee, which is an effective dev rake on miners who use that pool.",
+    "Team / partner profile = means + opportunity but no provable act: CEO Omri Weinstein (Columbia/Hebrew U theoretical CS; ex-Nvidia, ex-Vast Data). Co-author Ilan Komargodski (cryptographer). Public partnership with Together AI (large GPU operator). No public disclosure of which (if any) blocks the team mined.",
+    "Block-time observation: live trackers showed 114-119s; actual since-launch average is ~44s (64,528 blocks / 33 days). Both are transient ramp artifacts. Reporting the 194s whitepaper target as the design constant; using observed values produced absurd headline emissions (e.g. 1.94M PRL/day at 119s \u2192 2.1B cap exhausted in 3 years, inconsistent with the polynomial decay curve).",
+    "Only one CEX listing identified (SafeTrade); aggregators have not yet populated price/supply feeds. Community miners report OTC pricing of ~$0.36/PRL vs the $1.04 SafeTrade quote. Identity care needed when refreshing \u2014 multiple unrelated tokens share the 'Pearl' / 'PRL' name (Perle by perle.io, pearl.finance on Tron, Base memecoins on Coinbase)."
+  ],
+  "last_updated": "2026-05-30"
+}

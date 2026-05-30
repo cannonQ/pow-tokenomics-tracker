@@ -73,48 +73,8 @@
   "genesis_allocation": null,
   "_comment_genesis_allocation": "If has_premine=true, create allocations/[project]/genesis.json",
   
-  "mining": {
-    "current_hashrate_th": 465000000,
-    "_comment_hashrate": "Use appropriate unit: th (terahash), gh (gigahash), mh (megahash), h (hash)",
-    
-    "current_difficulty": 62463471666357,
-    "_comment_difficulty": "Current network difficulty from block explorer",
-    
-    "asic_resistant": false,
-    "_comment_asic_resistant": "true if designed to resist ASIC mining",
-    
-    "dominant_hardware": "Antminer S19 XP",
-    "_comment_dominant_hardware": "Most common mining hardware. Use 'GPU', 'CPU', 'FPGA' if applicable",
-    
-    "cost_to_mine_one_unit": {
-      "electricity_usd": 18500,
-      "_comment_electricity": "Cost of electricity to mine 1 token at current difficulty",
-      
-      "hardware_amortization_usd": 5200,
-      "_comment_hardware": "Hardware depreciation per token mined",
-      
-      "total_cost_usd": 23700,
-      "_comment_total": "Sum of all costs to produce 1 token"
-    },
-    
-    "decentralization": {
-      "active_pools": 18,
-      "_comment_active_pools": "Number of known active mining pools",
-      
-      "top_5_pools_pct": 51.2,
-      "_comment_top_5": "Combined hashrate % of 5 largest pools",
-      
-      "largest_pool": {
-        "name": "Foundry USA",
-        "pct": 28.1
-      },
-      "_comment_largest": "Name and % of single largest pool",
-      
-      "nakamoto_coefficient": 3,
-      "_comment_nakamoto": "Minimum pools needed for 51% attack"
-    }
-  },
-  
+  "_comment_no_mining_block": "The site renders no Mining tab. Do not include a 'mining' block — hashrate, difficulty, ASIC-resistance, cost-to-mine, and pool distribution are intentionally not collected. See docs/DATA_FIELDS.md.",
+
   "market_data": {
     "_comment_market": "Get from CoinGecko, CMC, or DEX aggregators",
     
@@ -154,12 +114,11 @@
       "https://coinmarketcap.com/currencies/bitcoin/"
     ],
     "_comment_market": "Price/volume data sources",
-    
-    "mining_data": [
-      "https://www.blockchain.com/charts/hash-rate",
-      "https://difficulty.to"
+
+    "funding_data": [
+      "https://example.com/seed-round-announcement"
     ],
-    "_comment_mining": "Hashrate, difficulty, pool data sources"
+    "_comment_funding": "Optional — only for premined/ICO/private-sale projects. Investor announcements, Crunchbase, vesting contracts."
   },
   
   "notes": [

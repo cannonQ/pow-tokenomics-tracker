@@ -2,7 +2,10 @@
 
 ## Choose Your Path
 
-**Want to contribute quickly?** (10 minutes)
+**Have Claude Code? Let the agents do it.** (5 minutes, mostly waiting)
+→ [docs/AGENT_WORKFLOW.md](docs/AGENT_WORKFLOW.md) — `/acquire-project <name>` and review
+
+**Want to contribute quickly by hand?** (10 minutes)
 → [QUICK_START.md](QUICK_START.md)
 
 **Want detailed guidance?** (First time or complex project)

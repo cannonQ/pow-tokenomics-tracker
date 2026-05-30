@@ -3,7 +3,7 @@
 ## Choose Your Path
 
 **Have Claude Code? Let the agents do it.** (5 minutes, mostly waiting)
-→ [docs/AGENT_WORKFLOW.md](docs/AGENT_WORKFLOW.md) — `/acquire-project <name>` and review
+→ [docs/AGENT_WORKFLOW.md](docs/AGENT_WORKFLOW.md) — `/acquire-project <name>` and review the output for completeness. Does require brainpower, but not a lot of data aggregation on human side.
 
 **Want to contribute quickly by hand?** (10 minutes)
 → [QUICK_START.md](QUICK_START.md)

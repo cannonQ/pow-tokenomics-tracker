@@ -53,16 +53,27 @@ jobs:
           echo
 
           # 2. Decide which projects to validate.
+          # Note on the `|| true` below: with `set -euo pipefail`, a `grep` that
+          # finds no match exits 1 and trips the script. That's the legitimate
+          # "no project files changed" case (e.g. a workflow-only PR), not an
+          # error. Suppress the non-match exit code so the empty-changeset path
+          # falls through cleanly.
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] \
              || echo "$changed" | grep -qE '^(scripts/|templates/)'; then
             echo "Scripts or templates changed — validating ALL projects"
             projects=$(ls data/projects/*.json | xargs -n1 basename | sed 's/\.json$//')
           else
             # Extract slugs from data/projects/<slug>.json and allocations/<slug>/...
-            projects=$(echo "$changed" \
+            project_paths=$(echo "$changed" \
               | grep -E '^(data/projects/[^/]+\.json|allocations/[^/]+/)' \
-              | sed -E 's|^data/projects/([^/]+)\.json$|\1|; s|^allocations/([^/]+)/.*|\1|' \
-              | sort -u)
+              || true)
+            if [ -n "$project_paths" ]; then
+              projects=$(echo "$project_paths" \
+                | sed -E 's|^data/projects/([^/]+)\.json$|\1|; s|^allocations/([^/]+)/.*|\1|' \
+                | sort -u)
+            else
+              projects=""
+            fi
           fi
 
           if [ -z "$projects" ]; then

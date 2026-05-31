@@ -44,6 +44,7 @@
             ],
             "unknown_count": "unknown",
             "total_investors": "unknown",
+            "total_raised_usd": 8000000,
             "notes": "Seed 1 raised $8M led by Polychain Capital. Crunchbase mentions 'Investors include Alumni Ventures, Polychain and 9 others' as a combined seed listing, but the $8M Mar-2022 round only names Polychain in primary announcements. Black Edge Capital appears in some secondary trackers but is not corroborated by qu.ai/blog/polychain — excluded under honesty rule."
           }
         },
@@ -62,6 +63,7 @@
             ],
             "unknown_count": 0,
             "total_investors": 1,
+            "total_raised_usd": 2000000,
             "notes": "Seed 2 raised $2M from Alumni Ventures (Blockchain Fund), sole investor. 25% chunk unlocks at the 1-year cliff, not at TGE; then linear over 36 months."
           }
         },
@@ -84,6 +86,7 @@
             ],
             "unknown_count": 0,
             "total_investors": 5,
+            "total_raised_usd": 5000000,
             "notes": "Strategic round raised $5M led by Cogitent Ventures. 5 investors named consistently across The Block, SiliconAngle, NFTGators, FinSMEs, AlexaBlockchain. ICO Drops and Chainbroker additionally list Black Edge Capital, Ceras Ventures, and GTS Ventures but those are NOT corroborated by primary announcements — excluded under honesty rule. Individual allocations not disclosed."
           }
         },

@@ -237,6 +237,23 @@
     "docs.qu.ai refers to this allocation as 'legacy' model — predates SOAP and Singularity Fork changes."
   ],
 
+  "miner_parity_analysis": {
+    "genesis_allocation_total": 3000000000,
+    "daily_emission_current": 705556,
+    "launch_date": "2025-01-29",
+    "as_of": "2026-05-30",
+    "days_since_launch": 486,
+    "cumulative_mined_to_date": 342900182,
+    "pct_toward_parity": 11.43,
+    "parity_timeline": [
+      {"event": "Launch", "date": "2025-01-29", "cumulative_mined": 0, "pct_toward_parity": 0},
+      {"event": "Current (as_of)", "date": "2026-05-30", "cumulative_mined": 342900182, "pct_toward_parity": 11.43},
+      {"event": "MINER PARITY (projected)", "date": "2036-09-19", "cumulative_mined": 3000000000, "pct_toward_parity": 100, "method": "linear projection at current 705,556 QUAI/day emission rate"}
+    ],
+    "caveat": "Projection assumes a constant emission rate of ~705,556 QUAI/day. Quai's emission is adaptive (BlockReward = k * log2(Difficulty)), so the actual rate will vary with network difficulty. The Singularity Fork (Dec 2025) also reduced future genesis unlocks by ~1.67B QUAI via multilateral agreement, dropping the effective soft cap to ~1.4B — meaning real-world parity against the *effective* (post-fork) genesis may arrive substantially sooner than against the protocol-level 3B figure. SOAP buyback-and-burn (~180M QUAI/yr target) further offsets net emissions. Treat the 2036 date as a worst-case ceiling under unchanged dynamics, not a forecast.",
+    "renderer_note": "This block exists because the site's fallback (current_supply - genesis_allocation) returns negative for actively-vesting premines where current_supply < genesis_allocation (Quai: 996M < 3B). Sidecar overrides the fallback."
+  },
+
   "data_sources": {
     "tokenomics_emissions": "https://docs.qu.ai/learn/tokenomics/quai-emissions",
     "tokenomics_overview": "https://docs.qu.ai/learn/tokenomics/tokenomics-overview/tokenomics-overview",

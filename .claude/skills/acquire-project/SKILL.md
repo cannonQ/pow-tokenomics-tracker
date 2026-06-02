@@ -85,7 +85,8 @@ re-run `compute_derived.py`. **Never** edit a number purely to satisfy the valid
    `data/projects/<name>.sources.json` for fair launches): every non-derived field → `{source_url,
    confidence}`.
 2. Present to the human: the **coverage report**, a **field / value / source / confidence table**, the
-   `git diff`, and a plain-language statement of confidence and remaining gaps. Then **stop**.
+   `git diff`, a plain-language statement of confidence and remaining gaps, **and the
+   browser-preview steps below**. Then **stop**.
 3. On explicit approval, submit this one coin:
    ```bash
    git add data/projects/<name>.json allocations/<name>/ data/projects/<name>.sources.json 2>/dev/null
@@ -95,6 +96,31 @@ re-run `compute_derived.py`. **Never** edit a number purely to satisfy the valid
    Then open a PR for `coin/<name>` (one PR per coin) — its **submitted** state for human
    review/checks. **Do not** write to or merge into the default branch; merging the PR is the human's
    call.
+
+### Browser preview (include verbatim in your CP5 summary)
+
+The consuming site lives at `/home/cq/working-files/pow-tracker-site/` and fetches data from GitHub by
+branch name. To preview the new/refreshed coin against the rendered UI before approving the PR:
+
+**One-time per branch (after pushing `coin/<name>`):**
+1. Push the branch so GitHub has it (CP5 step 3 does this).
+2. Flip the site's branch pointer — edit `/home/cq/working-files/pow-tracker-site/js/config.js`:
+   ```js
+   BRANCH: 'coin/<name>',   // was 'main'
+   ```
+   **Do not commit** this — working-tree-only.
+
+**Every time you load the site:**
+1. Open `file:///home/cq/working-files/pow-tracker-site/index.html` in a browser.
+2. DevTools console (F12) → `localStorage.clear()` — the site caches the project list for 5 minutes;
+   stale data hides your new/changed coin until the cache is nuked.
+3. Hard-reload (Ctrl+Shift+R). The coin's card appears in the grid; click through to the detail page.
+
+**When done reviewing:**
+```bash
+cd /home/cq/working-files/pow-tracker-site && git checkout js/config.js
+```
+This restores `BRANCH: 'main'` so the site stops pointing at the preview branch.
 
 **Gate:** human approved before any commit/push. **Fail/decline:** leave the branch unpushed and apply
 the requested edits, then re-run from the appropriate checkpoint.
